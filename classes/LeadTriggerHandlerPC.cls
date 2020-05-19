@@ -1,30 +1,3 @@
-/**
-*  About
-*  -----
-*  Author: Cloud Nerd
-*  Create date: Tue Jun 21 2016
-*
-*  Details
-*  -----
-*  Apex class to handle all the events raised by LeadTrigger
-*
-*  Update History
-*  -----
-*  -Omnivo Digital 7/11/17---deprecated several Cloud Nerd methods no longer relevant
-*
-*  -Sundar Subramaniam 03/24/19---add new method on after insert and update to make LeadQaul (LQ) API Callout
-*  -if the lead status is "Pending Qualification" and Lead Record type is "HomeBuyer" or "HomeOwner"
-*
-*
-* -Sundar Subramaniam 03/24/19 -- Changed the status with respect to Ticket CM -50 HB Project
-*
-* -Mark Olinger - 05/22 - performed code merge with Prod
-* 
-*  Issues / TODOs
-*  -----
-*
-**/
-
 public class LeadTriggerHandlerPC {
     public static boolean createdRequirements  = false;
     
