@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Principal Residence</fullName>
+        <default>false</default>
+        <label>Principal Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Second Vacation Home</fullName>
+        <default>false</default>
+        <label>Second Vacation Home</label>
+    </customValue>
+    <customValue>
+        <fullName>Investment Property</fullName>
+        <default>false</default>
+        <label>Investment Property</label>
+    </customValue>
+    <masterLabel>Property Occupancy Statement</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

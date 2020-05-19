@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Task metadata for EOS</description>
+    <fields>
+        <fullName>Chatter_Email__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Chatter Email</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Chatter_Post__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Chatter Post</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Client_Mention__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Client Mention</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Custom_Email__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Custom Email</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Email_Template__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Email Template</label>
+        <length>100</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IA_Mention__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>IA Mention</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Notification_Message__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Notification_Message</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PCS_Mention__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>PCS Mention</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PS_Mention__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>PS Mention</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Prevent_Rollback_from_Complete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>To prevent if task is in status completed, not moved back to any other status</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Prevent Rollback from Complete</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Project_Task_Name__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Project Task Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QC_Mention__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>QC Mention</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>RM_Mention__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>RM Mention</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Requirement_Code__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Requirement Code</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Role__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Role</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TS_Mention__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>TS Mention</label>
+        <type>Checkbox</type>
+    </fields>
+    <label>EOS Project Tasks</label>
+    <listViews>
+        <fullName>All_Tasks</fullName>
+        <columns>MasterLabel</columns>
+        <columns>DeveloperName</columns>
+        <columns>NamespacePrefix</columns>
+        <columns>Chatter_Post__c</columns>
+        <columns>Project_Task_Name__c</columns>
+        <columns>Requirement_Code__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Tasks</label>
+    </listViews>
+    <pluralLabel>EOS Project Tasks</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

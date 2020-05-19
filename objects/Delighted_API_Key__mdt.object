@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This metadata type is used to store Delighted Project API Keys</description>
+    <fields>
+        <fullName>Active_in_Trigger__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Active in Trigger</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Key__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Key</label>
+        <length>100</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Delighted API Key</label>
+    <pluralLabel>Delighted API Keys</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,3 @@
+<apex:page standardController="Lead">
+  <apex:relatedList list="Minimum_Required_Documents__r" />
+</apex:page>

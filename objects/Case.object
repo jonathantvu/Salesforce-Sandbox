@@ -1,0 +1,4854 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloneAsChild</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloneAsChild</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloneAsChild</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloseCase</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloseCase</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloseCase</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MassClose</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MassClose</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MassClose</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewCase</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewCase</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewCase</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <businessProcesses>
+        <fullName>Complaint</fullName>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duplicate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <businessProcesses>
+        <fullName>Exception Management</fullName>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Declined</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <businessProcesses>
+        <fullName>LO Engagement</fullName>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duplicate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>true</enableFeeds>
+    <externalSharingModel>ReadWriteTransfer</externalSharingModel>
+    <fields>
+        <fullName>AccountId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Agency_or_Non_Agency__c</fullName>
+        <externalId>false</externalId>
+        <label>Agency or Non-Agency?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Agency</fullName>
+                    <default>false</default>
+                    <label>Agency</label>
+                </value>
+                <value>
+                    <fullName>Non-Agency</fullName>
+                    <default>false</default>
+                    <label>Non-Agency</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Applicant_Pre_Qualified_by_Lender__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Applicant Pre-Qualified by Lender</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>AssetId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Bank_Account__c</fullName>
+        <externalId>false</externalId>
+        <label>Bank Account</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Brokerage_Account__c</fullName>
+        <externalId>false</externalId>
+        <label>Brokerage Account</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>BusinessHoursId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Business_Unit_Accountable__c</fullName>
+        <description>Field identifies what group is accountable for the reason behind the complaint</description>
+        <externalId>false</externalId>
+        <label>Business Unit Accountable</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Marketing</fullName>
+                    <default>false</default>
+                    <label>Marketing</label>
+                </value>
+                <value>
+                    <fullName>Sales</fullName>
+                    <default>false</default>
+                    <label>Sales</label>
+                </value>
+                <value>
+                    <fullName>IA</fullName>
+                    <default>false</default>
+                    <label>IA</label>
+                </value>
+                <value>
+                    <fullName>Acquisitions</fullName>
+                    <default>false</default>
+                    <label>Acquisitions</label>
+                </value>
+                <value>
+                    <fullName>HPT</fullName>
+                    <default>false</default>
+                    <label>HPT</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Business_Unit_Accountable_other__c</fullName>
+        <description>Field identifies business area if "Other" is selected</description>
+        <externalId>false</externalId>
+        <label>Business Unit Accountable (other)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Case_Origin_Other__c</fullName>
+        <description>Field identifies case origin if "Other" is selected</description>
+        <externalId>false</externalId>
+        <inlineHelpText>How did complaint arrive to Unison?</inlineHelpText>
+        <label>Case Origin (Other)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Category_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub-Category</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Category__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Credit pull authorization</fullName>
+                    <default>false</default>
+                    <label>Credit pull authorization</label>
+                </value>
+                <value>
+                    <fullName>Personal info source request</fullName>
+                    <default>false</default>
+                    <label>Personal info source request</label>
+                </value>
+                <value>
+                    <fullName>Personal documents / SSN / Other sensitive info</fullName>
+                    <default>false</default>
+                    <label>Personal documents / SSN / Other sensitive info</label>
+                </value>
+                <value>
+                    <fullName>"I want to see credit report"</fullName>
+                    <default>false</default>
+                    <label>"I want to see credit report"</label>
+                </value>
+                <value>
+                    <fullName>I want to see appraisal</fullName>
+                    <default>false</default>
+                    <label>I want to see appraisal</label>
+                </value>
+                <value>
+                    <fullName>Prequalified then rejected</fullName>
+                    <default>false</default>
+                    <label>Prequalified then rejected</label>
+                </value>
+                <value>
+                    <fullName>BBB</fullName>
+                    <default>false</default>
+                    <label>BBB</label>
+                </value>
+                <value>
+                    <fullName>Govt. Agency</fullName>
+                    <default>false</default>
+                    <label>Govt. Agency</label>
+                </value>
+                <value>
+                    <fullName>"Attorney" or "Legal Action"</fullName>
+                    <default>false</default>
+                    <label>"Attorney" or "Legal Action"</label>
+                </value>
+                <value>
+                    <fullName>Discrimination</fullName>
+                    <default>false</default>
+                    <label>Discrimination</label>
+                </value>
+                <value>
+                    <fullName>"Remove me from all contact lists"</fullName>
+                    <default>false</default>
+                    <label>"Remove me from all contact lists"</label>
+                </value>
+                <value>
+                    <fullName>Value dispute</fullName>
+                    <default>false</default>
+                    <label>Value dispute</label>
+                </value>
+                <value>
+                    <fullName>Confusion about product</fullName>
+                    <default>false</default>
+                    <label>Confusion about product</label>
+                </value>
+                <value>
+                    <fullName>Pricing / fee ambiguity</fullName>
+                    <default>false</default>
+                    <label>Pricing / fee ambiguity</label>
+                </value>
+                <value>
+                    <fullName>"Multiple people told me different things"</fullName>
+                    <default>false</default>
+                    <label>"Multiple people told me different things"</label>
+                </value>
+                <value>
+                    <fullName>Public defamation / slander</fullName>
+                    <default>false</default>
+                    <label>Public defamation / slander</label>
+                </value>
+                <value>
+                    <fullName>Contract-related issues</fullName>
+                    <default>false</default>
+                    <label>Contract-related issues</label>
+                </value>
+                <value>
+                    <fullName>Unresponsiveness</fullName>
+                    <default>false</default>
+                    <label>Unresponsiveness</label>
+                </value>
+                <value>
+                    <fullName>Issue with third-party vendor</fullName>
+                    <default>false</default>
+                    <label>Issue with third-party vendor</label>
+                </value>
+                <value>
+                    <fullName>Request for manager</fullName>
+                    <default>false</default>
+                    <label>Request for manager</label>
+                </value>
+                <value>
+                    <fullName>Request for new PS / TS</fullName>
+                    <default>false</default>
+                    <label>Request for new PS / TS</label>
+                </value>
+                <value>
+                    <fullName>"Don't trust Unison"</fullName>
+                    <default>false</default>
+                    <label>"Don't trust Unison"</label>
+                </value>
+                <value>
+                    <fullName>UDAAP (misleading, unfair, predatory)</fullName>
+                    <default>false</default>
+                    <label>UDAAP (misleading, unfair, predatory)</label>
+                </value>
+                <value>
+                    <fullName>Privacy or Data Breach</fullName>
+                    <default>false</default>
+                    <label>Privacy or Data Breach</label>
+                </value>
+                <value>
+                    <fullName>I’ve asked multiple times to be removed</fullName>
+                    <default>false</default>
+                    <label>I’ve asked multiple times to be removed</label>
+                </value>
+                <value>
+                    <fullName>"Predatory, misleading, underdelivering product"</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>"Misleading / predatory product"; "Don't trust Unison"</label>
+                </value>
+                <value>
+                    <fullName>BBB / Govt. Agency</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>BBB / Govt. Agency</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Credit Authorization</controllingFieldValue>
+                <valueName>Credit pull authorization</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Data Security</controllingFieldValue>
+                <valueName>Personal info source request</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Data Security</controllingFieldValue>
+                <valueName>Personal documents / SSN / Other sensitive info</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Declines</controllingFieldValue>
+                <valueName>"I want to see credit report"</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Declines</controllingFieldValue>
+                <valueName>I want to see appraisal</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Declines</controllingFieldValue>
+                <valueName>Prequalified then rejected</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Legal / Regulatory</controllingFieldValue>
+                <valueName>BBB</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Legal / Regulatory</controllingFieldValue>
+                <valueName>Govt. Agency</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Legal / Regulatory</controllingFieldValue>
+                <valueName>"Attorney" or "Legal Action"</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Legal / Regulatory</controllingFieldValue>
+                <valueName>Discrimination</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Legal / Regulatory</controllingFieldValue>
+                <valueName>UDAAP (misleading, unfair, predatory)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Legal / Regulatory</controllingFieldValue>
+                <valueName>Privacy or Data Breach</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Marketing</controllingFieldValue>
+                <valueName>"Remove me from all contact lists"</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Marketing</controllingFieldValue>
+                <valueName>I’ve asked multiple times to be removed</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Issue</controllingFieldValue>
+                <valueName>Value dispute</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Issue</controllingFieldValue>
+                <valueName>Confusion about product</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Issue</controllingFieldValue>
+                <valueName>Pricing / fee ambiguity</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Issue</controllingFieldValue>
+                <valueName>"Multiple people told me different things"</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Issue</controllingFieldValue>
+                <valueName>Public defamation / slander</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Issue</controllingFieldValue>
+                <valueName>Contract-related issues</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Unison Personnel</controllingFieldValue>
+                <valueName>Unresponsiveness</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Unison Personnel</controllingFieldValue>
+                <valueName>Issue with third-party vendor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Unison Personnel</controllingFieldValue>
+                <valueName>Request for manager</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Unison Personnel</controllingFieldValue>
+                <valueName>Request for new PS / TS</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Category__c</fullName>
+        <defaultValue>if( $RecordType.Name = 'Complaint' ,'Unclassified','None')</defaultValue>
+        <externalId>false</externalId>
+        <label>Category</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Credit Authorization</fullName>
+                    <default>false</default>
+                    <label>Credit Authorization</label>
+                </value>
+                <value>
+                    <fullName>Data Security</fullName>
+                    <default>false</default>
+                    <label>Data Security</label>
+                </value>
+                <value>
+                    <fullName>Declines</fullName>
+                    <default>false</default>
+                    <label>Declines</label>
+                </value>
+                <value>
+                    <fullName>Legal / Regulatory</fullName>
+                    <default>false</default>
+                    <label>Legal / Regulatory</label>
+                </value>
+                <value>
+                    <fullName>Marketing</fullName>
+                    <default>false</default>
+                    <label>Marketing</label>
+                </value>
+                <value>
+                    <fullName>Product Issue</fullName>
+                    <default>false</default>
+                    <label>Product Issue</label>
+                </value>
+                <value>
+                    <fullName>Unison Personnel</fullName>
+                    <default>false</default>
+                    <label>Unison Personnel</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Unclassified</fullName>
+                    <default>false</default>
+                    <label>Unclassified</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ClosedDate</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Co_Applicant__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Co-Applicant</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Co-Applicant Cases</relationshipLabel>
+        <relationshipName>Cases1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Comments</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Complaint_Case_Escalated_1__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Complaint Case Escalated_1</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Complaint_Case_Escalated_2__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Complaint Case Escalated 2</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Complaint_Type__c</fullName>
+        <description>Field identifies what type of complaint is being reported</description>
+        <externalId>false</externalId>
+        <inlineHelpText>What is the consumer complaining about?</inlineHelpText>
+        <label>Complaint Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Repeated attempts to opt-out of marketing</fullName>
+                    <default>false</default>
+                    <label>Repeated attempts to opt-out of marketing</label>
+                </value>
+                <value>
+                    <fullName>Marketing/Ad content</fullName>
+                    <default>false</default>
+                    <label>Marketing/Ad content</label>
+                </value>
+                <value>
+                    <fullName>Denial</fullName>
+                    <default>false</default>
+                    <label>Denial</label>
+                </value>
+                <value>
+                    <fullName>Credit Pull Unauthorized</fullName>
+                    <default>false</default>
+                    <label>Credit Pull Unauthorized</label>
+                </value>
+                <value>
+                    <fullName>Unresponsive</fullName>
+                    <default>false</default>
+                    <label>Unresponsive</label>
+                </value>
+                <value>
+                    <fullName>Customer Service</fullName>
+                    <default>false</default>
+                    <label>Customer Service</label>
+                </value>
+                <value>
+                    <fullName>Appraisal/OAV Dispute</fullName>
+                    <default>false</default>
+                    <label>Appraisal/OAV Dispute</label>
+                </value>
+                <value>
+                    <fullName>Delayed funds/Where are my funds</fullName>
+                    <default>false</default>
+                    <label>Delayed funds/Where are my funds</label>
+                </value>
+                <value>
+                    <fullName>Refinance</fullName>
+                    <default>false</default>
+                    <label>Refinance</label>
+                </value>
+                <value>
+                    <fullName>Termination: MAD dispute</fullName>
+                    <default>false</default>
+                    <label>Termination: MAD dispute</label>
+                </value>
+                <value>
+                    <fullName>Termination: EAV dispute</fullName>
+                    <default>false</default>
+                    <label>Termination: EAV dispute</label>
+                </value>
+                <value>
+                    <fullName>Termination: RMA dispute</fullName>
+                    <default>false</default>
+                    <label>Termination: RMA dispute</label>
+                </value>
+                <value>
+                    <fullName>Personal info source request</fullName>
+                    <default>false</default>
+                    <label>Personal info source request</label>
+                </value>
+                <value>
+                    <fullName>Personal documents/SSN/Other sensitive info</fullName>
+                    <default>false</default>
+                    <label>Personal documents/SSN/Other sensitive info</label>
+                </value>
+                <value>
+                    <fullName>Pricing/fee ambiguity</fullName>
+                    <default>false</default>
+                    <label>Pricing/fee ambiguity</label>
+                </value>
+                <value>
+                    <fullName>Contradictory communication</fullName>
+                    <default>false</default>
+                    <label>Contradictory communication</label>
+                </value>
+                <value>
+                    <fullName>Contract-related issues</fullName>
+                    <default>false</default>
+                    <label>Contract-related issues</label>
+                </value>
+                <value>
+                    <fullName>Issue with 3rd party vendor</fullName>
+                    <default>false</default>
+                    <label>Issue with 3rd party vendor</label>
+                </value>
+                <value>
+                    <fullName>System not working/broken</fullName>
+                    <default>false</default>
+                    <label>System not working/broken</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Complaint_Type_other__c</fullName>
+        <description>Field identifies complaint if "Other" is selected</description>
+        <externalId>false</externalId>
+        <label>Complaint Type (other)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Consumer_Stage_relationship_owner__c</fullName>
+        <description>Field identifies where in the funnel the consumer is for purposes of identifying responsible party / relationship owner</description>
+        <externalId>false</externalId>
+        <label>Consumer Stage (relationship owner)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pre-funnel (Marketing)</fullName>
+                    <default>false</default>
+                    <label>Pre-funnel (Marketing)</label>
+                </value>
+                <value>
+                    <fullName>Lead/Opportunity (Sales)</fullName>
+                    <default>false</default>
+                    <label>Lead/Opportunity (Sales)</label>
+                </value>
+                <value>
+                    <fullName>Funded (HPT)</fullName>
+                    <default>false</default>
+                    <label>Funded (HPT)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ContactEmail</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>ContactFax</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>ContactId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ContactMobile</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>ContactPhone</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Date_Unison_Received_Complaint__c</fullName>
+        <description>Date Unison received complaint from customer. Requested by Legal.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date Unison received complaint from customer.</inlineHelpText>
+        <label>Date Unison Received Complaint.</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_Unison_Resolved_Complaint__c</fullName>
+        <description>Field identifies the date Unison completed the complaint resolution process</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date complaint process completed</inlineHelpText>
+        <label>Date Unison Resolved Complaint</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Decline_Reasons__c</fullName>
+        <externalId>false</externalId>
+        <label>Decline Reasons</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Loss_Reason</valueSetName>
+        </valueSet>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <description>Field summarizes the consumer complaint and, if known, the resolution desired by the consumer</description>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Estimated_Home_Value__c</fullName>
+        <externalId>false</externalId>
+        <label>Estimated Home Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Exception_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Exception Reason</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Back-End DTI Post-Funding</fullName>
+                    <default>false</default>
+                    <label>Back-End DTI Post-Funding</label>
+                </value>
+                <value>
+                    <fullName>Mid FICO</fullName>
+                    <default>false</default>
+                    <label>Mid FICO</label>
+                </value>
+                <value>
+                    <fullName>LTV Post-Funding</fullName>
+                    <default>false</default>
+                    <label>LTV Post-Funding</label>
+                </value>
+                <value>
+                    <fullName>Bankruptcy/Foreclosure/Short Sale/Deed in Lieu</fullName>
+                    <default>false</default>
+                    <label>Bankruptcy/Foreclosure/Short Sale/Deed in Lieu</label>
+                </value>
+                <value>
+                    <fullName>Non-Unison Appraisal</fullName>
+                    <default>false</default>
+                    <label>Non-Unison Appraisal</label>
+                </value>
+                <value>
+                    <fullName>Mortgage Type</fullName>
+                    <default>false</default>
+                    <label>Mortgage Type</label>
+                </value>
+                <value>
+                    <fullName>2+ Property Units</fullName>
+                    <default>false</default>
+                    <label>2+ Property Units</label>
+                </value>
+                <value>
+                    <fullName>Homeowner Equity Post-Funding</fullName>
+                    <default>false</default>
+                    <label>Homeowner Equity Post-Funding</label>
+                </value>
+                <value>
+                    <fullName>Lien Position</fullName>
+                    <default>false</default>
+                    <label>Lien Position</label>
+                </value>
+                <value>
+                    <fullName>Principal Residence</fullName>
+                    <default>false</default>
+                    <label>Principal Residence</label>
+                </value>
+                <value>
+                    <fullName>Non-US Resident Applicant/Co-Applicant</fullName>
+                    <default>false</default>
+                    <label>Non-US Resident Applicant/Co-Applicant</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Default rate is high enough to warrant an escalate.</fullName>
+                    <default>false</default>
+                    <label>Default rate is high enough to warrant an escalate.</label>
+                </value>
+                <value>
+                    <fullName>CLTV is greater than 80%.</fullName>
+                    <default>false</default>
+                    <label>CLTV is greater than 80%.</label>
+                </value>
+                <value>
+                    <fullName>DTI is greater than 65%.</fullName>
+                    <default>false</default>
+                    <label>DTI is greater than 65%.</label>
+                </value>
+                <value>
+                    <fullName>Approve</fullName>
+                    <default>false</default>
+                    <label>Approve</label>
+                </value>
+                <value>
+                    <fullName>Decline</fullName>
+                    <default>false</default>
+                    <label>Decline</label>
+                </value>
+                <value>
+                    <fullName>Escalate</fullName>
+                    <default>false</default>
+                    <label>Escalate</label>
+                </value>
+                <value>
+                    <fullName>Failed</fullName>
+                    <default>false</default>
+                    <label>Failed</label>
+                </value>
+                <value>
+                    <fullName>Bankruptcy</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Bankruptcy</label>
+                </value>
+                <value>
+                    <fullName>CLTV is greater than 80%</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CLTV is greater than 80%</label>
+                </value>
+                <value>
+                    <fullName>DTI is greater than 65%</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>DTI is greater than 65%</label>
+                </value>
+                <value>
+                    <fullName>Deed in Lieu</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Deed in Lieu</label>
+                </value>
+                <value>
+                    <fullName>Default rate is high enough to warrant an escalate</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Default rate is high enough to warrant an escalate</label>
+                </value>
+                <value>
+                    <fullName>FICO</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>FICO</label>
+                </value>
+                <value>
+                    <fullName>Foreclosure</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Foreclosure</label>
+                </value>
+                <value>
+                    <fullName>Gift Funds</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Gift Funds</label>
+                </value>
+                <value>
+                    <fullName>Multi-Family Property</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Multi-Family Property</label>
+                </value>
+                <value>
+                    <fullName>Non-Occupant Co-Applicant</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Non-Occupant Co-Applicant</label>
+                </value>
+                <value>
+                    <fullName>Second/Vacation Home</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Second/Vacation Home</label>
+                </value>
+                <value>
+                    <fullName>Short Sale</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Short Sale</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>7</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Expected_Back_End_DTI__c</fullName>
+        <externalId>false</externalId>
+        <label>Expected Back End DTI</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Expected_LTV__c</fullName>
+        <externalId>false</externalId>
+        <label>Expected LTV</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>FICO_Applicant__c</fullName>
+        <externalId>false</externalId>
+        <label>Estimated FICO Applicant</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FICO_Co_Applicant__c</fullName>
+        <externalId>false</externalId>
+        <label>Estimated FICO Co-Applicant</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Greenlight_Decision__c</fullName>
+        <externalId>false</externalId>
+        <label>Greenlight Decision</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Greenlight_Decision</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Greenlight_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Greenlight Inquiry ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Greenlight_Pricing__c</fullName>
+        <externalId>false</externalId>
+        <label>Pricing</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Greenlight_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Greenlight Reason</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Greenlight_Reasons</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Greenlight_Version__c</fullName>
+        <externalId>false</externalId>
+        <label>Greenlight Version</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Homeowner_Equity_Post_Funding__c</fullName>
+        <externalId>false</externalId>
+        <label>Homeowner Equity Post-Funding</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Household_Monthly_Income__c</fullName>
+        <externalId>false</externalId>
+        <label>Household Monthly Income</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Internal_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Internal Comments</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Investment_Size__c</fullName>
+        <externalId>false</externalId>
+        <label>Investment Size</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>IsClosedOnCreate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>IsEscalated</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Last_Case_Comment__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Case Comment</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Lead__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Lead</label>
+        <referenceTo>Lead</referenceTo>
+        <relationshipLabel>Cases</relationshipLabel>
+        <relationshipName>Cases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Lender__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Lender</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Lender Exception Requests</relationshipLabel>
+        <relationshipName>Lender_Cases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Loan_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Loan Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Loan_Officer__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Loan Officer</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Cases</relationshipLabel>
+        <relationshipName>Cases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Mortgage_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Mortgage Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Amortizing</fullName>
+                    <default>true</default>
+                    <label>Amortizing</label>
+                </value>
+                <value>
+                    <fullName>Non-amortizing</fullName>
+                    <default>false</default>
+                    <label>Non-amortizing</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Opportunity Cases</relationshipLabel>
+        <relationshipName>Opportunity_Cases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Origin</fullName>
+        <description>Field identifies the channel the complaint came through</description>
+        <inlineHelpText>What channel did this complaint come through?</inlineHelpText>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Other_Assets__c</fullName>
+        <externalId>false</externalId>
+        <label>Other Assets</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Other_Explanation__c</fullName>
+        <externalId>false</externalId>
+        <label>Other Explanation</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Other_Monthly_Debt_Obligations__c</fullName>
+        <externalId>false</externalId>
+        <label>Other Monthly Debt Obligations</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Other_Real_Estate__c</fullName>
+        <externalId>false</externalId>
+        <label>Other Real Estate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ParentId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Personal_Credit_Report__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Link to the Credit Report for the consumer</description>
+        <externalId>false</externalId>
+        <label>Personal Credit Report</label>
+        <referenceTo>LASERCA__Personal_Credit_Report__c</referenceTo>
+        <relationshipLabel>Cases</relationshipLabel>
+        <relationshipName>Cases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Principal_Residence__c</fullName>
+        <externalId>false</externalId>
+        <label>Principal Residence</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Property_Occupancy_Statement</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Priority</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Profession_Applicant__c</fullName>
+        <externalId>false</externalId>
+        <label>Applicant Profession</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Profession_Co_Applicant__c</fullName>
+        <externalId>false</externalId>
+        <label>Co-Applicant Profession</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Property_Address__c</fullName>
+        <externalId>false</externalId>
+        <label>Property Address</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Property_City__c</fullName>
+        <externalId>false</externalId>
+        <label>Property City</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Property_Postal_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Property Postal Code</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Property_Pre_Qualified__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Property Pre-Qualified</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Property_Pre_qualification_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Property Pre-qualification Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Property_Pre_Qualification_Status</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Property_State__c</fullName>
+        <externalId>false</externalId>
+        <label>Property State</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Property__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Property for inquiry</inlineHelpText>
+        <label>Property</label>
+        <referenceTo>Property__c</referenceTo>
+        <relationshipLabel>Inquiries</relationshipLabel>
+        <relationshipName>Inquiries</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Qualifies_for_Just_Miss_Pricing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Qualifies for Just Miss Pricing?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Qualifies_for_New_HomeOwner_Pricing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Qualifies for New HomeOwner Pricing</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Qualifies_for_New_HomeOwner__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Qualifies for New HomeOwner Pricing?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Reason</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Record_Count__c</fullName>
+        <externalId>false</externalId>
+        <formula>1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Record Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Regulatory_Risk__c</fullName>
+        <description>Field identifies what type of regulatory risk the complaint poses</description>
+        <externalId>false</externalId>
+        <label>Regulatory Risk</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>UDAAP</fullName>
+                    <default>false</default>
+                    <label>UDAAP</label>
+                </value>
+                <value>
+                    <fullName>Discrimination</fullName>
+                    <default>false</default>
+                    <label>Discrimination</label>
+                </value>
+                <value>
+                    <fullName>FCRA</fullName>
+                    <default>false</default>
+                    <label>FCRA</label>
+                </value>
+                <value>
+                    <fullName>Reputation - Customer Experience</fullName>
+                    <default>false</default>
+                    <label>Reputation - Customer Experience</label>
+                </value>
+                <value>
+                    <fullName>Privacy/GLBA</fullName>
+                    <default>false</default>
+                    <label>Privacy/GLBA</label>
+                </value>
+                <value>
+                    <fullName>InfoSec</fullName>
+                    <default>false</default>
+                    <label>InfoSec</label>
+                </value>
+                <value>
+                    <fullName>TCPA</fullName>
+                    <default>false</default>
+                    <label>TCPA</label>
+                </value>
+                <value>
+                    <fullName>CAN-SPAM</fullName>
+                    <default>false</default>
+                    <label>CAN-SPAM</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Regulatory_Risk_other__c</fullName>
+        <description>Field identifies regulatory risk if "Other" is selected</description>
+        <externalId>false</externalId>
+        <label>Regulatory Risk (other)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resolution_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Resolution Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Customer Satisfied</fullName>
+                    <default>false</default>
+                    <label>Customer Satisfied</label>
+                </value>
+                <value>
+                    <fullName>Customer Dissatisfied</fullName>
+                    <default>false</default>
+                    <label>Customer Dissatisfied</label>
+                </value>
+                <value>
+                    <fullName>No Customer Response</fullName>
+                    <default>false</default>
+                    <label>No Customer Response</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Resolution__c</fullName>
+        <description>Field identifies the final disposition of the complaint case</description>
+        <externalId>false</externalId>
+        <label>Resolution</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Closed with explanation</fullName>
+                    <default>false</default>
+                    <label>Closed with explanation</label>
+                </value>
+                <value>
+                    <fullName>Closed with monetary relief</fullName>
+                    <default>false</default>
+                    <label>Closed with monetary relief</label>
+                </value>
+                <value>
+                    <fullName>Closed with non-monetary relief</fullName>
+                    <default>false</default>
+                    <label>Closed with non-monetary relief</label>
+                </value>
+                <value>
+                    <fullName>Closed (without relief or explanation)</fullName>
+                    <default>false</default>
+                    <label>Closed (without relief or explanation)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Retirement_Account__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Retirement Account</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Director__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Sales Director</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Cases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Seasoned_Liquid_Assets__c</fullName>
+        <externalId>false</externalId>
+        <label>Seasoned Liquid Assets</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SourceId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Source_of_Gift_Funds__c</fullName>
+        <externalId>false</externalId>
+        <label>Source of Gift Funds</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Source_of_Gift_Funds</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <description>Field identifies current status of complaint case</description>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Subject</fullName>
+        <description>Field identifies brief summary of complaint or name</description>
+        <inlineHelpText>If this complaint had a "headline" what would it be?</inlineHelpText>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>SuppliedCompany</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>SuppliedEmail</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>SuppliedName</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>SuppliedPhone</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Test_Inquiry__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether property inquiry is for test or demonstration purposes</inlineHelpText>
+        <label>Test Inquiry</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Tier__c</fullName>
+        <description>Field identifies whether the complaint is a Legal/Regulatory complaint or a Product/Service complaint</description>
+        <externalId>false</externalId>
+        <inlineHelpText>"Tier 1: is for Legal/Regulatory
+Tier 2 is for Product/Service complaints"</inlineHelpText>
+        <label>Tier</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1 – Legal/Regulatory</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2 – Product/Service</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Total_Mortgage_Debt__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Mortgage Debt</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Transaction_Specialist__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Transaction Specialist</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Cases1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Unison_Program__c</fullName>
+        <externalId>false</externalId>
+        <label>Program</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Program</valueSetName>
+        </valueSet>
+    </fields>
+    <listViews>
+        <fullName>BST_Case</fullName>
+        <columns>OWNER_NAME</columns>
+        <columns>CASES.RECORDTYPE</columns>
+        <columns>CASES.REASON</columns>
+        <columns>CONTACT.ACCOUNT</columns>
+        <columns>Lender__c</columns>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>NAME</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.TYPE</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.LAST_UPDATE_DATE_ONLY</columns>
+        <filterScope>Queue</filterScope>
+        <filters>
+            <field>OWNER_NAME</field>
+            <operation>equals</operation>
+            <value>BST</value>
+        </filters>
+        <label>Business Support Cases</label>
+        <queue>BST</queue>
+        <sharedTo />
+    </listViews>
+    <listViews>
+        <fullName>Closed_Exception_Requests</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>Unison_Program__c</columns>
+        <columns>CASES.TYPE</columns>
+        <columns>CONTACT.LAST_NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>NAME</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CASES.CLOSED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CASES.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Case.Investment_Management</value>
+        </filters>
+        <filters>
+            <field>CASES.TYPE</field>
+            <operation>equals</operation>
+            <value>Property Approval Request,Customer Exception Request</value>
+        </filters>
+        <filters>
+            <field>CASES.STATUS</field>
+            <operation>equals</operation>
+            <value>Declined,Approved</value>
+        </filters>
+        <label>Closed Exception Requests</label>
+    </listViews>
+    <listViews>
+        <fullName>Complaints_Open</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>NAME</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>CASES.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>Tier__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CASES.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Case.Complaint</value>
+        </filters>
+        <filters>
+            <field>CASES.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>Complaints Open</label>
+    </listViews>
+    <listViews>
+        <fullName>Complaints_Queue</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>NAME</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>CASES.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Queue</filterScope>
+        <filters>
+            <field>OWNER_NAME</field>
+            <operation>equals</operation>
+            <value>Complaints Queue</value>
+        </filters>
+        <label>Complaints Queue</label>
+        <queue>Complaints_Queue</queue>
+    </listViews>
+    <listViews>
+        <fullName>Complaints_View_All</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>NAME</columns>
+        <columns>Lead__c</columns>
+        <columns>Opportunity__c</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>Tier__c</columns>
+        <columns>CASES.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CASES.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Case.Complaint</value>
+        </filters>
+        <label>Complaints View - All</label>
+    </listViews>
+    <listViews>
+        <fullName>IM_Queue</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>Expected_LTV__c</columns>
+        <columns>Expected_Back_End_DTI__c</columns>
+        <columns>FICO_Applicant__c</columns>
+        <columns>CASES.CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CASES.TYPE</field>
+            <operation>equals</operation>
+            <value>Property Approval Request,Customer Exception Request,Asset Admin Action</value>
+        </filters>
+        <filters>
+            <field>CASES.STATUS</field>
+            <operation>equals</operation>
+            <value>New,In Progress,Escalated,On Hold</value>
+        </filters>
+        <label>IM Queue</label>
+        <sharedTo>
+            <role>Business_Operations</role>
+            <role>Investment_Management</role>
+            <role>Sales</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>LO_Submitted_Exception_Requests</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.TYPE</columns>
+        <columns>NAME</columns>
+        <columns>CONTACT.ACCOUNT</columns>
+        <columns>Lender__c</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>Loan_Officer__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CASES.REASON</field>
+            <operation>equals</operation>
+            <value>Loan Officer</value>
+        </filters>
+        <filters>
+            <field>CASES.TYPE</field>
+            <operation>equals</operation>
+            <value>Customer Exception Request</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>notContain</operation>
+            <value>autocase</value>
+        </filters>
+        <label>LO Submitted Exception Requests</label>
+    </listViews>
+    <listViews>
+        <fullName>Lender_Channel_Closed_Cases</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.TYPE</columns>
+        <columns>NAME</columns>
+        <columns>CONTACT.ACCOUNT</columns>
+        <columns>Lender__c</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>Last_Case_Comment__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CASES.REASON</field>
+            <operation>equals</operation>
+            <value>Loan Officer</value>
+        </filters>
+        <filters>
+            <field>CASES.STATUS</field>
+            <operation>equals</operation>
+            <value>Closed,Declined,Approved</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>notContain</operation>
+            <value>autocase</value>
+        </filters>
+        <label>Lender Channel Closed Cases</label>
+    </listViews>
+    <listViews>
+        <fullName>Lender_Channel_Open_Cases</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.TYPE</columns>
+        <columns>NAME</columns>
+        <columns>CONTACT.ACCOUNT</columns>
+        <columns>Lender__c</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>Last_Case_Comment__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CASES.REASON</field>
+            <operation>equals</operation>
+            <value>Loan Officer</value>
+        </filters>
+        <filters>
+            <field>CASES.STATUS</field>
+            <operation>equals</operation>
+            <value>New,In Progress,Escalated,On Hold</value>
+        </filters>
+        <label>Lender Channel Open Cases</label>
+    </listViews>
+    <listViews>
+        <fullName>MyCases</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>NAME</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>CASES.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Cases</label>
+    </listViews>
+    <listViews>
+        <fullName>MyOpenCases</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>CASES.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>My Open Cases</label>
+    </listViews>
+    <listViews>
+        <fullName>Sys_Admin_IM_Queue</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>NAME</columns>
+        <columns>Lead__c</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>CASES.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CASES.TYPE</field>
+            <operation>equals</operation>
+            <value>Property Approval Request,Customer Exception Request,Asset Admin Action</value>
+        </filters>
+        <filters>
+            <field>CASES.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Duplicate</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.ALIAS</field>
+            <operation>notEqual</operation>
+            <value>autocase</value>
+        </filters>
+        <label>Sys Admin IM Queue</label>
+        <sharedTo>
+            <role>Business_Operations</role>
+        </sharedTo>
+    </listViews>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>true</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Complaint</fullName>
+        <active>true</active>
+        <businessProcess>Complaint</businessProcess>
+        <label>Complaint</label>
+        <picklistValues>
+            <picklist>Agency_or_Non_Agency__c</picklist>
+            <values>
+                <fullName>Agency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N%2FA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-Agency</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Business_Unit_Accountable__c</picklist>
+            <values>
+                <fullName>Acquisitions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HPT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Category_Type__c</picklist>
+            <values>
+                <fullName>%22Attorney%22 or %22Legal Action%22</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%22Don%27t trust Unison%22</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%22I want to see credit report%22</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%22Multiple people told me different things%22</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%22Remove me from all contact lists%22</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BBB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Confusion about product</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract-related issues</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit pull authorization</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Discrimination</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Govt%2E Agency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I want to see appraisal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I%E2%80%99ve asked multiple times to be removed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Issue with third-party vendor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personal documents %2F SSN %2F Other sensitive info</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personal info source request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prequalified then rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pricing %2F fee ambiguity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Privacy or Data Breach</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public defamation %2F slander</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Request for manager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Request for new PS %2F TS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UDAAP %28misleading%2C unfair%2C predatory%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unresponsiveness</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value dispute</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Category__c</picklist>
+            <values>
+                <fullName>Credit Authorization</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legal %2F Regulatory</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unclassified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unison Personnel</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Complaint_Type__c</picklist>
+            <values>
+                <fullName>Appraisal%2FOAV Dispute</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract-related issues</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contradictory communication</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit Pull Unauthorized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delayed funds%2FWhere are my funds</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Denial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Issue with 3rd party vendor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing%2FAd content</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personal documents%2FSSN%2FOther sensitive info</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personal info source request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pricing%2Ffee ambiguity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Refinance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Repeated attempts to opt-out of marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>System not working%2Fbroken</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Termination%3A EAV dispute</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Termination%3A MAD dispute</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Termination%3A RMA dispute</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unresponsive</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Consumer_Stage_relationship_owner__c</picklist>
+            <values>
+                <fullName>Funded %28HPT%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead%2FOpportunity %28Sales%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre-funnel %28Marketing%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Decline_Reasons__c</picklist>
+            <values>
+                <fullName>Aged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Applicant does not meet other non-credit related application criteria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Application Incomplete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Appraisal value is below customer expectation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Attorney%2Ffinancial advisor advised against it</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bankruptcy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>COVID-19</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Collection action or judgment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer information is fake or cannot be used to contact the customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer provided appraisal does not meet investor standards</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delaying Process%2FJust Researching</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delinquent past or present obligations with others</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Does not want to use Unison partner lender</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Excessive obligations in relation to income</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Felony</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Garnishment or attachment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Insufficient equity in the property</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Insufficient savings for purchase price range</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lender financing fell through or declined customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Length of employment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Length of residence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Longer Interested and No Reason Given</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No credit file</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-owner occupied property</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Buying Home</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not operating in requested state</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Notice of default%2C foreclosure or repossession</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Number of recent inquiries on credit bureau report</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prefers Structure of Traditional Loan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Purchase offer not accepted with Unison</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Real estate agent%2C loan officer%2C or other professional not looking to use our programs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Remove from all Marketing Communication</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reported credit below our minimum requirement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stated credit score below minimum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temporary or irregular employment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temporary residence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Type%2C condition%2C or typicality of property unacceptable</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to verify credit references</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to verify employment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to verify fee simple title to property in application</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to verify income</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to verify residence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unacceptable liens%2C encumbrances%2C or easements on property</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unison could not meet closing timeline</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unison does not meet cash needs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unison program terms too complicated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unison program too expensive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unresponsive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value of property in excess of allowed maximum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Working with Unison too complicated</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Exception_Reason__c</picklist>
+            <values>
+                <fullName>2%2B Property Units</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Back-End DTI Post-Funding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bankruptcy%2FForeclosure%2FShort Sale%2FDeed in Lieu</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Homeowner Equity Post-Funding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LTV Post-Funding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lien Position</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mid FICO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mortgage Type</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-US Resident Applicant%2FCo-Applicant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-Unison Appraisal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Principal Residence</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Greenlight_Decision__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Escalate</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Greenlight_Reason__c</picklist>
+            <values>
+                <fullName>Atypical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ineligible property type</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Insufficient price confidence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lot size too large</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Need more information</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New construction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not in operating CBSA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not in operating in state</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Processing Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recently sold</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Mortgage_Type__c</picklist>
+            <values>
+                <fullName>Amortizing</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Non-amortizing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Attorney</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BBB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Web Form</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Federal Regulator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Letter or Email to Executive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>State Regulator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unison Employee on behalf of customer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Principal_Residence__c</picklist>
+            <values>
+                <fullName>Principal Residence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Second Vacation Home</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Property_Pre_qualification_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Escalated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Enough Information</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Advisor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Loan Officer</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Real Estate Agent</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Regulatory_Risk__c</picklist>
+            <values>
+                <fullName>CAN-SPAM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Discrimination</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FCRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>InfoSec</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Privacy%2FGLBA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reputation - Customer Experience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCPA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UDAAP</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Resolution_Type__c</picklist>
+            <values>
+                <fullName>Customer Dissatisfied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Satisfied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Customer Response</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Resolution__c</picklist>
+            <values>
+                <fullName>Closed %28without relief or explanation%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed with explanation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed with monetary relief</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed with non-monetary relief</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Source_of_Gift_Funds__c</picklist>
+            <values>
+                <fullName>Grandparent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Parent</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tier__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Unison_Program__c</picklist>
+            <values>
+                <fullName>HomeBuyer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HomeKeeper</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HomeOwner</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Investment_Management</fullName>
+        <active>true</active>
+        <businessProcess>Exception Management</businessProcess>
+        <label>Investment Management</label>
+        <picklistValues>
+            <picklist>Agency_or_Non_Agency__c</picklist>
+            <values>
+                <fullName>Agency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N%2FA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-Agency</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Business_Unit_Accountable__c</picklist>
+            <values>
+                <fullName>Acquisitions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HPT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Category_Type__c</picklist>
+            <values>
+                <fullName>%22Attorney%22 or %22Legal Action%22</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%22Don%27t trust Unison%22</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%22I want to see credit report%22</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%22Multiple people told me different things%22</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%22Remove me from all contact lists%22</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Confusion about product</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit pull authorization</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Discrimination</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I want to see appraisal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personal documents %2F SSN %2F Other sensitive info</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personal info source request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prequalified then rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pricing %2F fee ambiguity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public defamation %2F slander</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Request for manager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Request for new PS %2F TS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unresponsiveness</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value dispute</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Category__c</picklist>
+            <values>
+                <fullName>Credit Authorization</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legal %2F Regulatory</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unison Personnel</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Complaint_Type__c</picklist>
+            <values>
+                <fullName>Appraisal%2FOAV Dispute</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract-related issues</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contradictory communication</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit Pull Unauthorized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delayed funds%2FWhere are my funds</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Denial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Issue with 3rd party vendor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing%2FAd content</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personal documents%2FSSN%2FOther sensitive info</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personal info source request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pricing%2Ffee ambiguity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Refinance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Repeated attempts to opt-out of marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>System not working%2Fbroken</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Termination%3A EAV dispute</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Termination%3A MAD dispute</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Termination%3A RMA dispute</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unresponsive</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Consumer_Stage_relationship_owner__c</picklist>
+            <values>
+                <fullName>Funded %28HPT%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead%2FOpportunity %28Sales%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre-funnel %28Marketing%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Decline_Reasons__c</picklist>
+            <values>
+                <fullName>Applicant does not meet other non-credit related application criteria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Application Incomplete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Appraisal value is below customer expectation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Attorney%2Ffinancial advisor advised against it</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bankruptcy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>COVID-19</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Collection action or judgment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Competitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer provided appraisal does not meet investor standards</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delinquent past or present obligations with others</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Excessive obligations in relation to income</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Felony</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Garnishment or attachment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Insufficient equity in the property</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Length of employment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Length of residence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No credit file</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-owner occupied property</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Notice of default%2C foreclosure or repossession</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Number of recent inquiries on credit bureau report</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Option Contract too confusing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reported credit below our minimum requirement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Selling home</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spouse does not want to move forward</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stated credit score below minimum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temporary or irregular employment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temporary residence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Type%2C condition%2C or typicality of property unacceptable</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to verify credit references</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to verify employment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to verify fee simple title to property in application</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to verify income</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to verify residence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unacceptable liens%2C encumbrances%2C or easements on property</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value of property in excess of allowed maximum</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Exception_Reason__c</picklist>
+            <values>
+                <fullName>2%2B Property Units</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Approve</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Back-End DTI Post-Funding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bankruptcy%2FForeclosure%2FShort Sale%2FDeed in Lieu</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CLTV is greater than 80%25%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DTI is greater than 65%25%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decline</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Default rate is high enough to warrant an escalate%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Escalate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Homeowner Equity Post-Funding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LTV Post-Funding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lien Position</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mid FICO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mortgage Type</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-US Resident Applicant%2FCo-Applicant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-Unison Appraisal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Principal Residence</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Greenlight_Decision__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Escalate</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Greenlight_Reason__c</picklist>
+            <values>
+                <fullName>Atypical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ineligible property type</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Insufficient price confidence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lot size too large</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Need more information</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New construction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not in operating CBSA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not in operating in state</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Processing Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recently sold</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Mortgage_Type__c</picklist>
+            <values>
+                <fullName>Amortizing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-amortizing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Chatter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Principal_Residence__c</picklist>
+            <values>
+                <fullName>Investment Property</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Principal Residence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Second Vacation Home</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Property_Pre_qualification_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Escalated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Enough Information</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Advisor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Loan Officer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Real Estate Agent</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Regulatory_Risk__c</picklist>
+            <values>
+                <fullName>CAN-SPAM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Discrimination</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FCRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>InfoSec</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Privacy%2FGLBA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reputation - Customer Experience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCPA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UDAAP</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Resolution_Type__c</picklist>
+            <values>
+                <fullName>Customer Dissatisfied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Satisfied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Customer Response</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Resolution__c</picklist>
+            <values>
+                <fullName>Closed %28without relief or explanation%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed with explanation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed with monetary relief</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed with non-monetary relief</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Source_of_Gift_Funds__c</picklist>
+            <values>
+                <fullName>Grandparent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Parent</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tier__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Asset Admin Action</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Exception Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Property Approval Request</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Unison_Program__c</picklist>
+            <values>
+                <fullName>HomeBuyer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HomeKeeper</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HomeOwner</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LOET</fullName>
+        <active>true</active>
+        <businessProcess>LO Engagement</businessProcess>
+        <label>LOET</label>
+        <picklistValues>
+            <picklist>Agency_or_Non_Agency__c</picklist>
+            <values>
+                <fullName>Agency</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-Agency</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Business_Unit_Accountable__c</picklist>
+            <values>
+                <fullName>Acquisitions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HPT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Category_Type__c</picklist>
+            <values>
+                <fullName>%22Attorney%22 or %22Legal Action%22</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%22Don%27t trust Unison%22</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%22I want to see credit report%22</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%22Multiple people told me different things%22</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%22Remove me from all contact lists%22</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Confusion about product</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit pull authorization</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Discrimination</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>I want to see appraisal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personal documents %2F SSN %2F Other sensitive info</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personal info source request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prequalified then rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pricing %2F fee ambiguity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public defamation %2F slander</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Request for manager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Request for new PS %2F TS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unresponsiveness</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value dispute</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Category__c</picklist>
+            <values>
+                <fullName>Credit Authorization</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Declines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Legal %2F Regulatory</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unison Personnel</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Complaint_Type__c</picklist>
+            <values>
+                <fullName>Appraisal%2FOAV Dispute</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract-related issues</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contradictory communication</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit Pull Unauthorized</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delayed funds%2FWhere are my funds</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Denial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Issue with 3rd party vendor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing%2FAd content</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personal documents%2FSSN%2FOther sensitive info</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Personal info source request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pricing%2Ffee ambiguity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Refinance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Repeated attempts to opt-out of marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>System not working%2Fbroken</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Termination%3A EAV dispute</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Termination%3A MAD dispute</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Termination%3A RMA dispute</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unresponsive</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Consumer_Stage_relationship_owner__c</picklist>
+            <values>
+                <fullName>Funded %28HPT%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead%2FOpportunity %28Sales%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre-funnel %28Marketing%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Decline_Reasons__c</picklist>
+            <values>
+                <fullName>Aged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Applicant does not meet other non-credit related application criteria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Application Incomplete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Appraisal value is below customer expectation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Attorney%2Ffinancial advisor advised against it</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bankruptcy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>COVID-19</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Collection action or judgment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Competitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delaying Process%2FJust Researching</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delinquent past or present obligations with others</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Does not want to use Unison partner lender</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Excessive obligations in relation to income</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Felony</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Garnishment or attachment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Insufficient equity in the property</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lender financing fell through or declined customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Length of employment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Length of residence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Longer Interested and No Reason Given</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No credit file</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-owner occupied property</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Buying Home</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not operating in requested state</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Notice of default%2C foreclosure or repossession</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Number of recent inquiries on credit bureau report</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Option Contract too confusing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prefers Structure of Traditional Loan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Purchase offer not accepted with Unison</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Remove from all Marketing Communication</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reported credit below our minimum requirement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Selling home</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spouse does not want to move forward</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stated credit score below minimum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temporary or irregular employment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Temporary residence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Type%2C condition%2C or typicality of property unacceptable</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to verify credit references</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to verify employment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to verify fee simple title to property in application</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to verify income</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to verify residence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unacceptable liens%2C encumbrances%2C or easements on property</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unison program terms too complicated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unresponsive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Value of property in excess of allowed maximum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Working with Unison too complicated</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Exception_Reason__c</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Greenlight_Decision__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Escalate</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Greenlight_Reason__c</picklist>
+            <values>
+                <fullName>Atypical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ineligible property type</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Insufficient price confidence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lot size too large</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Need more information</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New construction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not in operating CBSA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not in operating in state</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Processing Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recently sold</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Chatter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Principal_Residence__c</picklist>
+            <values>
+                <fullName>Investment Property</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Principal Residence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Second Vacation Home</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Advisor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Loan Officer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Real Estate Agent</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Regulatory_Risk__c</picklist>
+            <values>
+                <fullName>CAN-SPAM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Discrimination</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FCRA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>InfoSec</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Privacy%2FGLBA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reputation - Customer Experience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TCPA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UDAAP</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Resolution_Type__c</picklist>
+            <values>
+                <fullName>Customer Dissatisfied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Satisfied</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Customer Response</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Resolution__c</picklist>
+            <values>
+                <fullName>Closed %28without relief or explanation%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed with explanation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed with monetary relief</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed with non-monetary relief</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Source_of_Gift_Funds__c</picklist>
+            <values>
+                <fullName>Grandparent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Parent</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tier__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Loan Officer Portal Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Loan Officer Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Unison_Program__c</picklist>
+            <values>
+                <fullName>HomeBuyer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HomeKeeper</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HomeOwner</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CASES.SUBJECT</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CASES.CREATED_DATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CASES.PRIORITY</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>CASES.CASE_NUMBER</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CASES.SUBJECT</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CASES.STATUS</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CASES.CASE_NUMBER</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CASES.SUBJECT</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CASES.STATUS</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.CASE_NUMBER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.SUBJECT</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.STATUS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.CREATED_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWriteTransfer</sharingModel>
+    <validationRules>
+        <fullName>Case_Decline_Reason</fullName>
+        <active>true</active>
+        <description>Declined exception requests require a reason</description>
+        <errorConditionFormula>ISPICKVAL(Status,"Declined")
+&amp;&amp;
+ISBLANK(Decline_Reasons__c)</errorConditionFormula>
+        <errorDisplayField>Decline_Reasons__c</errorDisplayField>
+        <errorMessage>Declined exception requests require a reason</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Case_Origin_Other_is_required</fullName>
+        <active>true</active>
+        <description>For Complaint record type:
+IF Case Origin = 'Other', make Case Origin (Other) required.</description>
+        <errorConditionFormula>AND($RecordType.Name = 'Complaint', ISBLANK(Case_Origin_Other__c),
+				TEXT(Origin) = 'Other')</errorConditionFormula>
+        <errorDisplayField>Case_Origin_Other__c</errorDisplayField>
+        <errorMessage>Case Origin (Other) is required if Case Origin is 'Other'</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Complaint_Type_Other_is_required</fullName>
+        <active>true</active>
+        <description>For Complaint record type:
+IF Complaint Type = 'Other', make Complaint Type (Other) required.</description>
+        <errorConditionFormula>AND($RecordType.Name = 'Complaint', ISBLANK(Complaint_Type_other__c), 
+				INCLUDES(Complaint_Type__c, 'Other'))</errorConditionFormula>
+        <errorDisplayField>Complaint_Type_other__c</errorDisplayField>
+        <errorMessage>Complaint Type (Other) is required if Complaint Type is 'Other'</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Contact_required_if_lead_opp_blank</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( 
+ISPICKVAL(Status,"Closed"), 
+RecordType.Name="Complaint",
+ISBLANK( ContactId ), 
+ISBLANK( Opportunity__c ), 
+ISBLANK( Lead__c ) 
+)</errorConditionFormula>
+        <errorMessage>A contact is required for all complaint cases. Please create a contact to associate to this record.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Date_Resolved_Complaint_is_required</fullName>
+        <active>true</active>
+        <description>For Complaint record type:
+IF Status = 'Closed', make Date Unison Resolved Complaint required.</description>
+        <errorConditionFormula>AND($RecordType.Name = 'Complaint', TEXT(Status) == 'Closed',
+					 ISBLANK(Date_Unison_Resolved_Complaint__c)
+				)</errorConditionFormula>
+        <errorDisplayField>Date_Unison_Resolved_Complaint__c</errorDisplayField>
+        <errorMessage>Date Unison Resolved Complaint is required if Status changes to 'Closed'</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Regulatory_Risk_is_required</fullName>
+        <active>true</active>
+        <description>For Complaint record type:
+IF Regulatory Risk = 'Other', make Regulatory Risk (other) required.</description>
+        <errorConditionFormula>AND($RecordType.Name = 'Complaint', 
+				ISBLANK(Regulatory_Risk_other__c),
+				TEXT(Regulatory_Risk__c) = 'Other')</errorConditionFormula>
+        <errorDisplayField>Regulatory_Risk_other__c</errorDisplayField>
+        <errorMessage>Regulatory Risk (other) is required if Regulatory Risk is 'Other'</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Resolution_is_required</fullName>
+        <active>true</active>
+        <description>For Complaint record type:
+IF Status = 'Closed', make Resolution required.</description>
+        <errorConditionFormula>AND($RecordType.Name = 'Complaint', TEXT(Status) == 'Closed',
+    ISBLANK(TEXT(Resolution__c))
+    )</errorConditionFormula>
+        <errorDisplayField>Resolution__c</errorDisplayField>
+        <errorMessage>Resolution is required if Status changes to 'Closed'</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Sub_category_validation</fullName>
+        <active>true</active>
+        <description>Validates that sub-category is mandatory for all values except when Category=unclassified.</description>
+        <errorConditionFormula>AND(  RecordType.Name = 'Complaint', 
+      NOT(OR(ISPICKVAL(Category__c , 'Unclassified'),
+             ISPICKVAL(Category__c , 'Other'))) ,
+          ISPICKVAL( Category_Type__c,'' ))</errorConditionFormula>
+        <errorDisplayField>Category_Type__c</errorDisplayField>
+        <errorMessage>Please enter a valid sub-category</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Tier_2_Case_Close_Restrictions</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND (
+     ISPICKVAL(Status, "Closed"),
+     ISPICKVAL(Tier__c, "2"),
+     RecordType.Name="Complaint",
+     $User.Alias &lt;&gt; "Icasa",
+     $User.Alias &lt;&gt;"DEise",
+     $User.Alias &lt;&gt;"JPing",
+     $User.Alias &lt;&gt;"Kacke",
+     $User.Alias&lt;&gt;"Jaren",
+     $User.Alias &lt;&gt; "jumal",
+
+ /* Profile for Loancraft managers */ 
+$Profile.Id &lt;&gt; "00eE0000000G2Cv", 
+
+/* Profile ID for Bizops */ 
+$Profile.Id &lt;&gt; "00e44000000G3rA", 
+
+/* Profile ID for System Admin */ 
+$Profile.Id &lt;&gt; "00eE0000000tF0u" ,
+
+/* Profile ID for Program Specialists*/ 
+$Profile.Id &lt;&gt; "00eE0000000G2Fu"
+
+)</errorConditionFormula>
+        <errorMessage>Tier 2 Complaint cases need to be resolved by your manager or legal. In order to close this case, please escalate it by selecting case status "Esclated"</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Tier_3_Case_Close_Restrictions</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND (
+        ISPICKVAL(Status, "Closed"),
+        ISPICKVAL(Tier__c, "3"),
+        RecordType.Name="Complaint",
+
+        $User.Alias &lt;&gt;"JPing",
+        $User.Alias &lt;&gt;"Kacke",
+        $User.Alias&lt;&gt;"Jaren",
+
+/* Profile ID for Bizops */
+        $Profile.Id &lt;&gt; "00e44000000G3rA",
+
+/* Profile ID for System Admin */
+        $Profile.Id &lt;&gt; "00eE0000000tF0u"
+)</errorConditionFormula>
+        <errorMessage>Tier 3 Complaint cases need to be resolved by your manager or legal. In order to close this case, please escalate it by selecting case status "Esclated"</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Tier_must_be_1_LegalRegulatory</fullName>
+        <active>true</active>
+        <description>For Complaint record type:
+IF Case Origin is 'State Regulator' OR 'Federal Regulator' OR 'BBB' OR 'Attorney', Tier must be '1 - Legal/Regulatory'.</description>
+        <errorConditionFormula>AND($RecordType.Name = 'Complaint', 
+				 OR(
+									TEXT(Origin) = 'State Regulator',
+									TEXT(Origin) = 'Federal Regulator',
+				     TEXT(Origin) = 'BBB',
+									TEXT(Origin) = 'Attorney'
+						 ),
+				    NOT(ISBLANK(TEXT(Tier__c))), 
+				    NOT(TEXT(Tier__c) == '1')
+				)</errorConditionFormula>
+        <errorDisplayField>Tier__c</errorDisplayField>
+        <errorMessage>Tier must be '1 - Legal/Regulatory' if Case Origin is either State Regulator, Federal Regulator, BBB or Attorney</errorMessage>
+    </validationRules>
+</CustomObject>

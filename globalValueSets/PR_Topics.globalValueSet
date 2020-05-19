@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Business</fullName>
+        <default>false</default>
+        <label>Business</label>
+    </customValue>
+    <customValue>
+        <fullName>Community</fullName>
+        <default>false</default>
+        <label>Community</label>
+    </customValue>
+    <customValue>
+        <fullName>Demographic</fullName>
+        <default>false</default>
+        <label>Demographic</label>
+    </customValue>
+    <customValue>
+        <fullName>Lifestyle</fullName>
+        <default>false</default>
+        <label>Lifestyle</label>
+    </customValue>
+    <customValue>
+        <fullName>Personal Finance</fullName>
+        <default>false</default>
+        <label>Personal Finance</label>
+    </customValue>
+    <customValue>
+        <fullName>Producer/Assignment Editor/Editor</fullName>
+        <default>false</default>
+        <label>Producer/Assignment Editor/Editor</label>
+    </customValue>
+    <customValue>
+        <fullName>Real Estate</fullName>
+        <default>false</default>
+        <label>Real Estate</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <masterLabel>PR Topics</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

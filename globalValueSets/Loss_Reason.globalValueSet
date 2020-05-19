@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Aged</fullName>
+        <default>false</default>
+        <label>Aged</label>
+    </customValue>
+    <customValue>
+        <fullName>Applicant does not meet other non-credit related application criteria</fullName>
+        <default>false</default>
+        <label>Applicant does not meet other non-credit related application criteria</label>
+    </customValue>
+    <customValue>
+        <fullName>Application Incomplete</fullName>
+        <default>false</default>
+        <label>Application Incomplete</label>
+    </customValue>
+    <customValue>
+        <fullName>Appraisal value is below customer expectation</fullName>
+        <default>false</default>
+        <label>Appraisal value is below customer expectation</label>
+    </customValue>
+    <customValue>
+        <fullName>Attorney/financial advisor advised against it</fullName>
+        <default>false</default>
+        <label>Attorney/financial advisor advised against it</label>
+    </customValue>
+    <customValue>
+        <fullName>Bankruptcy</fullName>
+        <default>false</default>
+        <label>Bankruptcy</label>
+    </customValue>
+    <customValue>
+        <fullName>Collection action or judgment</fullName>
+        <default>false</default>
+        <label>Collection action or judgment</label>
+    </customValue>
+    <customValue>
+        <fullName>Competitor</fullName>
+        <default>false</default>
+        <label>Competitor</label>
+    </customValue>
+    <customValue>
+        <fullName>COVID-19</fullName>
+        <default>false</default>
+        <label>COVID-19</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer information is fake or cannot be used to contact the customer</fullName>
+        <default>false</default>
+        <label>Customer information is fake or cannot be used to contact the customer</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer provided appraisal does not meet investor standards</fullName>
+        <default>false</default>
+        <label>Customer provided appraisal does not meet investor standards</label>
+    </customValue>
+    <customValue>
+        <fullName>Declined by IA at Investment Due Diligence</fullName>
+        <default>false</default>
+        <label>Declined by IA at Investment Due Diligence</label>
+    </customValue>
+    <customValue>
+        <fullName>Delaying Process/Just Researching</fullName>
+        <default>false</default>
+        <label>Delaying Process/Just Researching</label>
+    </customValue>
+    <customValue>
+        <fullName>Delinquent past or present obligations with others</fullName>
+        <default>false</default>
+        <label>Delinquent past or present obligations with others</label>
+    </customValue>
+    <customValue>
+        <fullName>Does not want to use Unison partner lender</fullName>
+        <default>false</default>
+        <label>Does not want to use Unison partner lender</label>
+    </customValue>
+    <customValue>
+        <fullName>Excessive obligations in relation to income</fullName>
+        <default>false</default>
+        <label>Excessive obligations in relation to income</label>
+    </customValue>
+    <customValue>
+        <fullName>Excessive obligations in relation to income &amp; value of property in excess of allowed maximum</fullName>
+        <default>false</default>
+        <label>Excessive obligations in relation to income &amp; value of property in excess of allowed maximum</label>
+    </customValue>
+    <customValue>
+        <fullName>Felony</fullName>
+        <default>false</default>
+        <label>Felony</label>
+    </customValue>
+    <customValue>
+        <fullName>Garnishment or attachment</fullName>
+        <default>false</default>
+        <label>Garnishment or attachment</label>
+    </customValue>
+    <customValue>
+        <fullName>Insufficient equity in the property</fullName>
+        <default>false</default>
+        <label>Insufficient equity in the property</label>
+    </customValue>
+    <customValue>
+        <fullName>Insufficient savings for purchase price range</fullName>
+        <default>false</default>
+        <label>Insufficient savings for purchase price range</label>
+    </customValue>
+    <customValue>
+        <fullName>Lender financing fell through or declined customer</fullName>
+        <default>false</default>
+        <label>Lender financing fell through or declined customer</label>
+    </customValue>
+    <customValue>
+        <fullName>Length of employment</fullName>
+        <default>false</default>
+        <label>Length of employment</label>
+    </customValue>
+    <customValue>
+        <fullName>Length of residence</fullName>
+        <default>false</default>
+        <label>Length of residence</label>
+    </customValue>
+    <customValue>
+        <fullName>No credit file</fullName>
+        <default>false</default>
+        <label>No credit file</label>
+    </customValue>
+    <customValue>
+        <fullName>No Longer Interested and No Reason Given</fullName>
+        <default>false</default>
+        <label>No Longer Interested and No Reason Given</label>
+    </customValue>
+    <customValue>
+        <fullName>Non-owner occupied property</fullName>
+        <default>false</default>
+        <label>Non-owner occupied property</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Buying Home</fullName>
+        <default>false</default>
+        <label>Not Buying Home</label>
+    </customValue>
+    <customValue>
+        <fullName>Notice of default, foreclosure or repossession</fullName>
+        <default>false</default>
+        <label>Notice of default, foreclosure or repossession</label>
+    </customValue>
+    <customValue>
+        <fullName>Not operating in requested state</fullName>
+        <default>false</default>
+        <label>Not operating in requested state</label>
+    </customValue>
+    <customValue>
+        <fullName>Number of recent inquiries on credit bureau report</fullName>
+        <default>false</default>
+        <label>Number of recent inquiries on credit bureau report</label>
+    </customValue>
+    <customValue>
+        <fullName>Option Contract too confusing</fullName>
+        <default>false</default>
+        <label>Option Contract too confusing</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Prefers Structure of Traditional Loan</fullName>
+        <default>false</default>
+        <label>Prefers Structure of Traditional Loan</label>
+    </customValue>
+    <customValue>
+        <fullName>Purchase offer not accepted with Unison</fullName>
+        <default>false</default>
+        <label>Purchase offer not accepted with Unison</label>
+    </customValue>
+    <customValue>
+        <fullName>Real estate agent, loan officer, or other professional not looking to use our programs</fullName>
+        <default>false</default>
+        <label>Real estate agent, loan officer, or other professional not looking to use our programs</label>
+    </customValue>
+    <customValue>
+        <fullName>Remove from all Marketing Communication</fullName>
+        <default>false</default>
+        <label>Remove from all Marketing Communication</label>
+    </customValue>
+    <customValue>
+        <fullName>Reported Credit (single score) below our minimum requirement.</fullName>
+        <default>false</default>
+        <label>Reported Credit (single score) below our minimum requirement.</label>
+    </customValue>
+    <customValue>
+        <fullName>Reported credit below our minimum requirement</fullName>
+        <default>false</default>
+        <label>Reported credit below our minimum requirement</label>
+    </customValue>
+    <customValue>
+        <fullName>Selling home</fullName>
+        <default>false</default>
+        <label>Selling home</label>
+    </customValue>
+    <customValue>
+        <fullName>Spouse does not want to move forward</fullName>
+        <default>false</default>
+        <label>Spouse does not want to move forward</label>
+    </customValue>
+    <customValue>
+        <fullName>Stated credit score below minimum</fullName>
+        <default>false</default>
+        <label>Stated credit score below minimum</label>
+    </customValue>
+    <customValue>
+        <fullName>Temporary or irregular employment</fullName>
+        <default>false</default>
+        <label>Temporary or irregular employment</label>
+    </customValue>
+    <customValue>
+        <fullName>Temporary residence</fullName>
+        <default>false</default>
+        <label>Temporary residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Type, condition, or typicality of property unacceptable</fullName>
+        <default>false</default>
+        <label>Type, condition, or typicality of property unacceptable</label>
+    </customValue>
+    <customValue>
+        <fullName>Unable to verify credit references</fullName>
+        <default>false</default>
+        <label>Unable to verify credit references</label>
+    </customValue>
+    <customValue>
+        <fullName>Unable to verify employment</fullName>
+        <default>false</default>
+        <label>Unable to verify employment</label>
+    </customValue>
+    <customValue>
+        <fullName>Unable to verify fee simple title to property in application</fullName>
+        <default>false</default>
+        <label>Unable to verify fee simple title to property in application</label>
+    </customValue>
+    <customValue>
+        <fullName>Unable to verify income</fullName>
+        <default>false</default>
+        <label>Unable to verify income</label>
+    </customValue>
+    <customValue>
+        <fullName>Unable to verify residence</fullName>
+        <default>false</default>
+        <label>Unable to verify residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Unacceptable liens, encumbrances, or easements on property</fullName>
+        <default>false</default>
+        <label>Unacceptable liens, encumbrances, or easements on property</label>
+    </customValue>
+    <customValue>
+        <fullName>Unison could not meet closing timeline</fullName>
+        <default>false</default>
+        <label>Unison could not meet closing timeline</label>
+    </customValue>
+    <customValue>
+        <fullName>Unison does not meet cash needs</fullName>
+        <default>false</default>
+        <label>Unison does not meet cash needs</label>
+    </customValue>
+    <customValue>
+        <fullName>Unison program terms too complicated</fullName>
+        <default>false</default>
+        <label>Unison program terms too complicated</label>
+    </customValue>
+    <customValue>
+        <fullName>Unison program too expensive</fullName>
+        <default>false</default>
+        <label>Unison program too expensive</label>
+    </customValue>
+    <customValue>
+        <fullName>Unresponsive</fullName>
+        <default>false</default>
+        <label>Unresponsive</label>
+    </customValue>
+    <customValue>
+        <fullName>Value of property in excess of allowed maximum</fullName>
+        <default>false</default>
+        <label>Value of property in excess of allowed maximum</label>
+    </customValue>
+    <customValue>
+        <fullName>Working with Unison too complicated</fullName>
+        <default>false</default>
+        <label>Working with Unison too complicated</label>
+    </customValue>
+    <customValue>
+        <fullName>Would not retain sufficient equity after transaction</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Would not retain sufficient equity after transaction</label>
+    </customValue>
+    <customValue>
+        <fullName>Unknown</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Unknown</label>
+    </customValue>
+    <customValue>
+        <fullName>Prefers Another Product</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Prefers Another Product</label>
+    </customValue>
+    <description>Loss reason codes</description>
+    <masterLabel>Loss Reason</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

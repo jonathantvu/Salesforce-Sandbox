@@ -1,0 +1,76 @@
+<apex:page standardController="Opportunity" extensions="Opp_VantagePoint_EXT" action="{!createVantagePointOrder}" >
+    <apex:slds />
+    <style>
+        .mainBlock {
+            padding:10px;
+        }
+         
+        div.buttons {
+            margin-top: 10px;
+            width: 100%;
+        }
+    </style>
+
+	<apex:outputPanel id="mainBlock" styleClass="mainBlock" layout="block">
+		<apex:form >
+
+            <apex:actionFunction name="backToOppty" action="{!BackToOppty}" />
+			
+			<!-- Start Error Block -->
+			<apex:outputPanel id="Errors" layout="block" >
+				<apex:outputPanel layout="block" styleClass="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_error" html-role="alert" rendered="{!displayError}">
+					<span class="slds-assistive-text">error</span>
+					<h2><apex:messages /></h2>
+				</apex:outputPanel>
+
+                <apex:outputPanel rendered="{!placeOrderResponse.hasErrors == true}" >
+
+                    <h2> 
+                        <apex:outputPanel style="font-size: 120%; margin-bottom: 20px;" layout="block" styleClass="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_error" >
+                            An error was encountered! <br></br>
+                        </apex:outputPanel>
+
+                        <span style="font-size: 110%; font-weight: bold; ">Message:</span> {!placeOrderResponse.ResponseStatus.Message}<br></br>
+                        <span style="font-size: 110%; font-weight: bold;">ErrorCode:</span> '{!placeOrderResponse.ResponseStatus.ErrorCode}<br></br><br></br>
+                        <span style="font-size: 110%; font-weight: bold;">And also the following sub-errors:</span> <br></br><br></br>
+
+                    </h2>
+
+                    <table class="slds-table slds-table_cell-buffer slds-table_bordered">
+                        <tr class="slds-line-height_reset">
+                            <th>
+                                Message
+                            </th>
+                            <th>
+                                FieldName
+                            </th>
+                            <th>
+                                ErrorCode
+                            </th>
+                        </tr>
+                        <apex:repeat value="{!placeOrderResponse.ResponseStatus.Errors}" var="error">
+                            <tr>
+                                <td>
+                                    {!error.Message}
+                                </td>
+                                <td>
+                                    {!error.FieldName}
+                                </td>
+                                <td>
+                                    {!error.ErrorCode}
+                                </td>
+                            </tr>
+                        </apex:repeat>
+                    </table>
+                </apex:outputPanel>
+
+			</apex:outputPanel>
+			<!-- End Error Block -->
+
+            <div Class="buttons">
+                <button class="slds-button slds-button_neutral" onclick="backToOppty(); return false;">Back</button>
+            </div>
+		</apex:form>
+	</apex:outputPanel>
+
+</apex:page>

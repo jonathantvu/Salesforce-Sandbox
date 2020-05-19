@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Code__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Code</label>
+        <length>8</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lead_Status__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Lead Status</label>
+        <length>64</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Other_Conditions__c</fullName>
+        <description>Example format: Is_there_Co_App__c == true &amp;&amp; Self_Employed_co__c == true</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Example format: Is_there_Co_App__c == true &amp;&amp; Self_Employed_co__c == true</inlineHelpText>
+        <label>Other Conditions</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Record_Type__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Record Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>HomeOwner</fullName>
+                    <default>true</default>
+                    <label>HomeOwner</label>
+                </value>
+                <value>
+                    <fullName>HomeBuyer</fullName>
+                    <default>false</default>
+                    <label>HomeBuyer</label>
+                </value>
+                <value>
+                    <fullName>HomeBuyer Canada</fullName>
+                    <default>false</default>
+                    <label>HomeBuyer Canada</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Lead - Current Contitions Rule</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>MasterLabel</columns>
+        <columns>Record_Type__c</columns>
+        <columns>Lead_Status__c</columns>
+        <columns>Other_Conditions__c</columns>
+        <columns>Code__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <pluralLabel>Lead - Current Contitions Rules</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

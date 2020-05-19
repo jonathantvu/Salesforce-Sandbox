@@ -1,0 +1,22 @@
+<apex:page standardController="Minimum_Required_Documents__c" recordSetVar="mrdocs" tabStyle="Minimum_Required_Documents__c" sidebar="false">
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageMessages />
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Save" action="{!save}"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockTable value="{!mrdocs}" var="mrd">
+               
+                <apex:column headerValue="Attachment">
+                    <apex:inputField value="{!mrd.Uploaded__c}"/>
+                </apex:column>
+                <apex:column headerValue="Type">
+                    <apex:outputField value="{!mrd.Category__c}"/>
+                </apex:column>
+                 <apex:column headerValue="Type">
+                    <apex:outputField value="{!mrd.Applicant_Type__c}"/>
+                </apex:column>
+            </apex:pageBlockTable>      
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

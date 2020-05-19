@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Direct Response</fullName>
+        <default>false</default>
+        <label>Direct Response</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Lender</fullName>
+        <default>false</default>
+        <label>Lender</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Real Estate Broker</fullName>
+        <default>false</default>
+        <label>Real Estate Broker</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Lead Buy</fullName>
+        <default>false</default>
+        <label>Lead Buy</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Employee or Customer Referral</fullName>
+        <default>false</default>
+        <label>Employee or Customer Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Unattributed</fullName>
+        <default>false</default>
+        <label>Unattributed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LQ LP</fullName>
+        <default>false</default>
+        <label>LQ LP</label>
+    </standardValue>
+</StandardValueSet>

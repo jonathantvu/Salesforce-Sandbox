@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>HomeBuyer</fullName>
+        <default>false</default>
+        <label>HomeBuyer</label>
+    </customValue>
+    <customValue>
+        <fullName>HomeOwner</fullName>
+        <default>false</default>
+        <label>HomeOwner</label>
+    </customValue>
+    <customValue>
+        <fullName>HomeKeeper</fullName>
+        <default>false</default>
+        <label>HomeKeeper</label>
+    </customValue>
+    <masterLabel>Program</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

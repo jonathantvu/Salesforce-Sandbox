@@ -1,0 +1,29 @@
+<apex:page standardController="Lead" extensions="LeadQualification" docType="html-5.0">
+    <apex:slds />
+    <apex:form >
+        <apex:actionStatus id="counterStatus">
+            <apex:facet name="start">
+                <div style="position: fixed; top: 0px; bottom: 0px; left: 0px; right: 0px; background-color: white; opacity: 0.6; text-align: center; padding-top: 10px; z-index: 1000;">
+                    <img src="/img/loading32.gif" />
+                </div>
+            </apex:facet>
+        </apex:actionStatus>
+        <apex:pageMessages />
+        <apex:pageBlock title="Raise Exception">
+            <apex:repeat value="{!caseLayout.sections}" var="layoutSection">
+                <apex:pageBlockSection title="{!layoutSection.section.label}" columns="{!layoutSection.columns}">
+                    <apex:repeat value="{!layoutSection.fields}" var="field">
+                        <apex:inputField value="{!newCase[field.field]}" required="{!field.behavior == MetadataUiBehaviorRequired}" rendered="{!AND(NOT(field.field == 'OwnerId'), field.field != '')}" />
+                        <apex:outputField value="{!newCase[field.field]}" rendered="{!field.field == 'OwnerId'}" />
+                    </apex:repeat>
+                </apex:pageBlockSection>
+            </apex:repeat>
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Save" action="{!SaveCase}" />
+                <apex:commandButton value="Cancel" action="{!Cancel}" />
+            </apex:pageBlockButtons> 
+        </apex:pageBlock>
+        <apex:pageMessages />
+    </apex:form>
+
+</apex:page>

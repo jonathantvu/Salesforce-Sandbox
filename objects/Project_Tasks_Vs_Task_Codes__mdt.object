@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Metadata that stores project tasks API names</description>
+    <fields>
+        <fullName>Task_Code__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Task Code</label>
+        <length>10</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Project Tasks Vs Task Code</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>MasterLabel</columns>
+        <columns>DeveloperName</columns>
+        <columns>Task_Code__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <pluralLabel>Project Tasks Vs Task Codes</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

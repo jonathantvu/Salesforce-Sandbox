@@ -1,0 +1,17 @@
+<apex:page standardController="Property_Due_Diligence_Reports__c" extensions="PDDR_Cancel_Order_Ctrl" action="{!CancelOrder}">
+    <apex:slds />
+
+    <apex:form >
+        <apex:outputPanel id="mainPanel" styleClass="slds-scope">
+
+            <apex:outputPanel id="Errors" layout="block" >
+			    <apex:outputPanel layout="block" styleClass="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_error" html-role="alert" 
+                                  rendered="{!haveErrors}">
+				    <span class="slds-assistive-text">error</span>
+				    <h2><apex:messages /></h2>
+			    </apex:outputPanel>
+		    </apex:outputPanel>
+
+        </apex:outputPanel>
+    </apex:form>
+</apex:page>

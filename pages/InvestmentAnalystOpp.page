@@ -1,0 +1,9 @@
+<apex:page standardController="Opportunity"
+  extensions="skuid.Redirects"
+  showHeader="false"
+  sidebar="false"
+  readonly="true" docType="html-5.0"
+  action="{!IF(canUseSkuid,'',redirect)}"
+  title="Insert-Action-to-Override {!Opportunity.Name}">
+    <skuid:page page="IAHomeOwnerInteractive" />
+</apex:page>

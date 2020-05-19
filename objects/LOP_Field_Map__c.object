@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Salesforce to LOP field map</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>LOP_Field_API_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>LOP Field API Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LOP_Object__c</fullName>
+        <externalId>false</externalId>
+        <label>LOP Object</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Notes</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>SF_Field_API_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>SF Field API Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SF_Object__c</fullName>
+        <externalId>false</externalId>
+        <label>SF Object</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Static_Value__c</fullName>
+        <externalId>false</externalId>
+        <label>Static Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>LOP Field Map</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>SF_Object__c</columns>
+        <columns>SF_Field_API_Name__c</columns>
+        <columns>LOP_Object__c</columns>
+        <columns>LOP_Field_API_Name__c</columns>
+        <columns>Static_Value__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <visibility>Public</visibility>
+</CustomObject>

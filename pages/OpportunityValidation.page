@@ -1,0 +1,388 @@
+<apex:page standardController="Opportunity" extensions="OpportunityValidation">
+
+    <apex:slds />
+
+    <div class="slds-scope">
+        <apex:form >
+            <!-- Header -->
+            <div class="slds-page-header">
+                <div class="slds-page-header__row">
+                    <div class="slds-page-header__col-title">
+                        <div class="slds-media">
+                            <div class="slds-media__figure">
+                                <span class="slds-icon_container slds-icon-standard-opportunity">
+                                    <svg aria-hidden="true" class="slds-icon">
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, 'assets/icons/standard-sprite/svg/symbols.svg#opportunity')}"></use>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="slds-media__body">
+                                <div class="slds-page-header__name">
+                                    <div class="slds-page-header__name-title">
+                                        <h1><span>Opportunity Validation</span></h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slds-page-header__col-actions">
+                        <div class="slds-page-header__controls">
+                            <div class="slds-page-header__control">
+                                <ul class="slds-button-group-list">
+                                    <li>
+                                        <apex:commandButton value="Move To Next Stage" styleClass="slds-button slds-button_brand" rendered="{!result.isAllValid}" action="{!MoveToNextStage}" />
+                                        <apex:commandButton value="Move To Next Stage" styleClass="slds-button slds-button_brand" rendered="{!!result.isAllValid}" disabled="true" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <apex:pageMessages />
+
+            <!-- Opportunity -->
+            <article class="slds-card">
+                <div class="slds-card__header slds-grid">
+                    <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                        <div class="slds-media__figure">
+                            <span class="slds-icon_container slds-icon-standard-opportunity" title="">
+                                <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, 'assets/icons/standard-sprite/svg/symbols.svg#opportunity')}"></use>
+                                </svg>
+                                <span class="slds-assistive-text">Opportunity</span>
+                            </span>
+                        </div>
+                        <div class="slds-media__body">
+                            <h2 class="slds-card__header-title">
+                                <span>Opportunity</span>
+                            </h2>
+                        </div>
+                    </header>
+                </div>
+                <div class="slds-card__body slds-card__body_inner">
+                    <apex:outputPanel layout="none" rendered="{!!result.opportunityValidation.hasErrors}">
+                        <div class="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_success" role="success">
+                            <h2>Everything OK here</h2>
+                        </div>
+                    </apex:outputPanel>
+                    <apex:outputPanel layout="none" rendered="{!result.opportunityValidation.hasErrors}" >
+                        <table class="slds-table slds-table_cell-buffer slds-table_bordered">
+                            <thead>
+                                <tr class="slds-line-height_reset">
+                                    <th class="" scope="col" width="30%">
+                                        <div class="slds-truncate" title="Field">Field</div>
+                                    </th>
+                                    <th class="" scope="col" width="30%">
+                                        <div class="slds-truncate" title="Value">Value</div>
+                                    </th>
+                                    <th class="" scope="col">
+                                        <div class="slds-truncate" title="Message">Message</div>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <apex:repeat value="{!result.opportunityValidation.fieldErrors}" var="fieldName">
+                                    <tr class="slds-hint-parent">
+                                        <td data-label="Field">
+                                            <div class="slds-truncate" title="{!$ObjectType.Opportunity.fields[fieldName].Label}">
+                                                {!$ObjectType.Opportunity.fields[fieldName].Label}
+                                            </div>
+                                        </td>
+                                        <td data-label="Value">
+                                            <div class="slds-truncate" title="{!result.opportunityValidation.record[fieldName]}">
+                                                <apex:outputField value="{!result.opportunityValidation.record[fieldName]}" />
+                                            </div>
+                                        </td>
+                                        <td data-label="Message">
+                                            <div class="slds-truncate" title="{!result.opportunityValidation.fieldErrors[fieldName]}">
+                                                {!result.opportunityValidation.fieldErrors[fieldName]}
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </apex:repeat>
+                            </tbody>
+                        </table>
+                    </apex:outputPanel>
+                </div>
+            </article>
+
+            <!-- Application -->
+            <apex:outputPanel layout="none" rendered="{!result.applicationValidation.recordId != null}">
+                <article class="slds-card">
+                    <div class="slds-card__header slds-grid">
+                        <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                            <div class="slds-media__figure">
+                                <span class="slds-icon_container slds-icon-standard-opportunity" title="">
+                                    <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, 'assets/icons/custom-sprite/svg/symbols.svg#custom51')}"></use>
+                                    </svg>
+                                    <span class="slds-assistive-text">Application</span>
+                                </span>
+                            </div>
+                            <div class="slds-media__body">
+                                <h2 class="slds-card__header-title">
+                                    <span>Application</span>
+                                </h2>
+                            </div>
+                        </header>
+                    </div>
+                    <div class="slds-card__body slds-card__body_inner">
+                        <apex:outputPanel layout="none" rendered="{!!result.applicationValidation.hasErrors}">
+                            <div class="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_success" role="success">
+                                <h2>Everything OK here</h2>
+                            </div>
+                        </apex:outputPanel>
+                        <apex:outputPanel layout="none" rendered="{!result.applicationValidation.hasErrors}" >
+                            <table class="slds-table slds-table_cell-buffer slds-table_bordered">
+                                <thead>
+                                    <tr class="slds-line-height_reset">
+                                        <th class="" scope="col" width="30%">
+                                            <div class="slds-truncate" title="Field">Field</div>
+                                        </th>
+                                        <th class="" scope="col" width="30%">
+                                            <div class="slds-truncate" title="Value">Value</div>
+                                        </th>
+                                        <th class="" scope="col">
+                                            <div class="slds-truncate" title="Message">Message</div>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <apex:repeat value="{!result.applicationValidation.fieldErrors}" var="fieldName">
+                                        <tr class="slds-hint-parent">
+                                            <td data-label="Field">
+                                                <div class="slds-truncate" title="{!$ObjectType.Application__c.fields[fieldName].Label}">
+                                                    {!$ObjectType.Application__c.fields[fieldName].Label}
+                                                </div>
+                                            </td>
+                                            <td data-label="Value">
+                                                <div class="slds-truncate" title="{!result.applicationValidation.record[fieldName]}">
+                                                    <apex:outputField value="{!result.applicationValidation.record[fieldName]}" />
+                                                </div>
+                                            </td>
+                                            <td data-label="Message">
+                                                <div class="slds-truncate" title="{!result.applicationValidation.fieldErrors[fieldName]}">
+                                                    {!result.applicationValidation.fieldErrors[fieldName]}
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </apex:repeat>
+                                </tbody>
+                            </table>
+                        </apex:outputPanel>
+                    </div>
+                </article>
+            </apex:outputPanel>
+
+            <!-- Property -->
+            <apex:outputPanel layout="none" rendered="{!result.propertyValidation.recordId != null}">
+                <article class="slds-card">
+                    <div class="slds-card__header slds-grid">
+                        <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                            <div class="slds-media__figure">
+                                <span class="slds-icon_container slds-icon-standard-opportunity" title="">
+                                    <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, 'assets/icons/custom-sprite/svg/symbols.svg#custom68')}"></use>
+                                    </svg>
+                                    <span class="slds-assistive-text">Property</span>
+                                </span>
+                            </div>
+                            <div class="slds-media__body">
+                                <h2 class="slds-card__header-title">
+                                    <span>Property</span>
+                                </h2>
+                            </div>
+                        </header>
+                    </div>
+                    <div class="slds-card__body slds-card__body_inner">
+                        <apex:outputPanel layout="none" rendered="{!!result.propertyValidation.hasErrors}">
+                            <div class="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_success" role="success">
+                                <h2>Everything OK here</h2>
+                            </div>
+                        </apex:outputPanel>
+                        <apex:outputPanel layout="none" rendered="{!result.propertyValidation.hasErrors}" >
+                            <table class="slds-table slds-table_cell-buffer slds-table_bordered">
+                                <thead>
+                                    <tr class="slds-line-height_reset">
+                                        <th class="" scope="col" width="30%">
+                                            <div class="slds-truncate" title="Field">Field</div>
+                                        </th>
+                                        <th class="" scope="col" width="30%">
+                                            <div class="slds-truncate" title="Value">Value</div>
+                                        </th>
+                                        <th class="" scope="col">
+                                            <div class="slds-truncate" title="Message">Message</div>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <apex:repeat value="{!result.propertyValidation.fieldErrors}" var="fieldName">
+                                        <tr class="slds-hint-parent">
+                                            <td data-label="Field">
+                                                <div class="slds-truncate" title="{!$ObjectType.Property__c.fields[fieldName].Label}">
+                                                    {!$ObjectType.Property__c.fields[fieldName].Label}
+                                                </div>
+                                            </td>
+                                            <td data-label="Value">
+                                                <div class="slds-truncate" title="{!result.propertyValidation.record[fieldName]}">
+                                                    <apex:outputField value="{!result.propertyValidation.record[fieldName]}" />
+                                                </div>
+                                            </td>
+                                            <td data-label="Message">
+                                                <div class="slds-truncate" title="{!result.propertyValidation.fieldErrors[fieldName]}">
+                                                    {!result.propertyValidation.fieldErrors[fieldName]}
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </apex:repeat>
+                                </tbody>
+                            </table>
+                        </apex:outputPanel>
+                    </div>
+                </article>
+            </apex:outputPanel>
+
+            <!-- Recorded Information -->
+            <apex:outputPanel layout="none" rendered="{!result.recInfoValidation.recordId != null}">
+                <article class="slds-card">
+                    <div class="slds-card__header slds-grid">
+                        <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                            <div class="slds-media__figure">
+                                <span class="slds-icon_container slds-icon-standard-opportunity" title="">
+                                    <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, 'assets/icons/custom-sprite/svg/symbols.svg#custom25')}"></use>
+                                    </svg>
+                                    <span class="slds-assistive-text">Recorded Information</span>
+                                </span>
+                            </div>
+                            <div class="slds-media__body">
+                                <h2 class="slds-card__header-title">
+                                    <span>Recorded Information</span>
+                                </h2>
+                            </div>
+                        </header>
+                    </div>
+                    <div class="slds-card__body slds-card__body_inner">
+                        <apex:outputPanel layout="none" rendered="{!!result.recInfoValidation.hasErrors}">
+                            <div class="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_success" role="success">
+                                <h2>Everything OK here</h2>
+                            </div>
+                        </apex:outputPanel>
+                        <apex:outputPanel layout="none" rendered="{!result.recInfoValidation.hasErrors}" >
+                            <table class="slds-table slds-table_cell-buffer slds-table_bordered">
+                                <thead>
+                                    <tr class="slds-line-height_reset">
+                                        <th class="" scope="col" width="30%">
+                                            <div class="slds-truncate" title="Field">Field</div>
+                                        </th>
+                                        <th class="" scope="col" width="30%">
+                                            <div class="slds-truncate" title="Value">Value</div>
+                                        </th>
+                                        <th class="" scope="col">
+                                            <div class="slds-truncate" title="Message">Message</div>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <apex:repeat value="{!result.recInfoValidation.fieldErrors}" var="fieldName">
+                                        <tr class="slds-hint-parent">
+                                            <td data-label="Field">
+                                                <div class="slds-truncate" title="{!$ObjectType.Recorded_Information__c.fields[fieldName].Label}">
+                                                    {!$ObjectType.Recorded_Information__c.fields[fieldName].Label}
+                                                </div>
+                                            </td>
+                                            <td data-label="Value">
+                                                <div class="slds-truncate" title="{!result.recInfoValidation.record[fieldName]}">
+                                                    <apex:outputField value="{!result.recInfoValidation.record[fieldName]}" />
+                                                </div>
+                                            </td>
+                                            <td data-label="Message">
+                                                <div class="slds-truncate" title="{!result.recInfoValidation.fieldErrors[fieldName]}">
+                                                    {!result.recInfoValidation.fieldErrors[fieldName]}
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </apex:repeat>
+                                </tbody>
+                            </table>
+                        </apex:outputPanel>
+                    </div>
+                </article>
+            </apex:outputPanel>
+
+            <!-- Trade Accounts -->
+            <apex:outputPanel layout="none" rendered="{!result.hasTas}">
+                <article class="slds-card">
+                    <div class="slds-card__header slds-grid">
+                        <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                            <div class="slds-media__figure">
+                                <span class="slds-icon_container slds-icon-standard-opportunity" title="">
+                                    <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS, 'assets/icons/custom-sprite/svg/symbols.svg#custom53')}"></use>
+                                    </svg>
+                                    <span class="slds-assistive-text">Trade Accounts</span>
+                                </span>
+                            </div>
+                            <div class="slds-media__body">
+                                <h2 class="slds-card__header-title">
+                                    <span>Trade Accounts</span>
+                                </h2>
+                            </div>
+                        </header>
+                    </div>
+                    <div class="slds-card__body slds-card__body_inner">
+                        <apex:repeat value="{!result.taValidation}" var="tares">
+                            <apex:outputPanel layout="none" rendered="{!tares.hasErrors}" >
+                                <span style="font-weight: bold; font-size: 110%;">{!tares.record['Name']}</span>
+                                <table class="slds-table slds-table_cell-buffer slds-table_bordered">
+                                    <thead>
+                                        <tr class="slds-line-height_reset">
+                                            <th class="" scope="col" width="30%">
+                                                <div class="slds-truncate" title="Field">Field</div>
+                                            </th>
+                                            <th class="" scope="col" width="30%">
+                                                <div class="slds-truncate" title="Value">Value</div>
+                                            </th>
+                                            <th class="" scope="col">
+                                                <div class="slds-truncate" title="Message">Message</div>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <apex:repeat value="{!tares.fieldErrors}" var="fieldName">
+                                            <tr class="slds-hint-parent">
+                                                <td data-label="Field">
+                                                    <div class="slds-truncate" title="{!$ObjectType.LASERCA__Trade_Accounts__c.fields[fieldName].Label}">
+                                                        {!$ObjectType.LASERCA__Trade_Accounts__c.fields[fieldName].Label}
+                                                    </div>
+                                                </td>
+                                                <td data-label="Value">
+                                                    <div class="slds-truncate" title="{!tares.record[fieldName]}">
+                                                        <apex:outputField value="{!tares.record[fieldName]}" />
+                                                    </div>
+                                                </td>
+                                                <td data-label="Message">
+                                                    <div class="slds-truncate" title="{!tares.fieldErrors[fieldName]}">
+                                                        {!tares.fieldErrors[fieldName]}
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </apex:repeat>
+                                    </tbody>
+                                </table>
+                                <br /><br />
+                            </apex:outputPanel>
+                        </apex:repeat>
+                        <apex:outputPanel layout="none" rendered="{!!result.taValidationHasErrors}">
+                            <div class="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_success" role="success">
+                                <h2>Everything OK here</h2>
+                            </div>
+                        </apex:outputPanel>
+                    </div>
+                </article>
+            </apex:outputPanel>
+        </apex:form>
+    </div>
+</apex:page>

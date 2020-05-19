@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Phone</fullName>
+        <default>false</default>
+        <label>Phone</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web</fullName>
+        <default>false</default>
+        <label>Web</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Chatter</fullName>
+        <default>false</default>
+        <label>Chatter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Paper Mail</fullName>
+        <default>false</default>
+        <label>Paper Mail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Unison Employee on behalf of customer</fullName>
+        <default>false</default>
+        <label>Unison Employee on behalf of customer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Web Form</fullName>
+        <default>false</default>
+        <label>Customer Web Form</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Letter or Email to Executive</fullName>
+        <default>false</default>
+        <label>Letter or Email to Executive</label>
+    </standardValue>
+    <standardValue>
+        <fullName>State Regulator</fullName>
+        <default>false</default>
+        <label>State Regulator</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Federal Regulator</fullName>
+        <default>false</default>
+        <label>Federal Regulator</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BBB</fullName>
+        <default>false</default>
+        <label>BBB</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attorney</fullName>
+        <default>false</default>
+        <label>Attorney</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+</StandardValueSet>

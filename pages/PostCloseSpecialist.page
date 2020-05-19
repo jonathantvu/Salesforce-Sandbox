@@ -1,0 +1,9 @@
+<apex:page standardController="Recorded_Information__c"
+  extensions="skuid.Redirects"
+  showHeader="false"
+  sidebar="false"
+  readonly="true" docType="html-5.0"
+  action="{!IF(canUseSkuid,'',redirect)}"
+  title="Insert-Action-to-Override {!Recorded_Information__c.Name}">
+    <skuid:page page="TSPost_Close" />
+</apex:page>

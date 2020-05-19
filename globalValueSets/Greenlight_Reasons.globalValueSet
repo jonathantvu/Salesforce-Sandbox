@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Atypical</fullName>
+        <default>false</default>
+        <label>Atypical</label>
+    </customValue>
+    <customValue>
+        <fullName>Ineligible property type</fullName>
+        <default>false</default>
+        <label>Ineligible property type</label>
+    </customValue>
+    <customValue>
+        <fullName>Insufficient price confidence</fullName>
+        <default>false</default>
+        <label>Insufficient price confidence</label>
+    </customValue>
+    <customValue>
+        <fullName>Lot size too large</fullName>
+        <default>false</default>
+        <label>Lot size too large</label>
+    </customValue>
+    <customValue>
+        <fullName>Need more information</fullName>
+        <default>false</default>
+        <label>Need more information</label>
+    </customValue>
+    <customValue>
+        <fullName>New construction</fullName>
+        <default>false</default>
+        <label>New construction</label>
+    </customValue>
+    <customValue>
+        <fullName>Not in operating CBSA</fullName>
+        <default>false</default>
+        <label>Not in operating CBSA</label>
+    </customValue>
+    <customValue>
+        <fullName>Not in operating in state</fullName>
+        <default>false</default>
+        <label>Not in operating in state</label>
+    </customValue>
+    <customValue>
+        <fullName>Processing Error</fullName>
+        <default>false</default>
+        <label>Processing Error</label>
+    </customValue>
+    <customValue>
+        <fullName>Recently sold</fullName>
+        <default>false</default>
+        <label>Recently sold</label>
+    </customValue>
+    <masterLabel>Greenlight Reasons</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

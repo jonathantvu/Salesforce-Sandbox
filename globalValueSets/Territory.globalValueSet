@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>01 - Pacific Northwest</fullName>
+        <default>false</default>
+        <label>01 - Pacific Northwest</label>
+    </customValue>
+    <customValue>
+        <fullName>02 - Northern California</fullName>
+        <default>false</default>
+        <label>02 - Northern California</label>
+    </customValue>
+    <customValue>
+        <fullName>03 - Los Angeles/Orange County</fullName>
+        <default>false</default>
+        <label>03 - Los Angeles/Orange County</label>
+    </customValue>
+    <customValue>
+        <fullName>04 - San Diego</fullName>
+        <default>false</default>
+        <label>04 - San Diego</label>
+    </customValue>
+    <customValue>
+        <fullName>05 - Mid Atlantic</fullName>
+        <default>false</default>
+        <label>05 - Mid Atlantic</label>
+    </customValue>
+    <customValue>
+        <fullName>06 - Chicagoland</fullName>
+        <default>false</default>
+        <label>06 - Chicagoland</label>
+    </customValue>
+    <customValue>
+        <fullName>07 - Greater New York</fullName>
+        <default>false</default>
+        <label>07 - Greater New York</label>
+    </customValue>
+    <customValue>
+        <fullName>08 - New England</fullName>
+        <default>false</default>
+        <label>08 - New England</label>
+    </customValue>
+    <customValue>
+        <fullName>09 - Southeast</fullName>
+        <default>false</default>
+        <label>09 - Southeast</label>
+    </customValue>
+    <customValue>
+        <fullName>10 - Midwest-Exclude Chicago</fullName>
+        <default>false</default>
+        <label>10 - Midwest-Exclude Chicago</label>
+    </customValue>
+    <customValue>
+        <fullName>--Other--</fullName>
+        <default>false</default>
+        <label>--Other--</label>
+    </customValue>
+    <masterLabel>Territory</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

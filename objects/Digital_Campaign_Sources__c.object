@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>List of Campaign Sources that map to Digital Campaign Media Types</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Campaign_Audience__c</fullName>
+        <externalId>false</externalId>
+        <label>Campaign Audience</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Campaign_Media_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Campaign Media Type</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Outbound_Marketing_Channel__c</fullName>
+        <externalId>false</externalId>
+        <label>Outbound Marketing Channel</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Digital Campaign Sources</label>
+    <listViews>
+        <fullName>All_Sources</fullName>
+        <columns>NAME</columns>
+        <columns>Campaign_Audience__c</columns>
+        <columns>Campaign_Media_Type__c</columns>
+        <columns>Outbound_Marketing_Channel__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Sources</label>
+    </listViews>
+    <visibility>Protected</visibility>
+</CustomObject>

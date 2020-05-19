@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>URL__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>URL</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>AWS Outbound Message</label>
+    <pluralLabel>AWS Outbound Messages</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

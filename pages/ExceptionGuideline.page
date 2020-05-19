@@ -1,0 +1,130 @@
+<apex:page controller="ExceptionGuidlineCtrl" docType="html-5.0" sidebar="false">
+    
+    <apex:slds />
+    
+    <style>
+        .slds-scope ul.slds-tabs_default__nav li {
+            cursor: pointer;
+        }
+    </style>
+    
+    <apex:form >
+    
+        <apex:actionStatus id="counterStatus">
+            <apex:facet name="start">
+                <div style="position: fixed; top: 0px; bottom: 0px; left: 0px; right: 0px; background-color: white; opacity: 0.6; text-align: center; padding-top: 10px; z-index: 1000;">
+                    <img src="/img/loading32.gif" />
+                </div>
+            </apex:facet>
+        </apex:actionStatus>
+    
+        <apex:outputPanel id="pagePanel">
+            <apex:commandButton value="Save Everything" action="{!SaveEverything}" />
+            <br /><br />
+        
+            <apex:actionFunction action="{!ChangeTab}" name="changeTab" reRender="pagePanel" status="counterStatus">
+                <apex:param name="firstParam" assignTo="{!currentTab}" value="" />
+            </apex:actionfunction>
+            <apex:actionFunction action="{!SetFICOValue}" name="SaveFicoValue" reRender="" immediate="true">
+                <apex:param name="firstParam" assignTo="{!gType}" value=""/>
+                <apex:param name="secondParam" assignTo="{!ltv}" value=""/>
+                <apex:param name="thirdParam" assignTo="{!fico}" value=""/>
+                <apex:param name="forthParam" assignTo="{!selValue}" value=""/>
+            </apex:actionFunction>
+            <apex:actionFunction action="{!SetDTIValue}" name="SaveDtiValue" reRender="" immediate="true">
+                <apex:param name="firstParam" assignTo="{!gType}" value=""/>
+                <apex:param name="secondParam" assignTo="{!ltv}" value=""/>
+                <apex:param name="thirdParam" assignTo="{!dti}" value=""/>
+                <apex:param name="forthParam" assignTo="{!selValue}" value=""/> 
+            </apex:actionFunction>
+            
+            <div class="slds-tabs_default">
+                <ul class="slds-tabs_default__nav" role="tablist">
+                    <apex:repeat value="{!guidelineTypes}" var="item" >
+                        <li class="slds-tabs_default__item {!IF(item == currentTab, 'slds-is-active','')}" title="{!item}" role="presentation" onclick="changeTab('{!item}'); ">
+                            {!item}
+                        </li>
+                    </apex:repeat>
+                </ul>
+                <apex:variable var="i" value="{!1}" />
+                <apex:repeat value="{!guidelineTypes}" var="item" >
+                    <div id="tab-default-{!i}" class="slds-tabs_default__content {!IF(item == currentTab, 'slds-show','slds-hide')}" role="tabpanel">
+                        <table class="slds-table slds-table_bordered" style="font-size: 90%;"> 
+                            <thead>
+                                <tr>
+                                    <th>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FICO
+                                        <hr style="margin:0px;" />
+                                        LTV
+                                    </th>
+                                    <apex:repeat value="{!allFicoValues}" var="fico">
+                                        <th>
+                                            {!allFicoValuesMap[fico]}
+                                        </th>
+                                    </apex:repeat>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <apex:repeat value="{!allLtvValues}" var="lvt">
+                                    <tr>
+                                        <th>
+                                            {!allLtvValuesMap[lvt]}
+                                        </th>
+                                        <apex:repeat value="{!allFicoValues}" var="fico">
+                                            <td style="background-color: {!IF(ficoGuideLineMap[item][lvt][fico].Status__c == 'Yes', 'green', IF(ficoGuideLineMap[item][lvt][fico].Status__c == 'Exception', 'orange', 'red'))};">
+                                                <apex:selectlist value="{!ficoGuideLineMap[item][lvt][fico].Status__c}" multiselect="false" size="1"
+                                                                                     onchange="SaveFicoValue('{!item}', {!lvt}, {!fico}, this.options[this.selectedIndex].text);">
+                                                     <apex:selectoptions value="{!StatusValues}" />
+                                                </apex:selectlist>
+                                            </td>
+                                        </apex:repeat>
+                                    </tr>
+                                </apex:repeat>
+                            </tbody>
+                        </table>
+                        
+                        <br /><br />
+                    
+                        <table class="slds-table slds-table_bordered" style="font-size: 75%;">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DTI
+                                        <hr style="margin:0px;" />
+                                        LTV
+                                    </th>
+                                    <apex:repeat value="{!allDtiValues}" var="dti">
+                                        <th>
+                                            {!allDtiValuesMap[dti]}
+                                        </th>
+                                    </apex:repeat>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <apex:repeat value="{!allLtvValues}" var="lvt">
+                                    <tr>
+                                        <th>
+                                            {!allLtvValuesMap[lvt]}
+                                        </th>
+                                        <apex:repeat value="{!allDtiValues}" var="dti">
+                                            <td style="background-color: {!IF(dtiGuideLineMap[item][lvt][dti].Status__c == 'Yes', 'green', IF(dtiGuideLineMap[item][lvt][dti].Status__c == 'Exception', 'orange', 'red'))};">
+                                                <apex:selectlist value="{!dtiGuideLineMap[item][lvt][dti].Status__c}" multiselect="false" size="1"
+                                                                                     onchange="SaveDtiValue('{!item}', {!lvt}, {!dti}, this.options[this.selectedIndex].text);">
+                                                     <apex:selectoptions value="{!StatusValues}" />
+                                                </apex:selectlist>
+                                            </td>
+                                        </apex:repeat>
+                                    </tr>
+                                </apex:repeat>
+                            </tbody>
+                        </table>
+                    </div>
+                    <apex:variable var="i" value="{!i+1}" />
+                </apex:repeat>
+            </div>
+            
+        </apex:outputPanel>
+        
+    </apex:form>
+    
+</apex:page>

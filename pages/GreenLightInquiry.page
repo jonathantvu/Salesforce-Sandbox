@@ -1,0 +1,32 @@
+<apex:page label="Submit Property Inquiry" standardController="Lead" extensions="GreenLightInquiry">
+
+    <apex:slds />
+    <apex:form >
+        <div class="slds-scope">
+            <article class="slds-card">
+                <div class="slds-card__header slds-grid">
+                    <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                        <div class="slds-media__body">
+                            <h2 class="slds-card__header-title">
+                                <span>Submit Property Inquiry</span>
+                            </h2>
+                        </div>
+                    </header>
+                </div>
+                <div class="slds-card__body slds-card__body_inner">
+                    <apex:outputPanel layout="none" rendered="{!!submitted}">
+                        <apex:pageMessage severity="Info" summary="Submit Property Inquiry?" />
+                    </apex:outputPanel>
+                    <apex:outputPanel layout="none" rendered="{!submitted}">
+                        <apex:pageMessages />
+                    </apex:outputPanel>
+                </div>
+                <footer class="slds-card__footer">
+                    <apex:commandButton value="Continue" action="{!MakeCall}" rendered="{!!submitted}" styleClass="slds-button slds-button_brand" />
+                    <apex:commandButton value="Cancel" action="{!Cancel}" rendered="{!!submitted}" styleClass="slds-button slds-button_neutral" />
+                    <apex:commandButton value="Back to Lead" action="{!Cancel}" rendered="{!submitted}" styleClass="slds-button slds-button_neutral" />
+                </footer>
+            </article>
+        </div>
+    </apex:form>
+</apex:page>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Metadata that stores which requirements must be completed before progressing to a new Opportunity stage.</description>
+    <fields>
+        <fullName>Requirement__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Requirement</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <label>Opportunity Stage Vs Requirements</label>
+    <pluralLabel>Opportunity Stage Vs Requirements</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

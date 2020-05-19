@@ -1,0 +1,1382 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Project_Task_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Age__c</fullName>
+        <description>Number of Days From Submit to Opps</description>
+        <externalId>false</externalId>
+        <formula>if (  Text(Status__c) == 'Completed',  DATEVALUE(Completed_Date_Time_Stamp__c)- DATEVALUE( CreatedDate ),  TODAY() -  DATEVALUE( CreatedDate ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Number of Days From Submit to Opps</inlineHelpText>
+        <label>Age</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Assigned_To__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Assigned To:</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Project_Tasks</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Complete_By_User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Complete By</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Project_Tasks1</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Completed_Date_Time_Stamp__c</fullName>
+        <description>This field is used to inform External Forecasting Reports. Do not change this field without first consulting Brodie Gay or Aditya Bhandari.</description>
+        <externalId>false</externalId>
+        <label>Completed On</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Completed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field is used to inform External Forecasting Reports. Do not change this field without first consulting Brodie Gay or Aditya Bhandari.</description>
+        <externalId>false</externalId>
+        <label>Completed?</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Days_Since_Documents_Sent__c</fullName>
+        <externalId>false</externalId>
+        <formula>TODAY () - DATEVALUE(Completed_Date_Time_Stamp__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days Since Documents Sent</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Document_Upload_Needed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Document Upload Needed</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Name_Text__c</fullName>
+        <description>Used for PS notification email alerts</description>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity Name Text</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Stage__c</fullName>
+        <externalId>false</externalId>
+        <label>Opportunity Stage</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Closing</fullName>
+                    <default>false</default>
+                    <label>Closing</label>
+                </value>
+                <value>
+                    <fullName>Final Approval</fullName>
+                    <default>false</default>
+                    <label>Final Approval</label>
+                </value>
+                <value>
+                    <fullName>Investment Due Diligence</fullName>
+                    <default>false</default>
+                    <label>Investment Due Diligence</label>
+                </value>
+                <value>
+                    <fullName>Post Closing</fullName>
+                    <default>false</default>
+                    <label>Post Closing</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This field is used to inform External Forecasting Reports. Do not change this field without first consulting Brodie Gay or Aditya Bhandari.</description>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Project_Tasks</relationshipLabel>
+        <relationshipName>Project_Tasks</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Prevent_Rollback_from_Complete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>To prevent if task is in status completed, not moved back to any other status</description>
+        <externalId>false</externalId>
+        <label>Prevent Rollback from Complete</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Requirement_Picklist__c</fullName>
+        <externalId>false</externalId>
+        <label>Requirement Picklist</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1040</fullName>
+                    <default>false</default>
+                    <label>1040</label>
+                </value>
+                <value>
+                    <fullName>1099</fullName>
+                    <default>false</default>
+                    <label>1099</label>
+                </value>
+                <value>
+                    <fullName>Add Applicant to Title at Closing</fullName>
+                    <default>false</default>
+                    <label>Add Applicant to Title at Closing</label>
+                </value>
+                <value>
+                    <fullName>Additional Assets Verification Required</fullName>
+                    <default>false</default>
+                    <label>Additional Assets Verification Required</label>
+                </value>
+                <value>
+                    <fullName>Additional lien information</fullName>
+                    <default>false</default>
+                    <label>Additional Lien Information</label>
+                </value>
+                <value>
+                    <fullName>Application</fullName>
+                    <default>false</default>
+                    <label>Application</label>
+                </value>
+                <value>
+                    <fullName>Application Required for All Parties on Title</fullName>
+                    <default>false</default>
+                    <label>Application Required for All Parties on Title</label>
+                </value>
+                <value>
+                    <fullName>Appraisal - 1004D</fullName>
+                    <default>false</default>
+                    <label>Appraisal - 1004D</label>
+                </value>
+                <value>
+                    <fullName>Appraisal</fullName>
+                    <default>false</default>
+                    <label>Appraisal - 1st</label>
+                </value>
+                <value>
+                    <fullName>Second Appraisal</fullName>
+                    <default>false</default>
+                    <label>Appraisal - 2nd</label>
+                </value>
+                <value>
+                    <fullName>Appraisal - 3rd</fullName>
+                    <default>false</default>
+                    <label>Appraisal - 3rd</label>
+                </value>
+                <value>
+                    <fullName>Appraisal Desk Review</fullName>
+                    <default>false</default>
+                    <label>Appraisal Desk Review</label>
+                </value>
+                <value>
+                    <fullName>Authorization to Share</fullName>
+                    <default>false</default>
+                    <label>Authorization to Share</label>
+                </value>
+                <value>
+                    <fullName>Bank Statement</fullName>
+                    <default>false</default>
+                    <label>Bank Statement</label>
+                </value>
+                <value>
+                    <fullName>Brokerage Statement</fullName>
+                    <default>false</default>
+                    <label>Brokerage Statement</label>
+                </value>
+                <value>
+                    <fullName>CAP Completed</fullName>
+                    <default>false</default>
+                    <label>CAP Completed</label>
+                </value>
+                <value>
+                    <fullName>Certificate of Occupancy</fullName>
+                    <default>false</default>
+                    <label>Certificate of Occupancy</label>
+                </value>
+                <value>
+                    <fullName>Certification of Trust</fullName>
+                    <default>false</default>
+                    <label>Certification of Trust</label>
+                </value>
+                <value>
+                    <fullName>Certified Documents</fullName>
+                    <default>false</default>
+                    <label>Certified Documents</label>
+                </value>
+                <value>
+                    <fullName>Client must pay down mortgage</fullName>
+                    <default>false</default>
+                    <label>Client Must Pay Down Mortgage</label>
+                </value>
+                <value>
+                    <fullName>Client must pay down mortgage - 2nd Lender</fullName>
+                    <default>false</default>
+                    <label>Client Must Pay Down Mortgage - 2nd Lender</label>
+                </value>
+                <value>
+                    <fullName>Client must pay down mortgage - 3rd Lender</fullName>
+                    <default>false</default>
+                    <label>Client Must Pay Down Mortgage - 3rd Lender</label>
+                </value>
+                <value>
+                    <fullName>Closing</fullName>
+                    <default>false</default>
+                    <label>Closing</label>
+                </value>
+                <value>
+                    <fullName>Closing Document</fullName>
+                    <default>false</default>
+                    <label>Closing Document</label>
+                </value>
+                <value>
+                    <fullName>Closing documents executed as trustee and individual</fullName>
+                    <default>false</default>
+                    <label>Closing Documents Executed As Trustee and Individual</label>
+                </value>
+                <value>
+                    <fullName>Condo rider executed</fullName>
+                    <default>false</default>
+                    <label>Condo Rider Executed</label>
+                </value>
+                <value>
+                    <fullName>Confirm Vesting Type Change</fullName>
+                    <default>false</default>
+                    <label>Confirm Vesting Type Change</label>
+                </value>
+                <value>
+                    <fullName>Credit Report</fullName>
+                    <default>false</default>
+                    <label>Credit Report</label>
+                </value>
+                <value>
+                    <fullName>Credit Supplement</fullName>
+                    <default>false</default>
+                    <label>Credit Supplement</label>
+                </value>
+                <value>
+                    <fullName>Custom MAD Cap</fullName>
+                    <default>false</default>
+                    <label>Custom MAD Cap</label>
+                </value>
+                <value>
+                    <fullName>Death certificate</fullName>
+                    <default>false</default>
+                    <label>Death Certificate</label>
+                </value>
+                <value>
+                    <fullName>Divorce Decree</fullName>
+                    <default>false</default>
+                    <label>Divorce Decree</label>
+                </value>
+                <value>
+                    <fullName>DMA Required</fullName>
+                    <default>false</default>
+                    <label>DMA Required</label>
+                </value>
+                <value>
+                    <fullName>DMA Required - Post Close Inspection</fullName>
+                    <default>false</default>
+                    <label>DMA Required - Post Close Inspection</label>
+                </value>
+                <value>
+                    <fullName>Employment Offer Letter</fullName>
+                    <default>false</default>
+                    <label>Employment Offer Letter</label>
+                </value>
+                <value>
+                    <fullName>Escrow Holdback for Item that Must be Repaired</fullName>
+                    <default>false</default>
+                    <label>Escrow Holdback for Item that Must be Repaired</label>
+                </value>
+                <value>
+                    <fullName>Estimated Settlement Statement</fullName>
+                    <default>false</default>
+                    <label>Estimated Settlement Statement</label>
+                </value>
+                <value>
+                    <fullName>Estimate of Fees</fullName>
+                    <default>false</default>
+                    <label>Estimate of Fees</label>
+                </value>
+                <value>
+                    <fullName>Execute closing as trustee and individual</fullName>
+                    <default>false</default>
+                    <label>Execute Closing as Trustee and Individual</label>
+                </value>
+                <value>
+                    <fullName>Final Approval</fullName>
+                    <default>false</default>
+                    <label>Final Approval</label>
+                </value>
+                <value>
+                    <fullName>Final Settlement Closing Statement</fullName>
+                    <default>false</default>
+                    <label>Final Settlement Closing Statement</label>
+                </value>
+                <value>
+                    <fullName>Flood Insurance</fullName>
+                    <default>false</default>
+                    <label>Flood Insurance</label>
+                </value>
+                <value>
+                    <fullName>Funding Package</fullName>
+                    <default>false</default>
+                    <label>Funding Package</label>
+                </value>
+                <value>
+                    <fullName>Hazard Insurance</fullName>
+                    <default>false</default>
+                    <label>Hazard Insurance</label>
+                </value>
+                <value>
+                    <fullName>HOA Certification</fullName>
+                    <default>false</default>
+                    <label>HOA Certification</label>
+                </value>
+                <value>
+                    <fullName>HOA Questionnaire</fullName>
+                    <default>false</default>
+                    <label>HOA Questionnaire</label>
+                </value>
+                <value>
+                    <fullName>Home Inspection</fullName>
+                    <default>false</default>
+                    <label>Home Inspection</label>
+                </value>
+                <value>
+                    <fullName>Investment Due Diligence</fullName>
+                    <default>false</default>
+                    <label>Investment Due Diligence</label>
+                </value>
+                <value>
+                    <fullName>Lender Final 1003</fullName>
+                    <default>false</default>
+                    <label>Lender Final 1003</label>
+                </value>
+                <value>
+                    <fullName>Lender Final 1008</fullName>
+                    <default>false</default>
+                    <label>Lender Final 1008</label>
+                </value>
+                <value>
+                    <fullName>Lender Pre-Approval</fullName>
+                    <default>false</default>
+                    <label>Lender Pre-Approval</label>
+                </value>
+                <value>
+                    <fullName>Letter of Explanation</fullName>
+                    <default>false</default>
+                    <label>Letter of Explanation</label>
+                </value>
+                <value>
+                    <fullName>Master Insurance</fullName>
+                    <default>false</default>
+                    <label>Master Insurance</label>
+                </value>
+                <value>
+                    <fullName>Mortgage Statement</fullName>
+                    <default>false</default>
+                    <label>Mortgage Statement</label>
+                </value>
+                <value>
+                    <fullName>Must pay delinquent property taxes</fullName>
+                    <default>false</default>
+                    <label>Must pay delinquent property taxes</label>
+                </value>
+                <value>
+                    <fullName>Must pay outstanding judgements</fullName>
+                    <default>false</default>
+                    <label>Must pay outstanding judgements</label>
+                </value>
+                <value>
+                    <fullName>Must pay outstanding judgments</fullName>
+                    <default>false</default>
+                    <label>Must pay outstanding judgments</label>
+                </value>
+                <value>
+                    <fullName>Must remove closed out lien</fullName>
+                    <default>false</default>
+                    <label>Must Remove Closed Out Lien</label>
+                </value>
+                <value>
+                    <fullName>Natural Hazard Disclosure</fullName>
+                    <default>false</default>
+                    <label>Natural Hazard Disclosure</label>
+                </value>
+                <value>
+                    <fullName>Need Updated 1040</fullName>
+                    <default>false</default>
+                    <label>Need Updated 1040</label>
+                </value>
+                <value>
+                    <fullName>Need Updated 1099</fullName>
+                    <default>false</default>
+                    <label>Need Updated 1099</label>
+                </value>
+                <value>
+                    <fullName>Need Updated Bank Statement</fullName>
+                    <default>false</default>
+                    <label>Need Updated Bank Statement</label>
+                </value>
+                <value>
+                    <fullName>Need Updated Brokerage Statement</fullName>
+                    <default>false</default>
+                    <label>Need Updated Brokerage Statement</label>
+                </value>
+                <value>
+                    <fullName>Need Updated Business Tax Returns</fullName>
+                    <default>false</default>
+                    <label>Need Updated Business Tax Returns</label>
+                </value>
+                <value>
+                    <fullName>Need Updated Certificate of Occupancy</fullName>
+                    <default>false</default>
+                    <label>Need Updated Certificate of Occupancy</label>
+                </value>
+                <value>
+                    <fullName>Need Updated Credit Report</fullName>
+                    <default>false</default>
+                    <label>Need Updated Credit Report</label>
+                </value>
+                <value>
+                    <fullName>Need Updated Disability Award Letter</fullName>
+                    <default>false</default>
+                    <label>Need Updated Disability Award Letter</label>
+                </value>
+                <value>
+                    <fullName>Need Updated Employment Offer Letter</fullName>
+                    <default>false</default>
+                    <label>Need Updated Employment Offer Letter</label>
+                </value>
+                <value>
+                    <fullName>Need Updated Hazard Insurance</fullName>
+                    <default>false</default>
+                    <label>Need Updated Hazard Insurance</label>
+                </value>
+                <value>
+                    <fullName>Need Updated Lender Pre-Approval</fullName>
+                    <default>false</default>
+                    <label>Need Updated Lender Pre-Approval</label>
+                </value>
+                <value>
+                    <fullName>Need Updated Mortgage Statement</fullName>
+                    <default>false</default>
+                    <label>Need Updated Mortgage Statement</label>
+                </value>
+                <value>
+                    <fullName>Need Updated Paystub</fullName>
+                    <default>false</default>
+                    <label>Need Updated Paystub</label>
+                </value>
+                <value>
+                    <fullName>Need Updated Paystub - Co-Applicant</fullName>
+                    <default>false</default>
+                    <label>Need Updated Paystub - Co-Applicant</label>
+                </value>
+                <value>
+                    <fullName>Need Updated Pension Award Letter</fullName>
+                    <default>false</default>
+                    <label>Need Updated Pension Award Letter</label>
+                </value>
+                <value>
+                    <fullName>Need Updated Pension Award Letter - Co-Applicant</fullName>
+                    <default>false</default>
+                    <label>Need Updated Pension Award Letter - Co-Applicant</label>
+                </value>
+                <value>
+                    <fullName>Need Updated Prequal Letter</fullName>
+                    <default>false</default>
+                    <label>Need Updated Prequal Letter</label>
+                </value>
+                <value>
+                    <fullName>Need Updated Program Knowledge Review</fullName>
+                    <default>false</default>
+                    <label>Need Updated Program Knowledge Review</label>
+                </value>
+                <value>
+                    <fullName>Need Updated Purchase Sale Agreement or Contract</fullName>
+                    <default>false</default>
+                    <label>Need Updated Purchase Sale Agreement or Contract</label>
+                </value>
+                <value>
+                    <fullName>Need Updated Rental Income</fullName>
+                    <default>false</default>
+                    <label>Need Updated Rental Income</label>
+                </value>
+                <value>
+                    <fullName>Need Updated Rental Income  - Co-Applicant</fullName>
+                    <default>false</default>
+                    <label>Need Updated Rental Income  - Co-Applicant</label>
+                </value>
+                <value>
+                    <fullName>Need Updated Retirement Statement</fullName>
+                    <default>false</default>
+                    <label>Need Updated Retirement Statement</label>
+                </value>
+                <value>
+                    <fullName>Need Updated Social Security Award Letter - Co-Applicant</fullName>
+                    <default>false</default>
+                    <label>Need Updated Social Security Award Letter - Co-Applicant</label>
+                </value>
+                <value>
+                    <fullName>Need Updated SS Award Letter</fullName>
+                    <default>false</default>
+                    <label>Need Updated SS Award Letter</label>
+                </value>
+                <value>
+                    <fullName>Need Updated Tax Return - Personal</fullName>
+                    <default>false</default>
+                    <label>Need Updated Tax Return - Personal</label>
+                </value>
+                <value>
+                    <fullName>Need Updated Tax Returns - Business - Co-Applicant</fullName>
+                    <default>false</default>
+                    <label>Need Updated Tax Returns - Business - Co-Applicant</label>
+                </value>
+                <value>
+                    <fullName>Need Updated W2</fullName>
+                    <default>false</default>
+                    <label>Need Updated W2</label>
+                </value>
+                <value>
+                    <fullName>Need Updated W2 - Co-Applicant</fullName>
+                    <default>false</default>
+                    <label>Need Updated W2 - Co-Applicant</label>
+                </value>
+                <value>
+                    <fullName>Offer Package</fullName>
+                    <default>false</default>
+                    <label>Offer Package</label>
+                </value>
+                <value>
+                    <fullName>One or more title holders must be removed</fullName>
+                    <default>false</default>
+                    <label>One or more title holders must be removed</label>
+                </value>
+                <value>
+                    <fullName>Other - Credit - Credit</fullName>
+                    <default>false</default>
+                    <label>Other - Credit - Credit</label>
+                </value>
+                <value>
+                    <fullName>Other - DTI - Assets</fullName>
+                    <default>false</default>
+                    <label>Other - DTI - Assets</label>
+                </value>
+                <value>
+                    <fullName>Other - DTI - Income</fullName>
+                    <default>false</default>
+                    <label>Other - DTI - Income</label>
+                </value>
+                <value>
+                    <fullName>Other - DTI - Liabilities</fullName>
+                    <default>false</default>
+                    <label>Other - DTI - Liabilities</label>
+                </value>
+                <value>
+                    <fullName>Other - LTV - Mortgage</fullName>
+                    <default>false</default>
+                    <label>Other - LTV - Mortgage</label>
+                </value>
+                <value>
+                    <fullName>Other - OAV - Home Condition</fullName>
+                    <default>false</default>
+                    <label>Other - OAV - Home Condition</label>
+                </value>
+                <value>
+                    <fullName>Other - OAV - Valuation</fullName>
+                    <default>false</default>
+                    <label>Other - OAV - Valuation</label>
+                </value>
+                <value>
+                    <fullName>Other - Property Ownership</fullName>
+                    <default>false</default>
+                    <label>Other - Property Ownership</label>
+                </value>
+                <value>
+                    <fullName>Other - Property Ownership - Verification</fullName>
+                    <default>false</default>
+                    <label>Other - Property Ownership - Verification</label>
+                </value>
+                <value>
+                    <fullName>Partner must pay delinquent property taxes</fullName>
+                    <default>false</default>
+                    <label>Partner Must Pay Delinquent Property Taxes</label>
+                </value>
+                <value>
+                    <fullName>Pay off specific liability</fullName>
+                    <default>false</default>
+                    <label>Pay Off Specific Liability</label>
+                </value>
+                <value>
+                    <fullName>Paystub</fullName>
+                    <default>false</default>
+                    <label>Paystub</label>
+                </value>
+                <value>
+                    <fullName>Paystub - Co-Applicant</fullName>
+                    <default>false</default>
+                    <label>Paystub - Co-Applicant</label>
+                </value>
+                <value>
+                    <fullName>Pension Award Letter</fullName>
+                    <default>false</default>
+                    <label>Pension Award Letter</label>
+                </value>
+                <value>
+                    <fullName>Pension Award Letter - Co-Applicant</fullName>
+                    <default>false</default>
+                    <label>Pension Award Letter - Co-Applicant</label>
+                </value>
+                <value>
+                    <fullName>Pest Inspection</fullName>
+                    <default>false</default>
+                    <label>Pest Inspection</label>
+                </value>
+                <value>
+                    <fullName>Post Close Home Inspection</fullName>
+                    <default>false</default>
+                    <label>Post Close Home Inspection</label>
+                </value>
+                <value>
+                    <fullName>Post-Closing</fullName>
+                    <default>false</default>
+                    <label>Post-Closing</label>
+                </value>
+                <value>
+                    <fullName>Power of Attorney</fullName>
+                    <default>false</default>
+                    <label>Power of Attorney</label>
+                </value>
+                <value>
+                    <fullName>Prequal Letter</fullName>
+                    <default>false</default>
+                    <label>Prequal Letter</label>
+                </value>
+                <value>
+                    <fullName>Program Knowledge Review</fullName>
+                    <default>false</default>
+                    <label>Program Knowledge Review</label>
+                </value>
+                <value>
+                    <fullName>Program Knowledge Review - Co-Applicant</fullName>
+                    <default>false</default>
+                    <label>Program Knowledge Review - Co-Applicant</label>
+                </value>
+                <value>
+                    <fullName>PUD rider must be executed at closing and recorded</fullName>
+                    <default>false</default>
+                    <label>PUD rider must be executed at closing and recorded</label>
+                </value>
+                <value>
+                    <fullName>Purchase Contract</fullName>
+                    <default>false</default>
+                    <label>Purchase Contract</label>
+                </value>
+                <value>
+                    <fullName>Purchase Sale Agreement</fullName>
+                    <default>false</default>
+                    <label>Purchase Sale Agreement</label>
+                </value>
+                <value>
+                    <fullName>Reconsideration of Value</fullName>
+                    <default>false</default>
+                    <label>Reconsideration of Value</label>
+                </value>
+                <value>
+                    <fullName>Remove Property from Trust</fullName>
+                    <default>false</default>
+                    <label>Remove Property from Trust</label>
+                </value>
+                <value>
+                    <fullName>Rental Income</fullName>
+                    <default>false</default>
+                    <label>Rental Income</label>
+                </value>
+                <value>
+                    <fullName>Rental Income - Co-Applicant</fullName>
+                    <default>false</default>
+                    <label>Rental Income - Co-Applicant</label>
+                </value>
+                <value>
+                    <fullName>Retirement Statement</fullName>
+                    <default>false</default>
+                    <label>Retirement Statement</label>
+                </value>
+                <value>
+                    <fullName>Revised CAP</fullName>
+                    <default>false</default>
+                    <label>Revised CAP</label>
+                </value>
+                <value>
+                    <fullName>Roof Inspection</fullName>
+                    <default>false</default>
+                    <label>Roof Inspection</label>
+                </value>
+                <value>
+                    <fullName>RSI Letter</fullName>
+                    <default>false</default>
+                    <label>RSI Letter</label>
+                </value>
+                <value>
+                    <fullName>Sale Contract</fullName>
+                    <default>false</default>
+                    <label>Sale Contract</label>
+                </value>
+                <value>
+                    <fullName>Sales</fullName>
+                    <default>false</default>
+                    <label>Sales</label>
+                </value>
+                <value>
+                    <fullName>Social Security Award Letter</fullName>
+                    <default>false</default>
+                    <label>Social Security Award Letter</label>
+                </value>
+                <value>
+                    <fullName>Social Security Award Letter - Co-Applicant</fullName>
+                    <default>false</default>
+                    <label>Social Security Award Letter - Co-Applicant</label>
+                </value>
+                <value>
+                    <fullName>Specific lien must subordinate to our position</fullName>
+                    <default>false</default>
+                    <label>Specific Lien Must Subordinate to our Position</label>
+                </value>
+                <value>
+                    <fullName>Structural Report</fullName>
+                    <default>false</default>
+                    <label>Structural Report</label>
+                </value>
+                <value>
+                    <fullName>Tax Return - Business</fullName>
+                    <default>false</default>
+                    <label>Tax Return - Business</label>
+                </value>
+                <value>
+                    <fullName>Tax Return - Business - Co-Applicant</fullName>
+                    <default>false</default>
+                    <label>Tax Return - Business - Co-Applicant</label>
+                </value>
+                <value>
+                    <fullName>Tax Return - Personal</fullName>
+                    <default>false</default>
+                    <label>Tax Return - Personal</label>
+                </value>
+                <value>
+                    <fullName>Tax Return - Personal - Co-Applicant</fullName>
+                    <default>false</default>
+                    <label>Tax Return - Personal - Co-Applicant</label>
+                </value>
+                <value>
+                    <fullName>Title Policy</fullName>
+                    <default>false</default>
+                    <label>Title Policy</label>
+                </value>
+                <value>
+                    <fullName>Title Report</fullName>
+                    <default>false</default>
+                    <label>Title Report</label>
+                </value>
+                <value>
+                    <fullName>Trust Documents (including all schedules)</fullName>
+                    <default>false</default>
+                    <label>Trust Documents (including all schedules)</label>
+                </value>
+                <value>
+                    <fullName>Trust rider must be executed at closing and recorded</fullName>
+                    <default>false</default>
+                    <label>Trust rider must be executed at closing and recorded</label>
+                </value>
+                <value>
+                    <fullName>Vesting addendum/Grant Deed</fullName>
+                    <default>false</default>
+                    <label>Vesting addendum/Grant Deed</label>
+                </value>
+                <value>
+                    <fullName>W2</fullName>
+                    <default>false</default>
+                    <label>W2</label>
+                </value>
+                <value>
+                    <fullName>W2 - Co-Applicant</fullName>
+                    <default>false</default>
+                    <label>W2 - Co-Applicant</label>
+                </value>
+                <value>
+                    <fullName>Wire Instructions</fullName>
+                    <default>false</default>
+                    <label>Wire Instructions</label>
+                </value>
+                <value>
+                    <fullName>Gather Information on Urgent Property Fix</fullName>
+                    <default>false</default>
+                    <label>Gather Information on Urgent Property Fix</label>
+                </value>
+                <value>
+                    <fullName>Perform Field Level Validation (IDD)</fullName>
+                    <default>false</default>
+                    <label>Perform Field Level Validation (IDD)</label>
+                </value>
+                <value>
+                    <fullName>Perform Field Level Validation (Closing)</fullName>
+                    <default>false</default>
+                    <label>Perform Field Level Validation (Closing)</label>
+                </value>
+                <value>
+                    <fullName>Perform Field Level Validation (Post-Closing)</fullName>
+                    <default>false</default>
+                    <label>Perform Field Level Validation (Post-Closing)</label>
+                </value>
+                <value>
+                    <fullName>1406-T</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>1406-T</label>
+                </value>
+                <value>
+                    <fullName>Appraisal Checklist</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Appraisal Checklist</label>
+                </value>
+                <value>
+                    <fullName>Asset Statement</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Asset Statement</label>
+                </value>
+                <value>
+                    <fullName>Award Letter</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Award Letter</label>
+                </value>
+                <value>
+                    <fullName>Billboard Property Pre-Approval</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Billboard Property Pre-Approval</label>
+                </value>
+                <value>
+                    <fullName>CAP Acknowledgement</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CAP Acknowledgement</label>
+                </value>
+                <value>
+                    <fullName>Client must pay off outstanding past due liability</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Client must pay off outstanding past due liability</label>
+                </value>
+                <value>
+                    <fullName>Condo Certificate</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Condo Certificate</label>
+                </value>
+                <value>
+                    <fullName>Copy of DTI/LTV Calculator screen</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Copy of DTI/LTV Calculator screen</label>
+                </value>
+                <value>
+                    <fullName>Copy of Soft Pull</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Copy of Soft Pull</label>
+                </value>
+                <value>
+                    <fullName>Credit</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Credit</label>
+                </value>
+                <value>
+                    <fullName>Deal Summary</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Deal Summary</label>
+                </value>
+                <value>
+                    <fullName>Exception Request Approval</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Exception Request Approval</label>
+                </value>
+                <value>
+                    <fullName>Letter of Explanation - DTI - Income</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Letter of Explanation - DTI - Income</label>
+                </value>
+                <value>
+                    <fullName>Letter of Explanation - LTV - Mortgage</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Letter of Explanation - LTV - Mortgage</label>
+                </value>
+                <value>
+                    <fullName>Letter of Explanation - OAV - Home Condition</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Letter of Explanation - OAV - Home Condition</label>
+                </value>
+                <value>
+                    <fullName>Letter of Explanation - Property Ownership</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Letter of Explanation - Property Ownership</label>
+                </value>
+                <value>
+                    <fullName>Mortgage</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Mortgage</label>
+                </value>
+                <value>
+                    <fullName>Must obtain flood insurance on property</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Must obtain flood insurance on property</label>
+                </value>
+                <value>
+                    <fullName>OAV Discount</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>OAV Discount</label>
+                </value>
+                <value>
+                    <fullName>Order Home Inspection, if waived</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Order Home Inspection, if waived</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>PKR</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>PKR</label>
+                </value>
+                <value>
+                    <fullName>Post Close Inspection</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Post Close Inspection</label>
+                </value>
+                <value>
+                    <fullName>Privacy Policy (mail away application packages only)</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Privacy Policy (mail away application packages only)</label>
+                </value>
+                <value>
+                    <fullName>Property Titled In Trust</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Property Titled In Trust</label>
+                </value>
+                <value>
+                    <fullName>Recorded Docs</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Recorded Docs</label>
+                </value>
+                <value>
+                    <fullName>Revocable Trust</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Revocable Trust</label>
+                </value>
+                <value>
+                    <fullName>Schedule of Debts</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Schedule of Debts</label>
+                </value>
+                <value>
+                    <fullName>Signed Offer Letter</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Signed Offer Letter</label>
+                </value>
+                <value>
+                    <fullName>Tax Transcripts</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Tax Transcripts</label>
+                </value>
+                <value>
+                    <fullName>Trust</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Trust</label>
+                </value>
+                <value>
+                    <fullName>VOE</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>VOE</label>
+                </value>
+                <value>
+                    <fullName>Wire Confirmation</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Wire Confirmation</label>
+                </value>
+                <value>
+                    <fullName>Yodlee Report</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Yodlee Report</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Requirement_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Requirement__r.Status__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Requirement Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Requirement__c</fullName>
+        <externalId>false</externalId>
+        <label>Requirement</label>
+        <referenceTo>Current_Conditions__c</referenceTo>
+        <relationshipLabel>Project_Tasks</relationshipLabel>
+        <relationshipName>Project_Tasks</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <description>This field is used to inform External Forecasting Reports. Do not change this field without first consulting Brodie Gay or Aditya Bhandari.</description>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>true</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Waived</fullName>
+                    <default>false</default>
+                    <label>Waived</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Transaction_Specialist__c</fullName>
+        <description>Used for PS notification email alerts</description>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.UnisonProcessor__r.FirstName&amp;" "&amp; Opportunity__r.UnisonProcessor__r.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Transaction Specialist</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Waived_Changed_By__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Waived Changed By</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Project_Tasks2</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Waived_Timestamp__c</fullName>
+        <externalId>false</externalId>
+        <label>Waived Changed On</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <label>Project Task</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>My_Tasks</fullName>
+        <columns>NAME</columns>
+        <columns>Requirement__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>My Tasks</label>
+    </listViews>
+    <nameField>
+        <label>Project Task Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Project Tasks</pluralLabel>
+    <searchLayouts />
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

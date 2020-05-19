@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>GreenLight_Decision__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>GreenLight Decision</label>
+        <length>64</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Qualification_Status__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Qualification Status</label>
+        <length>64</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>GreenLight Decision Mapping</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>MasterLabel</columns>
+        <columns>GreenLight_Decision__c</columns>
+        <columns>Qualification_Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <pluralLabel>GreenLight Decision Mappings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

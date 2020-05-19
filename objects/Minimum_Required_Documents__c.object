@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Applicant_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Applicant Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Applicant</fullName>
+                    <default>true</default>
+                    <label>Applicant</label>
+                </value>
+                <value>
+                    <fullName>Co-Applicant</fullName>
+                    <default>false</default>
+                    <label>Co-Applicant</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Category__c</fullName>
+        <description>Asset_Statement 
+Business_Tax 
+Personal_Tax 
+Sale_Contract 
+W2 
+Hazard_Insurance 
+Appraisal 
+Lender_Pre 
+Mortgage 
+Paystub 
+Award</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Asset_Statement 
+Business_Tax 
+Personal_Tax 
+Sale_Contract 
+W2 
+Hazard_Insurance 
+Appraisal 
+Lender_Pre 
+Mortgage 
+Paystub 
+Award
+Sale Contract
+W2
+Hazard Insurance
+Appraisal
+Lender Pre
+Mortgage
+Paystub
+Award</inlineHelpText>
+        <label>Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>W2</fullName>
+                    <default>false</default>
+                    <label>W2</label>
+                </value>
+                <value>
+                    <fullName>Paystubs</fullName>
+                    <default>false</default>
+                    <label>Paystubs</label>
+                </value>
+                <value>
+                    <fullName>Social Security Award Letter/Pension Income</fullName>
+                    <default>false</default>
+                    <label>Social Security Award Letter/Pension Income</label>
+                </value>
+                <value>
+                    <fullName>Personal Tax Return</fullName>
+                    <default>false</default>
+                    <label>Personal Tax Return</label>
+                </value>
+                <value>
+                    <fullName>Business Tax Return</fullName>
+                    <default>false</default>
+                    <label>Business Tax Return</label>
+                </value>
+                <value>
+                    <fullName>Asset Statement</fullName>
+                    <default>false</default>
+                    <label>Asset Statement</label>
+                </value>
+                <value>
+                    <fullName>Hazard Insurance Dec Page</fullName>
+                    <default>false</default>
+                    <label>Hazard Insurance Dec Page</label>
+                </value>
+                <value>
+                    <fullName>Mortgage Statements</fullName>
+                    <default>false</default>
+                    <label>Mortgage Statements</label>
+                </value>
+                <value>
+                    <fullName>Lender Pre-Qualification/ Pre-Approval</fullName>
+                    <default>false</default>
+                    <label>Lender Pre-Qualification/ Pre-Approval</label>
+                </value>
+                <value>
+                    <fullName>Fully Executed Purchase and Sale Contract</fullName>
+                    <default>false</default>
+                    <label>Fully Executed Purchase and Sale Contract</label>
+                </value>
+                <value>
+                    <fullName>Appraisal Report</fullName>
+                    <default>false</default>
+                    <label>Appraisal Report</label>
+                </value>
+                <value>
+                    <fullName>Miscellaneous</fullName>
+                    <default>false</default>
+                    <label>Miscellaneous</label>
+                </value>
+                <value>
+                    <fullName>Trust Documents</fullName>
+                    <default>false</default>
+                    <label>Trust Documents</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Customer_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Description</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Customer_Doc_Name__c</fullName>
+        <description>Name of the document as uploaded by the customer</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of the document as uploaded by the customer</inlineHelpText>
+        <label>Customer Doc Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>File_Name__c</fullName>
+        <description>Asset_Statement 
+Business_Tax 
+Personal_Tax 
+Sale_Contract 
+W2 
+Hazard_Insurance 
+Appraisal 
+Lender_Pre 
+Mortgage 
+Paystub 
+Award</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Asset_Statement 
+Business_Tax 
+Personal_Tax 
+Sale_Contract 
+W2 
+Hazard_Insurance 
+Appraisal 
+Lender_Pre 
+Mortgage 
+Paystub 
+Award</inlineHelpText>
+        <label>File Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IsReuploaded__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Reuploaded?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsReviewed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Reviewed?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Lead_Name_Text__c</fullName>
+        <externalId>false</externalId>
+        <formula>Lead__r.FirstName &amp; " " &amp;  Lead__r.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Lead Name Text</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lead__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Lead</label>
+        <referenceTo>Lead</referenceTo>
+        <relationshipLabel>Minimum Required Documents</relationshipLabel>
+        <relationshipName>Minimum_Required_Documents</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Record_Count__c</fullName>
+        <externalId>false</externalId>
+        <formula>1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Record Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reupload_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Reupload Comments</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>UW_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>UW Description</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Uploaded__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Uploaded</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Workflow_Fired_Debug__c</fullName>
+        <externalId>false</externalId>
+        <label>Workflow Fired Debug</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <label>Minimum Required Documents</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Danilo_Test</fullName>
+        <columns>NAME</columns>
+        <filterScope>Mine</filterScope>
+        <label>Danilo Test</label>
+    </listViews>
+    <nameField>
+        <displayFormat>MRD-{000000000}</displayFormat>
+        <label>Minimum Required Documents Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Minimum Required Documents</pluralLabel>
+    <searchLayouts />
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

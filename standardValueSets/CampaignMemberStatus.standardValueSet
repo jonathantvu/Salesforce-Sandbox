@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Clicked</fullName>
+        <default>false</default>
+        <label>Clicked</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Downloaded</fullName>
+        <default>false</default>
+        <label>Downloaded</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Filled-out Form</fullName>
+        <default>false</default>
+        <label>Filled-out Form</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Funded Won</fullName>
+        <default>false</default>
+        <label>Funded Won</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Influenced</fullName>
+        <default>false</default>
+        <label>Influenced</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Member</fullName>
+        <default>false</default>
+        <label>Member</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opened</fullName>
+        <default>false</default>
+        <label>Opened</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Re-engaged</fullName>
+        <default>false</default>
+        <label>Re-engaged</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Responded</fullName>
+        <default>false</default>
+        <label>Responded</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent</fullName>
+        <default>false</default>
+        <label>Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Submitted</fullName>
+        <default>false</default>
+        <label>Submitted</label>
+    </standardValue>
+</StandardValueSet>

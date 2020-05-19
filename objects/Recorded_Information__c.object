@@ -1,0 +1,2656 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Applicant1_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>ZZZ Applicant 1</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Applicant2_Name_c__c</fullName>
+        <externalId>false</externalId>
+        <label>ZZZ Applicant 2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Applicant2_Name_del__c</fullName>
+        <externalId>false</externalId>
+        <label>ZZZ Applicant 2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Applicant2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>ZZZ Applicant2</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Recorded Informations (Applicant2)</relationshipLabel>
+        <relationshipName>Recorded_Informations1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Applicant3_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>ZZZ Applicant 3</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Applicant3__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>ZZZ Applicant3</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Recorded Informations (Applicant3)</relationshipLabel>
+        <relationshipName>Recorded_Informations2</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Applicant_1_Name__c</fullName>
+        <description>Pulls name from Application 1. Contains middle initial. Used in all Nintex Docs in all signature blocks. Do not delete. AM</description>
+        <externalId>false</externalId>
+        <formula>IF(!ISBLANK(  Application__r.Applicant_Middle_Name__c ),Application__r.First_Name__c + " " + Application__r.Applicant_Middle_Name__c + " " + Application__r.Last_Name__c,Application__r.First_Name__c + " " + Application__r.Last_Name__c)</formula>
+        <inlineHelpText>Pulls name from Application 1. Contains middle initial. Used in all Nintex Docs in all signature blocks. Do not delete. AM</inlineHelpText>
+        <label>Applicant 1 Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Applicant_2_Name__c</fullName>
+        <description>Pulls name from Application 2. Contains middle initial. Used in all Nintex Docs in all signature blocks. Do not delete. AM</description>
+        <externalId>false</externalId>
+        <formula>IF(!ISBLANK(  Application_2__r.Applicant_Middle_Name__c  ), Application_2__r.First_Name__c  + " " + Application_2__r.Applicant_Middle_Name__c + " " +  Application_2__r.Last_Name__c ,Application_2__r.First_Name__c  + " " + Application_2__r.Last_Name__c)</formula>
+        <inlineHelpText>Pulls name from Application 2. Contains middle initial. Used in all Nintex Docs in all signature blocks. Do not delete. AM</inlineHelpText>
+        <label>Applicant 2 Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Applicant_3_Name__c</fullName>
+        <description>Pulls name from Application 3. Contains middle initial. Used in all Nintex Docs in all signature blocks. Do not delete. AM</description>
+        <externalId>false</externalId>
+        <formula>IF(!ISBLANK(   Application_3__r.Applicant_Middle_Name__c  ), Application_3__r.First_Name__c   + " " + Application_3__r.Applicant_Middle_Name__c + " " +  Application_2__r.Last_Name__c ,Application_3__r.First_Name__c   + " " + Application_3__r.Last_Name__c)</formula>
+        <inlineHelpText>Pulls name from Application 3. Contains middle initial. Used in all Nintex Docs in all signature blocks. Do not delete. AM</inlineHelpText>
+        <label>Applicant 3 Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Applicant_4_Name__c</fullName>
+        <description>Pulls name from Application 4. Contains middle initial. Used in all Nintex Docs in all signature blocks. Do not delete. AM</description>
+        <externalId>false</externalId>
+        <formula>IF(!ISBLANK(  Application_4__r.Applicant_Middle_Name__c ),   Application_4__r.First_Name__c   + " " + Application_4__r.Applicant_Middle_Name__c + " " +  Application_4__r.Last_Name__c ,Application_4__r.First_Name__c  + " " +  Application_4__r.Last_Name__c )</formula>
+        <inlineHelpText>Pulls name from Application 4. Contains middle initial. Used in all Nintex Docs in all signature blocks. Do not delete. AM</inlineHelpText>
+        <label>Applicant 4 Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Applicant_Documents_Names2__c</fullName>
+        <description>Used in Nintex packages</description>
+        <externalId>false</externalId>
+        <formula>IF(!ISBLANK( Application__r.First_Name__c ) , Applicant_1_Name__c, NULL ) + ' ' + 
+
+IF(!ISBLANK( Application__r.First_Name_Co__c ) , 'AND' + ' ' + Co_Applicant_1_Name__c,NULL) + ' ' + 
+
+IF(!ISBLANK( Application_2__r.First_Name__c ) , 'AND' + ' ' + Applicant_2_Name__c,NULL) + ' ' + 
+
+IF(!ISBLANK( Application_2__r.First_Name_Co__c ), 'AND' + ' ' + Co_Applicant_2_Name2__c,NULL) + ' ' + 
+
+IF(!ISBLANK( Application_3__r.First_Name__c ) , 'AND' + ' ' + Applicant_3_Name__c,NULL) + ' ' + 
+
+IF(!ISBLANK( Application_3__r.First_Name_Co__c ) , 'AND' + ' ' + Co_Applicant_3_Name__c,NULL) + ' ' + 
+
+IF(!ISBLANK( Application_4__r.First_Name__c ) , 'AND' + ' ' + Applicant_4_Name__c,NULL) + ' ' + 
+
+IF(!ISBLANK( Application_4__r.First_Name_Co__c ), 'AND' + ' ' + Co_Applicant_4_Name__c,NULL)</formula>
+        <label>Applicant Documents Names</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Applicant_Names_Nintex__c</fullName>
+        <description>Created for Nintex. String of Applicant names with lowercase 'and' versus 'AND' (legal format)</description>
+        <externalId>false</externalId>
+        <formula>IF(!ISBLANK(  Application__r.First_Name__c ) , Applicant_1_Name__c, NULL ) + ' ' + 
+
+IF(!ISBLANK( Application__r.First_Name_Co__c ) , 'and' + ' ' + Co_Applicant_1_Name__c,NULL) + ' ' + 
+
+IF(!ISBLANK(  Application_2__r.First_Name__c  ) , 'and' + ' ' + Applicant_2_Name__c,NULL) + ' ' + 
+
+IF(!ISBLANK( Application_2__r.First_Name_Co__c ), 'and' + ' ' + Co_Applicant_2_Name2__c,NULL) + ' ' + 
+
+IF(!ISBLANK(  Application_3__r.First_Name__c ) , 'and' + ' ' + Applicant_3_Name__c,NULL) + ' ' + 
+
+IF(!ISBLANK(  Application_3__r.First_Name_Co__c  ) , 'and' + ' ' + Co_Applicant_3_Name__c,NULL) + ' ' + 
+
+IF(!ISBLANK(  Application_4__r.First_Name__c ) , 'and' + ' ' + Applicant_4_Name__c,NULL) + ' ' + 
+
+IF(!ISBLANK(  Application_4__r.First_Name_Co__c  ), 'and' + ' ' + Co_Applicant_4_Name__c,NULL)</formula>
+        <label>Applicant Document Names - Greeting</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Applicant_Trust_Signature__c</fullName>
+        <externalId>false</externalId>
+        <label>Applicant Trust Signature</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Applicant__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>ZZZ Applicant</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Recorded Informations</relationshipLabel>
+        <relationshipName>Recorded_Informations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Application_2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Application 2</label>
+        <referenceTo>Application__c</referenceTo>
+        <relationshipLabel>Recorded Informations (Application 2)</relationshipLabel>
+        <relationshipName>Recorded_Informations1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Application_3__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Application 3</label>
+        <referenceTo>Application__c</referenceTo>
+        <relationshipLabel>Recorded Informations (Application 3)</relationshipLabel>
+        <relationshipName>Recorded_Informations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Application_4__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Application 4</label>
+        <referenceTo>Application__c</referenceTo>
+        <relationshipLabel>Recorded Informations (Application 4)</relationshipLabel>
+        <relationshipName>Recorded_Informations2</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Application__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Application</label>
+        <referenceTo>Application__c</referenceTo>
+        <relationshipLabel>Recorded Informations (Application)</relationshipLabel>
+        <relationshipName>Recorded_Information</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AssignmentBook__c</fullName>
+        <externalId>false</externalId>
+        <label>ZZZ Assignment: Book #</label>
+        <length>45</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AssignmentInstrument__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Assignment: Instrument #</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AssignmentRecordedDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Assignment: Recorded Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Assignment_Acknowledgement__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>ZZZ Assignment: Acknowledgement</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>California_Trust_Applicant_Signed__c</fullName>
+        <description>Nintex - HB Closing Package if customer is HB, not OR or WA, and has Trust Signatures</description>
+        <externalId>false</externalId>
+        <formula>AND(
+Opportunity__r.Record_Type_Name__c = "HomeBuyer", 
+(Property_State__c &lt;&gt; "OR"),
+(Property_State__c &lt;&gt; "WA"),
+
+OR(
+NOT(ISBLANK(Applicant_Trust_Signature__c)),
+NOT(ISBLANK(Co_Applicant_Trust_Signature__c))
+))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Nintex - HB Closing Package if customer is HB, not OR or WA, and has Trust Signatures</inlineHelpText>
+        <label>Trust Rider (HB - Multi)</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Certified_Copy_Assignment__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Homeowner</description>
+        <externalId>false</externalId>
+        <label>ZZZ Certified Copy - Assignment</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Certified_Copy_Security_Instrument__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>HomeOwner. Also need Riders, in addition to Security Instrument.</description>
+        <externalId>false</externalId>
+        <label>ZZZ Certified Copy - Security Instrument</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Certified_Copy_of_Subordinate_Agreement__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>ZZZ HB - Cert. Copy of Subordinate</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Certified_Copy_of_Unison_HO_Memorandum_o__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>HomeOwner</description>
+        <externalId>false</externalId>
+        <label>ZZZ Certified Copy - Memorandum of</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Co_Applicant3_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>ZZZ Co-Applicant 3</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Co_Applicant3__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>ZZZ Co-Applicant3</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Recorded Informations (Co-Applicant3)</relationshipLabel>
+        <relationshipName>Recorded_Informations5</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Co_Applicant_1_Name__c</fullName>
+        <description>Pulls name from Application 1. Contains middle initial. Used in all Nintex Docs in all signature blocks. Do not delete. AM</description>
+        <externalId>false</externalId>
+        <formula>IF(!ISBLANK(  Application__r.Co_Applicant_Middle_Name__c  ),  
+
+Application__r.First_Name_Co__c   + " " + Application__r.Co_Applicant_Middle_Name__c + " " + Application__r.Last_Name_Co__c, 
+
+Application__r.First_Name_Co__c+" "+Application__r.Last_Name_Co__c)</formula>
+        <inlineHelpText>Pulls name from Application 1. Contains middle initial. Used in all Nintex Docs in all signature blocks. Do not delete. AM</inlineHelpText>
+        <label>Co-Applicant 1 Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Co_Applicant_2_Name2__c</fullName>
+        <description>Pulls name from Application 2. Contains middle initial. Used in all Nintex Docs in all signature blocks. Do not delete. AM</description>
+        <externalId>false</externalId>
+        <formula>IF(!ISBLANK(   Application_2__r.Co_Applicant_Middle_Name__c   ),  
+
+Application_2__r.First_Name_Co__c   + " " + Application_2__r.Co_Applicant_Middle_Name__c  + " " +  Application_2__r.Last_Name_Co__c ,
+
+Application_2__r.First_Name_Co__c+" "+ Application_2__r.Last_Name_Co__c)</formula>
+        <inlineHelpText>Pulls name from Application 2. Contains middle initial. Used in all Nintex Docs in all signature blocks. Do not delete. AM</inlineHelpText>
+        <label>Co-Applicant 2 Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Co_Applicant_3_Name__c</fullName>
+        <description>Pulls name from Application 3. Contains middle initial. Used in all Nintex Docs in all signature blocks. Do not delete. AM</description>
+        <externalId>false</externalId>
+        <formula>IF(!ISBLANK(   Application_3__r.Co_Applicant_Middle_Name__c ),  Application_3__r.First_Name_Co__c + " " +  Application_3__r.Co_Applicant_Middle_Name__c + " " +  Application_3__r.Last_Name_Co__c ,Application_3__r.First_Name_Co__c + " " + Application_3__r.Last_Name_Co__c)</formula>
+        <inlineHelpText>Pulls name from Application 3. Contains middle initial. Used in all Nintex Docs in all signature blocks. Do not delete. AM</inlineHelpText>
+        <label>Co-Applicant 3 Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Co_Applicant_4_Name__c</fullName>
+        <description>Pulls name from Application 4. Contains middle initial. Used in all Nintex Docs in all signature blocks. Do not delete. AM</description>
+        <externalId>false</externalId>
+        <formula>IF(!ISBLANK(  Application_4__r.Co_Applicant_Middle_Name__c   ),  
+
+ Application_4__r.First_Name_Co__c   + " " + Application_4__r.Co_Applicant_Middle_Name__c   + " " + Application_4__r.Last_Name_Co__c ,
+
+ Application_4__r.First_Name_Co__c  + " " +  Application_4__r.Last_Name_Co__c )</formula>
+        <inlineHelpText>Pulls name from Application 4. Contains middle initial. Used in all Nintex Docs in all signature blocks. Do not delete. AM</inlineHelpText>
+        <label>Co-Applicant 4 Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Co_Applicant_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>ZZZ Co-Applicant 1</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Co_Applicant_Trust_Signature__c</fullName>
+        <externalId>false</externalId>
+        <label>Co-Applicant Trust Signature</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Co_Applicant__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>ZZZ Co-Applicant</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Recorded Informations (Co-Applicant)</relationshipLabel>
+        <relationshipName>Recorded_Informations3</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Contract_Property_State__c</fullName>
+        <externalId>false</externalId>
+        <label>Contract Property State</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Arizona</fullName>
+                    <default>false</default>
+                    <label>Arizona</label>
+                </value>
+                <value>
+                    <fullName>California</fullName>
+                    <default>false</default>
+                    <label>California</label>
+                </value>
+                <value>
+                    <fullName>Colorado</fullName>
+                    <default>false</default>
+                    <label>Colorado</label>
+                </value>
+                <value>
+                    <fullName>Connecticut</fullName>
+                    <default>false</default>
+                    <label>Connecticut</label>
+                </value>
+                <value>
+                    <fullName>Delaware</fullName>
+                    <default>false</default>
+                    <label>Delaware</label>
+                </value>
+                <value>
+                    <fullName>District of Columbia</fullName>
+                    <default>false</default>
+                    <label>District of Columbia</label>
+                </value>
+                <value>
+                    <fullName>Florida</fullName>
+                    <default>false</default>
+                    <label>Florida</label>
+                </value>
+                <value>
+                    <fullName>Georgia</fullName>
+                    <default>false</default>
+                    <label>Georgia</label>
+                </value>
+                <value>
+                    <fullName>Illinois</fullName>
+                    <default>false</default>
+                    <label>Illinois</label>
+                </value>
+                <value>
+                    <fullName>Indiana</fullName>
+                    <default>false</default>
+                    <label>Indiana</label>
+                </value>
+                <value>
+                    <fullName>Kentucky</fullName>
+                    <default>false</default>
+                    <label>Kentucky</label>
+                </value>
+                <value>
+                    <fullName>Maryland</fullName>
+                    <default>false</default>
+                    <label>Maryland</label>
+                </value>
+                <value>
+                    <fullName>Massachusetts</fullName>
+                    <default>false</default>
+                    <label>Massachusetts</label>
+                </value>
+                <value>
+                    <fullName>Michigan</fullName>
+                    <default>false</default>
+                    <label>Michigan</label>
+                </value>
+                <value>
+                    <fullName>Minnesota</fullName>
+                    <default>false</default>
+                    <label>Minnesota</label>
+                </value>
+                <value>
+                    <fullName>Missouri</fullName>
+                    <default>false</default>
+                    <label>Missouri</label>
+                </value>
+                <value>
+                    <fullName>Nevada</fullName>
+                    <default>false</default>
+                    <label>Nevada</label>
+                </value>
+                <value>
+                    <fullName>New Jersey</fullName>
+                    <default>false</default>
+                    <label>New Jersey</label>
+                </value>
+                <value>
+                    <fullName>New York</fullName>
+                    <default>false</default>
+                    <label>New York</label>
+                </value>
+                <value>
+                    <fullName>North Carolina</fullName>
+                    <default>false</default>
+                    <label>North Carolina</label>
+                </value>
+                <value>
+                    <fullName>Ohio</fullName>
+                    <default>false</default>
+                    <label>Ohio</label>
+                </value>
+                <value>
+                    <fullName>Oregon</fullName>
+                    <default>false</default>
+                    <label>Oregon</label>
+                </value>
+                <value>
+                    <fullName>Pennsylvania</fullName>
+                    <default>false</default>
+                    <label>Pennsylvania</label>
+                </value>
+                <value>
+                    <fullName>Tennessee</fullName>
+                    <default>false</default>
+                    <label>Tennessee</label>
+                </value>
+                <value>
+                    <fullName>Virginia</fullName>
+                    <default>false</default>
+                    <label>Virginia</label>
+                </value>
+                <value>
+                    <fullName>Washington</fullName>
+                    <default>false</default>
+                    <label>Washington</label>
+                </value>
+                <value>
+                    <fullName>Wisconsin</fullName>
+                    <default>false</default>
+                    <label>Wisconsin</label>
+                </value>
+                <value>
+                    <fullName>South Carolina</fullName>
+                    <default>false</default>
+                    <label>South Carolina</label>
+                </value>
+                <value>
+                    <fullName>Utah</fullName>
+                    <default>false</default>
+                    <label>Utah</label>
+                </value>
+                <value>
+                    <fullName>New Mexico</fullName>
+                    <default>false</default>
+                    <label>New Mexico</label>
+                </value>
+                <value>
+                    <fullName>Kansas</fullName>
+                    <default>false</default>
+                    <label>Kansas</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Corporate_Affiliate__c</fullName>
+        <description>See PB: Recorded Information: Property State Changed or Created</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Populates 'Unison Agreement Corp.' when state is selected. Referenced in closing documents.</inlineHelpText>
+        <label>Corporate Affiliate</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Corporate_Entity_State__c</fullName>
+        <description>See PB: Recorded Information: Property State Changed or Created</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Populates 'Delaware' when state is selected. Referenced in closing documents.</inlineHelpText>
+        <label>Corporate Entity State</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Corporate_Entity__c</fullName>
+        <description>See PB: Recorded Information: Property State Changed or Created</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Populates 'Unison Agreement Corp.' when state is selected. Referenced in closing documents.</inlineHelpText>
+        <label>Corporate Entity</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Courier_Fee_due_to__c</fullName>
+        <externalId>false</externalId>
+        <label>Courier Fee due to</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Final_Vesting__c</fullName>
+        <description>EOS &lt;&gt; Orissa Sync.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Syncs to Orissa</inlineHelpText>
+        <label>Customer Final Vesting</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Customer_Initial_Vesting__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Initial Vesting</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Customers_Gain_loss_on_their_home_0__c</fullName>
+        <description>Nintex - Revised Offer Package - "Your Gain (loss) on your home alongside Unison"</description>
+        <externalId>false</externalId>
+        <formula>Future_Value_No_Change2__c  - Opportunity__r.Final_OAV_Calculation__c -   Unison_Gain_Loss_5__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Future Home Value at Termination (Unchanged) minus Final OAV minus Unison Gain/Loss on Investment</inlineHelpText>
+        <label>Customers Gain (loss) on their home_0</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Customers_Gain_loss_on_their_home_12__c</fullName>
+        <description>Nintex - Revised Offer Package - "Your Gain (loss) on your home alongside Unison"</description>
+        <externalId>false</externalId>
+        <formula>Future_Value_minus_12_IP__c  - Opportunity__r.Final_OAV_Calculation__c -   Unison_Gain_Loss_3__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Future Home Value at Termination (-12%) minus Final OAV minus Unison Gain/Loss on Investment</inlineHelpText>
+        <label>Customers Gain (loss) on their home - 12</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Customers_Gain_loss_on_their_home_25__c</fullName>
+        <description>Nintex - Revised Offer Package - "Your Gain (loss) on your home alongside Unison"</description>
+        <externalId>false</externalId>
+        <formula>Future_Value_minus_25_Pct__c  - Opportunity__r.Final_OAV_Calculation__c -   Unison_Gain_Loss_4__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Future Home Value at Termination (-25%) minus Final OAV minus Unison Gain/Loss on Investment</inlineHelpText>
+        <label>Customers Gain (loss) on their home - 25</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Customers_Gain_loss_on_their_home_40__c</fullName>
+        <description>Nintex - Revised Offer Package - "Your Gain (loss) on your home alongside Unison"</description>
+        <externalId>false</externalId>
+        <formula>Future_Value_plus_40__c - Opportunity__r.Final_OAV_Calculation__c -  Unison_Gain_Loss_2__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Future Home Value at Termination (+40%) minus Final OAV minus Unison Gain/Loss on Investment</inlineHelpText>
+        <label>Customers Gain (loss) on their home + 40</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Customers_Gain_loss_on_their_home_plus12__c</fullName>
+        <description>Nintex - Revised Offer Package - "Your Gain (loss) on your home alongside Unison"</description>
+        <externalId>false</externalId>
+        <formula>Future_Value_plus_12__c  - Opportunity__r.Final_OAV_Calculation__c -   Unison_Gain_Loss1__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Future Home Value at Termination (+12%) minus Final OAV minus Unison Gain/Loss on Investment</inlineHelpText>
+        <label>Customers Gain (loss) on their home + 12</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>DMA_Addendum_to_the_Unison_HO_Agreement__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>ZZZ DMA Addendum to the Unison HO</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DOT_or_Mortgage_Instrument_No__c</fullName>
+        <externalId>false</externalId>
+        <label>DOT or Mortgage Instrument No</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DOT_or_Mortgage_Recorded_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>DOT or Mortgage Recorded Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>DeedInstrument__c</fullName>
+        <externalId>false</externalId>
+        <label>ZZZ Deed: Instrument #</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Deed_Acknowledgement__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>ZZZ Deed: Acknowledgement</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Deed_Recorded_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>ZZZ Deed: Recorded Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Document_Status_Wire_Instructions__c</fullName>
+        <externalId>false</externalId>
+        <label>ZZZ Document Status Wire Instructions</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>needed</fullName>
+                    <default>false</default>
+                    <label>needed</label>
+                </value>
+                <value>
+                    <fullName>received</fullName>
+                    <default>false</default>
+                    <label>received</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Dot_or_Mortgage__c</fullName>
+        <externalId>false</externalId>
+        <label>Dot or Mortgage</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Deed of Trust</fullName>
+                    <default>false</default>
+                    <label>Deed of Trust</label>
+                </value>
+                <value>
+                    <fullName>Deed of Trust (Non-Recourse)</fullName>
+                    <default>false</default>
+                    <label>Deed of Trust (Non-Recourse)</label>
+                </value>
+                <value>
+                    <fullName>Mortgage</fullName>
+                    <default>false</default>
+                    <label>Mortgage</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Effective_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Effective Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Escrow_Address__c</fullName>
+        <description>Created for EOS HB team to quickly add/edit HB Contacts. Used in Nintex - Closing Instructions in HB Closing Documents.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter company address as it should read on the HB Closing Documents. This information appears on the first page of the Closing Instructions.</inlineHelpText>
+        <label>Escrow - Address</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Escrow_Business_Entity__c</fullName>
+        <description>Created for EOS HB team to quickly add/edit HB Contacts. Used in Nintex - Closing Instructions in HB Closing Documents.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter escrow company name as it should read on the HB Closing Documents. This information appears on the first page of the Closing Instructions.</inlineHelpText>
+        <label>Escrow - Business Entity</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Escrow_Email__c</fullName>
+        <description>Created for EOS HB team to quickly add/edit HB Contacts. Used in Nintex - Closing Instructions in HB Closing Documents.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter email address as it should read on the HB Closing Documents. This information appears on the first page of the Closing Instructions.</inlineHelpText>
+        <label>Escrow - Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Escrow_First_Name__c</fullName>
+        <description>Created for EOS HB team to quickly add/edit HB Contacts. Used in Nintex - Closing Instructions in HB Closing Documents.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter name as it should read on the HB Closing Documents. This information appears on the first page of the Closing Instructions.</inlineHelpText>
+        <label>Escrow - First Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Escrow_Last_Name__c</fullName>
+        <description>Created for EOS HB team to quickly add/edit HB Contacts. Used in Nintex - Closing Instructions in HB Closing Documents.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter name as it should read on the HB Closing Documents. This information appears on the first page of the Closing Instructions.</inlineHelpText>
+        <label>Escrow - Last Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Escrow_Phone__c</fullName>
+        <description>Created for EOS HB team to quickly add/edit HB Contacts. Used in Nintex - Closing Instructions in HB Closing Documents.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter phone number as it should read on the HB Closing Documents. This information appears on the first page of the Closing Instructions.</inlineHelpText>
+        <label>Escrow - Phone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Est_Document_Execution__c</fullName>
+        <externalId>false</externalId>
+        <label>ZZZ Est Document Execution</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Estimated_Recording_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>ZZZ Estimated Recording Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Exclude_Memorandum_Multi_HB__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+AND(
+Opportunity__r.RecordType.Name ='HomeBuyer',
+OR(
+Property_State__c = 'DC' ,
+Property_State__c = 'CT' ,
+Property_State__c = 'FL' ,
+Property_State__c = 'GA' ,
+Property_State__c = 'MA' ,
+Property_State__c = 'MD' ,
+Property_State__c = 'MI' ,
+Property_State__c = 'NC' ,
+Property_State__c = 'NY' ,
+Property_State__c = 'SC' ,
+Property_State__c = 'VA' ,
+Property_State__c = 'WA'
+)
+),
+TRUE ,
+FALSE
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Exclude Memorandum Multi - HB</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Exclude_Memorandum_Multi_HO__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( 
+  AND(
+      Opportunity__r.RecordType.Name ='HomeOwner',
+    OR(
+        Property_State__c = 'KY' ,
+        Property_State__c = 'DC' ,
+        Property_State__c = 'CT' ,
+        Property_State__c = 'WI' ,
+        Property_State__c = 'FL' ,
+        Property_State__c = 'GA' ,
+        Property_State__c = 'IL' ,
+        Property_State__c = 'MA' ,
+        Property_State__c = 'MD' ,
+        Property_State__c = 'MI' ,
+        Property_State__c = 'NC' ,
+        Property_State__c = 'NY' ,
+        Property_State__c = 'SC' ,
+        Property_State__c = 'VA' ,
+        Property_State__c = 'WA' 
+)
+),
+    TRUE ,
+    FALSE
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Exclude Memorandum Multi - HO</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Fund_Account_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Fund Account Number</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Fund_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Fund Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Odin US Residential Real Estate Fund I LP</fullName>
+                    <default>false</default>
+                    <label>Odin US Residential Real Estate Fund I LP</label>
+                </value>
+                <value>
+                    <fullName>Odin Residential Real Estate Fund LP</fullName>
+                    <default>false</default>
+                    <label>Odin Residential Real Estate Fund LP</label>
+                </value>
+                <value>
+                    <fullName>Odin New Horizon Real Estate Fund LP</fullName>
+                    <default>false</default>
+                    <label>Odin New Horizon Real Estate Fund LP</label>
+                </value>
+                <value>
+                    <fullName>Unison Midgard Holdings LLC</fullName>
+                    <default>true</default>
+                    <label>Unison Midgard Holdings LLC</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Fund_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Fund Number</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Funding_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>ZZZ Funding Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Future_Value_No_Change2__c</fullName>
+        <description>Used in Nintex Important Information Notice in HB CAP and HO Offer Letter</description>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Final_OAV_Calculation__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>OAV</inlineHelpText>
+        <label>Future Value - No Change</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Future_Value_minus_12_IP__c</fullName>
+        <description>Used in Nintex Important Information Notice in HB CAP and HO Offer Letter</description>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Final_OAV_Calculation__c  * 0.88</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>OAV * .88</inlineHelpText>
+        <label>Future Value -12%</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Future_Value_minus_12_x_IP__c</fullName>
+        <description>Used in Nintex Important Information Notice in HB CAP and HO Offer Letter</description>
+        <externalId>false</externalId>
+        <formula>(Opportunity__r.Final_OAV_Calculation__c  * 0.88) *  Opportunity__r.Investor_Percentage__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Future Value minus 12% (multiplied by Investor %)</inlineHelpText>
+        <label>Future Value (-12%) x Investor %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Future_Value_minus_25_Pct__c</fullName>
+        <description>Used in Nintex Important Information Notice in HB CAP and HO Offer Letter</description>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Final_OAV_Calculation__c * 0.75</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>OAV * .75</inlineHelpText>
+        <label>Future Value -25%</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Future_Value_minus_25_x_IP__c</fullName>
+        <description>Used in Nintex Important Information Notice in HB CAP and HO Offer Letter</description>
+        <externalId>false</externalId>
+        <formula>(Opportunity__r.Final_OAV_Calculation__c  * 0.75) *  Opportunity__r.Investor_Percentage__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Future Value minus 25% (multiplied by Investor %)</inlineHelpText>
+        <label>Future Value (-25%) x Investor %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Future_Value_plus_12__c</fullName>
+        <description>Used in Nintex Important Information Notice in HB CAP and HO Offer Letter</description>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Final_OAV_Calculation__c   * 1.12</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Future Value +12%</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Future_Value_plus_12_x_IP__c</fullName>
+        <description>Used in Nintex Important Information Notice in HB CAP and HO Offer Letter</description>
+        <externalId>false</externalId>
+        <formula>( Opportunity__r.Final_OAV_Calculation__c  * 1.12) *  Opportunity__r.Investor_Percentage__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Future Value plus 12% (multiplied by Investor %)</inlineHelpText>
+        <label>Future Value (+12%) x Investor %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Future_Value_plus_40__c</fullName>
+        <description>Used in Nintex Important Information Notice in HB CAP and HO Offer Letter</description>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Final_OAV_Calculation__c   *1.4</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Future Value +40%</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Future_Value_plus_40_x_IP__c</fullName>
+        <description>Used in Nintex Important Information Notice in HB CAP and HO Offer Letter</description>
+        <externalId>false</externalId>
+        <formula>(Opportunity__r.Final_OAV_Calculation__c   * 1.4) *  Opportunity__r.Investor_Percentage__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Future Value plus 40% (multiplied by Investor %)</inlineHelpText>
+        <label>Future Value (+40%) x Investor %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Future_Value_x_IP__c</fullName>
+        <description>Used in Nintex Important Information Notice in HB CAP and HO Offer Letter</description>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Final_OAV_Calculation__c *  Opportunity__r.Investor_Percentage__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Future Value multiplied by Investor %</inlineHelpText>
+        <label>Future Value x IP</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>HB_OAV_Addendum_Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>HB - OAV Addendum Required</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Home_Inspection_Fee_due_to__c</fullName>
+        <description>Name of the entity to which the Home Inspection Fee is Owed</description>
+        <externalId>false</externalId>
+        <label>Home Inspection Fee due to</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Include_Assignment_DOT__c</fullName>
+        <description>Used in Nintex. Logic for including the Assignment in Closing Documents.</description>
+        <externalId>false</externalId>
+        <formula>CASE( Property_State__c ,
+"AZ", 1,
+"CA", 1,
+"MO", 1,
+"NV", 1,
+"OR", 1,
+"TN", 1,
+"UT", 1, 0)= 1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Include Assignment - DOT</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Include_Assignment_Mortgage_HB_Multi__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Record_Type_Name__c = "HomeBuyer"
+
+&amp;&amp;
+
+CASE( Property_State__c ,
+"DE", 1,
+"IN", 1,
+"IL", 1,
+"KS", 1,
+"KY", 1,
+"MN", 1,
+"NM", 1,
+"NJ", 1,
+"OH", 1, 0)= 1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Include Assignment - Mortgage (HB Multi)</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Include_Assignment_Mortgage__c</fullName>
+        <description>Used in Nintex. Logic for including the Assignment in Closing Documents.</description>
+        <externalId>false</externalId>
+        <formula>CASE( Property_State__c ,
+"DE", 1,
+"IN", 1,
+"KS", 1,
+"MN", 1,
+"NJ", 1,
+"NM", 1, 0)= 1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Include Assignment - Mortgage (HO Multi)</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Include_MA_Written_Consent2__c</fullName>
+        <description>Used in Nintex - If MA property is in one of these Counties, include Written Consent form in HO Closing Package.</description>
+        <externalId>false</externalId>
+        <formula>IF(
+AND(  Opportunity__r.Property_State__c  = "MA",   Opportunity__r.Record_Type_Name__c = "HomeOwner",
+(OR(Opportunity__r.Property_County__c = "North Berkshire",
+Opportunity__r.Property_County__c = "Middle Berkshire",
+Opportunity__r.Property_County__c = "South Berkshire",
+Opportunity__r.Property_County__c= "Franklin",
+Opportunity__r.Property_County__c= "Hampshire",
+Opportunity__r.Property_County__c= "Hampden",
+Opportunity__r.Property_County__c= "North Worcester",
+Opportunity__r.Property_County__c= "Worcester",
+Opportunity__r.Property_County__c= "North Middlesex",
+Opportunity__r.Property_County__c= "South Middlesex",
+Opportunity__r.Property_County__c= "North Essex",
+Opportunity__r.Property_County__c= "South Essex",
+Opportunity__r.Property_County__c= "Suffolk",
+Opportunity__r.Property_County__c= "Norfolk",
+Opportunity__r.Property_County__c= "North Bristol",
+Opportunity__r.Property_County__c= "Fall River",
+Opportunity__r.Property_County__c= "South Bristol",
+Opportunity__r.Property_County__c= "Plymouth",
+Opportunity__r.Property_County__c= "Barnstable",
+Opportunity__r.Property_County__c= "Dukes",
+Opportunity__r.Property_County__c = "Nantucket"))), true, false)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Used in Nintex - If MA property is in one of these Counties, include Written Consent form in HO Closing Package.</inlineHelpText>
+        <label>Include MA - Written Consent</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Include_OAV_Addendum__c</fullName>
+        <description>Used in Nintex - Include OAV Addendum in HO/HB Closing Documents if Opportunity has 2 Appraisals, OAV Discount &gt; 0, or IA OAV Override &gt; 0</description>
+        <externalId>false</externalId>
+        <formula>IF ( 
+OR( Opportunity__r.Has_2_Appraisals2__c = True, Opportunity__r.OAV_Discount_Amount__c &gt; 0,  Opportunity__r.IA_OAV_Override__c &gt; 0), true, false)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Used in Nintex - Include OAV Addendum in HO/HB Closing Documents if Opportunity has 2 Appraisals, OAV Discount &gt; 0, or IA OAV Override &gt; 0</inlineHelpText>
+        <label>Include OAV Addendum</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Include_Trust_Rider_HB_OR__c</fullName>
+        <description>Used in Nintex to insert Trust Rider Document if it is a HB in OR.</description>
+        <externalId>false</externalId>
+        <formula>AND( Opportunity__r.Record_Type_Name__c = "HomeBuyer",
+
+CASE( Property_State__c ,
+"OR", 1,
+0 ) = 1,
+
+OR(
+NOT(ISBLANK(Applicant_Trust_Signature__c)),
+NOT(ISBLANK(Co_Applicant_Trust_Signature__c))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Include Trust Rider (HB - OR)</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Include_Trust_Rider__c</fullName>
+        <description>Used in Nintex to insert Trust Rider Document if it is a HB in WA.</description>
+        <externalId>false</externalId>
+        <formula>AND( Opportunity__r.Record_Type_Name__c  = "HomeBuyer",
+
+CASE( Property_State__c ,
+"WA", 1,
+0 ) = 1,
+
+OR(
+NOT(ISBLANK(Applicant_Trust_Signature__c)), 
+NOT(ISBLANK(Co_Applicant_Trust_Signature__c))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Include Trust Rider (HB - WA)</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Include_if_NY_NJ_PA__c</fullName>
+        <description>Nintex - Documents for NY, NJ, PA</description>
+        <externalId>false</externalId>
+        <formula>OR( Property_State__c = "NY",
+Property_State__c = "NJ",
+Property_State__c = "PA")</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Include if NY, NJ, PA</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Iron_Mountain_Account__c</fullName>
+        <externalId>false</externalId>
+        <label>Iron Mountain Account #:</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lender_Address__c</fullName>
+        <description>Created for EOS HB team to quickly add/edit HB Contacts. Used in Nintex - Closing Instructions in HB Closing Documents.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter Lender company address as it should read on the HB Closing Documents. This information appears on the first page of the Closing Instructions.</inlineHelpText>
+        <label>Lender - Address</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Lender_Business_Entity__c</fullName>
+        <description>Created for EOS HB team to quickly add/edit HB Contacts. Used in Nintex - Closing Instructions in HB Closing Documents.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter Lender company name as it should read on the HB Closing Documents. This information appears on the first page of the Closing Instructions.</inlineHelpText>
+        <label>Lender - Business Entity</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lender_Email__c</fullName>
+        <description>Created for EOS HB team to quickly add/edit HB Contacts. Used in Nintex - Closing Instructions in HB Closing Documents.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter lender email address as it should read on the HB Closing Documents. This information appears on the first page of the Closing Instructions.</inlineHelpText>
+        <label>Lender - Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lender_First_Name__c</fullName>
+        <description>Created for EOS HB team to quickly add/edit HB Contacts. Used in Nintex - Closing Instructions in HB Closing Documents.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter name as it should read on the HB Closing Documents. This information appears on the first page of the Closing Instructions.</inlineHelpText>
+        <label>Lender - First Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lender_Last_Name__c</fullName>
+        <description>Created for EOS HB team to quickly add/edit HB Contacts. Used in Nintex - Closing Instructions in HB Closing Documents.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter name as it should read on the HB Closing Documents. This information appears on the first page of the Closing Instructions.</inlineHelpText>
+        <label>Lender - Last Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lender_Phone__c</fullName>
+        <description>Created for EOS HB team to quickly add/edit HB Contacts. Used in Nintex - Closing Instructions in HB Closing Documents.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter Lender phone number as it should read on the HB Closing Documents. This information appears on the first page of the Closing Instructions.</inlineHelpText>
+        <label>Lender - Phone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Less_Purchase_Price_Balance__c</fullName>
+        <externalId>false</externalId>
+        <label>ZZZ Less Purchase Price Balance</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Managers_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Managers Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Ismael Casas, Jr.</fullName>
+                    <default>false</default>
+                    <label>Ismael Casas, Jr.</label>
+                </value>
+                <value>
+                    <fullName>John Pingel</fullName>
+                    <default>false</default>
+                    <label>John Pingel</label>
+                </value>
+                <value>
+                    <fullName>Rayan Rafay</fullName>
+                    <default>false</default>
+                    <label>Rayan Rafay</label>
+                </value>
+                <value>
+                    <fullName>John Arens</fullName>
+                    <default>false</default>
+                    <label>John Arens</label>
+                </value>
+                <value>
+                    <fullName>Lily Kwong</fullName>
+                    <default>false</default>
+                    <label>Lily Kwong</label>
+                </value>
+                <value>
+                    <fullName>Matthew Johnson</fullName>
+                    <default>false</default>
+                    <label>Matthew Johnson</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Managers_Title__c</fullName>
+        <externalId>false</externalId>
+        <label>Managers Title</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Managers_Name__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Vice President</fullName>
+                    <default>false</default>
+                    <label>Vice President</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Ismael Casas, Jr.</controllingFieldValue>
+                <controllingFieldValue>John Pingel</controllingFieldValue>
+                <controllingFieldValue>Rayan Rafay</controllingFieldValue>
+                <controllingFieldValue>John Arens</controllingFieldValue>
+                <controllingFieldValue>Lily Kwong</controllingFieldValue>
+                <controllingFieldValue>Matthew Johnson</controllingFieldValue>
+                <valueName>Vice President</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Memorandum_of_Agreement_Acknowledgement__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>ZZZ Memorandum of Agreement:</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Memorandum_of_Agreement_Instrument_No__c</fullName>
+        <externalId>false</externalId>
+        <label>Memorandum of Agreement Instrument No</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Memorandum_of_Covenants__c</fullName>
+        <description>See PB: Recorded Information: Property State Changed or Created</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Memorandum of Covenants Running with the Land state-specific language which appears on the multi-state Memorandum.</inlineHelpText>
+        <label>Memorandum of Covenants RWTL</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Non_Application_Spouse__c</fullName>
+        <description>Needed if spouses signature is needed on docs. (Field not added to docs yet - future state). AM 5.11.20</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Needed if spouses signature is needed on docs. (Field not added to docs yet - future state). AM 5.11.20</inlineHelpText>
+        <label>Non-Application Spouse</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>OAV_Addendum_Doc2__c</fullName>
+        <description>Used in Nintex to insert doc if 2nd Appraisal Requirement is True or if OAV Discount is &gt; 0.</description>
+        <externalId>false</externalId>
+        <formula>IF(
+OR (Opportunity2__r.Greenlight_Requires_Second_Appraisal__c =TRUE,  Opportunity2__r.OAV_Discount_Amount__c &gt;0), TRUE,FALSE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>OAV Addendum Doc</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OAV_Addendum_to_Unison_HO_Agreement__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>ZZZ OAV Addendum to Unison HO Agreement</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Offer_Acceptance_Deadline__c</fullName>
+        <description>Opportunity__r.Offer_Package_Date2__c  + 10</description>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Offer_Package_Date2__c  + 10</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Date Offer Package was Generated + 10 days.</inlineHelpText>
+        <label>Offer Acceptance Deadline</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Opportunity2</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Recorded Informations (Opportunity2)</relationshipLabel>
+        <relationshipName>Recorded_Informations2</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Recorded Informations</relationshipLabel>
+        <relationshipName>Recorded_Informations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Option_Agreement_Expiration2__c</fullName>
+        <description>Used in Closing Docs: Option Agreement</description>
+        <externalId>false</externalId>
+        <formula>ADDMONTHS( Effective_Date__c,360) - 1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>30 years from effective date minus 1 day.</inlineHelpText>
+        <label>Option Agreement Expiration</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Option_Agreement_Expiration__c</fullName>
+        <description>30 years from effective date minus 1 day. See Process Builder: "Recorded Information: Option Agreement Expiration Date"</description>
+        <externalId>false</externalId>
+        <inlineHelpText>30 years from effective date minus 1 day.</inlineHelpText>
+        <label>ZZZ Option Agreement Expiration</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Option_Purchase_Price_Balance__c</fullName>
+        <externalId>false</externalId>
+        <formula>Option_Purchase_Price__c  -  Opportunity2__r.Estimated_Funding_Amount__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Option Purchase Price - OIP</inlineHelpText>
+        <label>Option Purchase Price Balance</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Option_Purchase_Price__c</fullName>
+        <externalId>false</externalId>
+        <formula>ROUND(Opportunity2__r.Investor_Percentage__c,4) *  Opportunity2__r.Final_OAV_Calculation__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Investor Percentage x Final OAV</inlineHelpText>
+        <label>Option Purchase Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Original_Assignment__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>ZZZ Original Assignment</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Original_CAP_Package_If_no_Docu_Sign__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>ZZZ Original CAP Package - If no Docu-</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Original_Recorded_Memorandum_of_Agreemen__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>ZZZ Original Recorded Memorandum of</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Original_Subordination_Agreement__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>ZZZ Original Subordination Agreement</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Original_Unison_HO_Covenant_Agreement__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>ZZZOriginal Unison HO Covenant Agreement</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Original_Unison_HO_Option_Agreement__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>ZZZ Original Unison HO Option Agreement</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PCStatus__c</fullName>
+        <defaultValue>"Active"</defaultValue>
+        <externalId>false</externalId>
+        <label>Post-Close Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Active</fullName>
+                    <default>false</default>
+                    <label>Active</label>
+                </value>
+                <value>
+                    <fullName>Issue</fullName>
+                    <default>false</default>
+                    <label>Issue</label>
+                </value>
+                <value>
+                    <fullName>Complete</fullName>
+                    <default>false</default>
+                    <label>Complete</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Payment_to_Unison_1__c</fullName>
+        <description>Used in Nintex Important Information Notice in HB CAP and HO Offer Letter</description>
+        <externalId>false</externalId>
+        <formula>( Opportunity2__r.Final_OAV_Calculation__c   * 1.12) *  Opportunity2__r.Investor_Percentage__c  -  Option_Purchase_Price_Balance__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>(Final OAV  * 1.12) * Investor % - Option Purchase Price Balance</inlineHelpText>
+        <label>Payment to Unison1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Payment_to_Unison_2__c</fullName>
+        <description>Used in Nintex Important Information Notice in HB CAP and HO Offer Letter</description>
+        <externalId>false</externalId>
+        <formula>(Opportunity__r.Final_OAV_Calculation__c   * 1.4) *  Opportunity__r.Investor_Percentage__c  -  Option_Purchase_Price_Balance__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>(Final OAV x 1.4) x Investor % - Option Purchase Price Balance</inlineHelpText>
+        <label>Payment to Unison2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Payment_to_Unison_3__c</fullName>
+        <description>Used in Nintex Important Information Notice in HB CAP and HO Offer Letter</description>
+        <externalId>false</externalId>
+        <formula>(Opportunity__r.Final_OAV_Calculation__c  * 0.88) *  Opportunity__r.Investor_Percentage__c  -  Option_Purchase_Price_Balance__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>(Final OAV x .88) x Investor % - Option Purchase Price Balance</inlineHelpText>
+        <label>Payment to Unison3</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Payment_to_Unison_4__c</fullName>
+        <description>Used in Nintex Important Information Notice in HB CAP and HO Offer Letter</description>
+        <externalId>false</externalId>
+        <formula>IF((( Opportunity__r.Final_OAV_Calculation__c  * 0.75) *  Opportunity__r.Investor_Percentage__c  -  Option_Purchase_Price_Balance__c) &lt; 0, 0, ((Opportunity__r.Final_OAV_Calculation__c  * 0.75) *  Opportunity__r.Investor_Percentage__c  -  Option_Purchase_Price_Balance__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>(Final OAV x .75) x Investor % - Option Purchase Price Balance</inlineHelpText>
+        <label>Payment to Unison4</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Payment_to_Unison_5__c</fullName>
+        <description>Used in Nintex Important Information Notice in HB CAP and HO Offer Letter</description>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Final_OAV_Calculation__c   *  Opportunity__r.Investor_Percentage__c  -  Option_Purchase_Price_Balance__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Final OAV x Investor % - Option Purchase Price Balance</inlineHelpText>
+        <label>Payment to Unison5</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Post_Close_Stage__c</fullName>
+        <externalId>false</externalId>
+        <label>ZZZ Post Close Stage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Post_Close_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>ZZZ Post Close Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Missing Information From Applicant</fullName>
+                    <default>false</default>
+                    <label>Missing Information From Applicant</label>
+                </value>
+                <value>
+                    <fullName>Package Sent - Pending Approval from County</fullName>
+                    <default>false</default>
+                    <label>Package Sent - Pending Approval from County</label>
+                </value>
+                <value>
+                    <fullName>Final Settlement Closing Statement Received</fullName>
+                    <default>false</default>
+                    <label>Final Settlement Closing Statement Received</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Power_Of_Attorney_Language__c</fullName>
+        <externalId>false</externalId>
+        <label>Power Of Attorney Language</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Property_Parcel_Number__c</fullName>
+        <description>Property_Parcel_Number was used from May to Sept '19. RecInfo Parcel # was used from Oct '19 to Current. Need to combine fields. AM 5/11/20</description>
+        <externalId>false</externalId>
+        <label>Property Parcel Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Property_State__c</fullName>
+        <description>Used for Nintex - HO Offer Package to populate Corporate Entity + State</description>
+        <externalId>false</externalId>
+        <label>Property State</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Recorded_Date_Memorandum_of_Agreement__c</fullName>
+        <externalId>false</externalId>
+        <label>Memorandum of Agreement: Recorded Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Recorded_Information_Applicant2_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>ZZZ Recorded Information Applicant2 Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Recording_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>ZZZ Recording Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Servicing_Org_AKA__c</fullName>
+        <externalId>false</externalId>
+        <label>Servicing Org AKA</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Servicing_Org_State__c</fullName>
+        <externalId>false</externalId>
+        <formula>"Delaware"</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Servicing Org State</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Servicing_Organization__c</fullName>
+        <externalId>false</externalId>
+        <formula>'Unison Agreement Corp'</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Servicing Organization</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>State_All_Caps__c</fullName>
+        <description>Used for Nintex</description>
+        <externalId>false</externalId>
+        <label>State - All Caps</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_Address__c</fullName>
+        <description>Created for EOS HB team to quickly add/edit HB Contacts. Used in Nintex - Closing Instructions in HB Closing Documents.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter title company address as it should read on the HB Closing Documents. This information appears on the first page of the Closing Instructions.</inlineHelpText>
+        <label>Title - Address</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Title_Business_Entity__c</fullName>
+        <description>Created for EOS HB team to quickly add/edit HB Contacts. Used in Nintex - Closing Instructions in HB Closing Documents.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter title company name as it should read on the HB Closing Documents. This information appears on the first page of the Closing Instructions.</inlineHelpText>
+        <label>Title - Business Entity</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_Case_Number__c</fullName>
+        <description>Duplicate to Title Case Number on Opportunity. This one is not filled in or used.</description>
+        <externalId>false</externalId>
+        <label>ZZZ Title Case Number</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_Email__c</fullName>
+        <description>Created for EOS HB team to quickly add/edit HB Contacts. Used in Nintex - Closing Instructions in HB Closing Documents.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter email as it should read on the HB Closing Documents. This information appears on the first page of the Closing Instructions.</inlineHelpText>
+        <label>Title - Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_First_Name__c</fullName>
+        <description>Created for EOS HB team to quickly add/edit HB Contacts. Used in Nintex - Closing Instructions in HB Closing Documents.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter name as it should read on the HB Closing Documents. This information appears on the first page of the Closing Instructions.</inlineHelpText>
+        <label>Title - First Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_Last_Name__c</fullName>
+        <description>Created for EOS HB team to quickly add/edit HB Contacts. Used in Nintex - Closing Instructions in HB Closing Documents.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter name as it should read on the HB Closing Documents. This information appears on the first page of the Closing Instructions.</inlineHelpText>
+        <label>Title - Last Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_Phone__c</fullName>
+        <description>Created for EOS HB team to quickly add/edit HB Contacts. Used in Nintex - Closing Instructions in HB Closing Documents.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter phone number as it should read on the HB Closing Documents. This information appears on the first page of the Closing Instructions.</inlineHelpText>
+        <label>Title - Phone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Trust_Information__c</fullName>
+        <externalId>false</externalId>
+        <label>Trust Information</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Trust_Rider_HO_Multi__c</fullName>
+        <description>Nintex - HO Closing Package if customer is HO and has Trust Signatures</description>
+        <externalId>false</externalId>
+        <formula>AND(
+Opportunity__r.Record_Type_Name__c = "HomeOwner",
+
+OR(
+NOT(ISBLANK(Applicant_Trust_Signature__c)),
+NOT(ISBLANK(Co_Applicant_Trust_Signature__c))
+))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Nintex - HO Closing Package if customer is HO and has Trust Signatures</inlineHelpText>
+        <label>Trust Rider (HO - Multi)</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Trustee_Address__c</fullName>
+        <description>Address of the Trustee to appear on Docs. This field is used by the Transaction Specialists: do not deprecate or otherwise alter without their explicit authorization to do so. This field has been determined to be necessary as of Q1 2020. Subject to review for relevance Q4 2021.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Address of the Trustee to appear on Docs.</inlineHelpText>
+        <label>Trustee - Address</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Trustee_Business_Entity_Account__c</fullName>
+        <description>Entity Name of the Trustee to appear on Docs. This field is used by the Transaction Specialists: do not deprecate or otherwise alter without their explicit authorization to do so. This field has been determined to be necessary as of Q1 2020. Subject to review for relevance Q4 2021.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Entity Name of the Trustee to appear on Docs.</inlineHelpText>
+        <label>Trustee - Business Entity (Account)</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Trustee_Email__c</fullName>
+        <description>Email Address of the Trustee to appear on Docs. This field is used by the Transaction Specialists: do not deprecate or otherwise alter without their explicit authorization to do so. This field has been determined to be necessary as of Q1 2020. Subject to review for relevance Q4 2021.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Email Address of the Trustee to appear on Docs.</inlineHelpText>
+        <label>Trustee - Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Trustee_First_Name__c</fullName>
+        <description>First Name of the Trustee to appear on Docs. This field is used by the Transaction Specialists: do not deprecate or otherwise alter without their explicit authorization to do so. This field has been determined to be necessary as of Q1 2020. Subject to review for relevance Q4 2021.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>First Name of the Trustee to appear on Docs.</inlineHelpText>
+        <label>Trustee - First Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Trustee_Last_Name__c</fullName>
+        <description>Last Name of the Trustee to appear on Docs. This field is used by the Transaction Specialists: do not deprecate or otherwise alter without their explicit authorization to do so. This field has been determined to be necessary as of Q1 2020. Subject to review for relevance Q4 2021.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Last Name of the Trustee to appear on Docs.</inlineHelpText>
+        <label>Trustee - Last Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Trustee_Phone__c</fullName>
+        <description>Phone Number of the Trustee to appear on Docs. This field is used by the Transaction Specialists: do not deprecate or otherwise alter without their explicit authorization to do so. This field has been determined to be necessary as of Q1 2020. Subject to review for relevance Q4 2021.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Phone Number of the Trustee to appear on Docs.</inlineHelpText>
+        <label>Trustee - Phone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Unison_Gain_Loss1__c</fullName>
+        <description>Used in Nintex Important Information Notice in HB CAP and HO Offer Letter</description>
+        <externalId>false</externalId>
+        <formula>(Opportunity__r.Final_OAV_Calculation__c  * 1.12) *  Opportunity__r.Investor_Percentage__c -  Option_Purchase_Price_Balance__c  -  Opportunity__r.Estimated_Funding_Amount__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>(Final OAV * 1.12) * Investor % - Option Purchase Price Balance - OIP</inlineHelpText>
+        <label>Unison Gain Loss 1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Unison_Gain_Loss_2__c</fullName>
+        <description>Used in Nintex Important Information Notice in HB CAP and HO Offer Letter</description>
+        <externalId>false</externalId>
+        <formula>( Opportunity__r.Final_OAV_Calculation__c   * 1.4) *  Opportunity__r.Investor_Percentage__c -  Option_Purchase_Price_Balance__c  - Opportunity__r.Estimated_Funding_Amount__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>(Final OAV * 1.4) * Investor % - Option Purchase Price Balance - OIP</inlineHelpText>
+        <label>Unison Gain Loss 2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Unison_Gain_Loss_3__c</fullName>
+        <description>Used in Nintex Important Information Notice in HB CAP and HO Offer Letter</description>
+        <externalId>false</externalId>
+        <formula>(Opportunity__r.Final_OAV_Calculation__c  * 0.88) * Opportunity__r.Investor_Percentage__c - Option_Purchase_Price_Balance__c - Opportunity__r.Estimated_Funding_Amount__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>(Final OAV * .88) * Investor % - Option Purchase Price Balance - OIP</inlineHelpText>
+        <label>Unison Gain Loss 3</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Unison_Gain_Loss_4__c</fullName>
+        <description>Used in Nintex Important Information Notice in HB CAP, HO Offer Letter, &amp; Revised Offer Letter. As a negative value, the value cannot be greater than the OIP.</description>
+        <externalId>false</externalId>
+        <formula>IF
+(((Opportunity__r.Final_OAV_Calculation__c * 0.75) * Opportunity__r.Investor_Percentage__c - Option_Purchase_Price_Balance__c - Opportunity__r.Estimated_Funding_Amount__c) &lt; (-1* Opportunity__r.Estimated_Funding_Amount__c),
+
+(-1* Opportunity__r.Estimated_Funding_Amount__c),
+
+(Opportunity__r.Final_OAV_Calculation__c * 0.75) * Opportunity__r.Investor_Percentage__c - Option_Purchase_Price_Balance__c - Opportunity__r.Estimated_Funding_Amount__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>(Final OAV * .75) * Investor % - Option Purchase Price Balance - OIP</inlineHelpText>
+        <label>Unison Gain Loss 4</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Unison_Gain_Loss_5__c</fullName>
+        <description>Used in Nintex Important Information Notice in HB CAP and HO Offer Letter</description>
+        <externalId>false</externalId>
+        <formula>(Opportunity__r.Final_OAV_Calculation__c  * Opportunity__r.Investor_Percentage__c) - 
+Option_Purchase_Price_Balance__c - Opportunity__r.Estimated_Funding_Amount__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Final OAV * Investor % - Option Purchase Price Balance - OIP</inlineHelpText>
+        <label>Unison Gain Loss 5</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Unison_Program_Legal__c</fullName>
+        <externalId>false</externalId>
+        <label>Unison Program Legal</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Unison_Program_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Unison Program Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vesting_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Vesting Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vesting_Organization_Final_Description2__c</fullName>
+        <description>Wrong formula &amp; duplicate to Customer Final Vesting.</description>
+        <externalId>false</externalId>
+        <label>ZZZ Final Vesting</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Vesting_Organization_Name2_del__c</fullName>
+        <externalId>false</externalId>
+        <label>Vesting Organization Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Vesting_Organization_State__c</fullName>
+        <externalId>false</externalId>
+        <label>Vesting Organization State</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vesting_Organization_Tax_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Vesting Organization Tax ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vesting_Organization_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Vesting Organization Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Wire_Fee_due_to__c</fullName>
+        <externalId>false</externalId>
+        <label>Wire Fee due to</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>opp_2_id__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity2__r.Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>opp 2 id</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Recorded Information</label>
+    <nameField>
+        <displayFormat>RI-{0000000}</displayFormat>
+        <label>Recorded Information Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Recorded Informations</pluralLabel>
+    <searchLayouts />
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Applicant_CoApplicant_Trust_Signature</fullName>
+        <active>true</active>
+        <description>If Vesting Organization Final Description contains "trust" and co-applicant is not blank, Application and Co-Applicant Trust Signatures are required.</description>
+        <errorConditionFormula>CONTAINS(   Customer_Final_Vesting__c   , "trust") 
+&amp;&amp; 
+ISBLANK(  Co_Applicant_Trust_Signature__c  ) 
+&amp;&amp; 
+NOT( ISBLANK( Co_Applicant_2_Name2__c ))</errorConditionFormula>
+        <errorDisplayField>Co_Applicant_Trust_Signature__c</errorDisplayField>
+        <errorMessage>Co-Applicant Trust Signature required if Vesting Organization Final Description contains "trust"</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Applicant_Trust_Signature</fullName>
+        <active>true</active>
+        <description>If Vesting Organization Final Description contains "trust", Trust Signature is required.</description>
+        <errorConditionFormula>CONTAINS(  Customer_Final_Vesting__c   , "trust")
+&amp;&amp; 
+ISBLANK(  Applicant_Trust_Signature__c  )</errorConditionFormula>
+        <errorDisplayField>Applicant_Trust_Signature__c</errorDisplayField>
+        <errorMessage>Applicant Trust Signature required if Vesting Organization Final Description contains "trust"</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

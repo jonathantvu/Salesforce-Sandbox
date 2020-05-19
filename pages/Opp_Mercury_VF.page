@@ -1,0 +1,150 @@
+<apex:page standardController="Opportunity" extensions="Opp_Mercury_EXT">
+    <apex:slds />
+    <style>
+        .mainBlock {
+            padding:10px;
+        }
+         
+        div.buttons {
+            margin-top: 10px;
+            width: 100%;
+        }
+    </style>
+
+    <script>function setFocusOnLoad(){ /*NOOP*/ }</script>
+
+    <apex:outputPanel id="mainBlock" styleClass="mainBlock" layout="block">
+        <apex:form >
+
+            <apex:actionStatus id="counterStatus">
+                <apex:facet name="start">
+                    <div style="position: fixed; top: 0px; bottom: 0px; left: 0px; right: 0px; background-color: white; opacity: 0.6; text-align: center; padding-top: 10px; z-index: 9999;">
+                        <img src="/img/loading32.gif" />
+                    </div>
+                </apex:facet>
+            </apex:actionStatus>
+
+            <apex:actionFunction name="backToOppty" action="{!BackToOppty}" />
+            
+            <!-- Start Error Block -->
+            <apex:outputPanel id="Errors" layout="block" >
+                <apex:outputPanel layout="block" styleClass="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_error" html-role="alert" rendered="{!displayError}">
+                    <span class="slds-assistive-text">error</span>
+                    <h2><apex:messages /></h2>
+                </apex:outputPanel>
+            </apex:outputPanel>
+            <!-- End Error Block -->
+
+            <div class="slds-grid slds-gutters slds-wrap">
+
+                <div class="slds-col slds-size_1-of-2" >
+                    <div class="slds-grid slds-gutters slds-wrap">
+                        <div class="slds-col slds-size_1-of-1" style="margin-top: 10px; font-size: 125%; margin-bottom: 5px;">
+                            <abbr class="slds-required" title="required">*</abbr>Unison-approved AMC companies
+                        </div>
+                        <div class="slds-col slds-size_3-of-3">
+                            <apex:selectList id="amcCompanies" value="{!selectedAmcCompany}" styleClass="slds-input" size="1" style="width: 430px;">
+                                <apex:selectOptions value="{!amcCompanies}"/>
+                                <apex:actionSupport event="onchange" reRender="buttonSection"/>
+                            </apex:selectList>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slds-col slds-size_1-of-2" >
+                    <div class="slds-grid slds-gutters slds-wrap">                
+                        <div class="slds-col slds-size_3-of-3" style="margin-top: 10px; font-size: 125%; margin-bottom: 5px;">
+                            <abbr class="slds-required" title="required">*</abbr>Product
+                        </div>
+                        <div class="slds-col slds-size_3-of-3" >
+                            <apex:selectList id="productList" value="{!selectedProduct}" styleClass="slds-input" size="1" style="width: 430px;">
+                                <apex:selectOptions value="{!productList}"/>
+                                <apex:actionSupport event="onchange" reRender="buttonSection, confirmationSection"/>                                    
+                            </apex:selectList>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slds-col slds-size_1-of-2" >
+                    <div class="slds-grid slds-gutters slds-wrap">
+                        <div class="slds-col slds-size_3-of-3" style="margin-top: 20px; font-size: 125%; margin-bottom: 5px;">
+                            <abbr class="slds-required" title="required">*</abbr>Requirement 
+                        </div>
+                        <div class="slds-col slds-size_3-of-3" >
+                            <apex:selectList id="requirement" value="{!selectedRequirement}" size="1" styleClass="slds-input" style="width: 430px;">
+                                <apex:selectOptions value="{!availableRequirementList}"/>
+                                <apex:actionSupport event="onchange" action="{!checkConfirmation}" reRender="buttonSection, confirmationSection"/>
+                            </apex:selectList>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slds-col slds-size_1-of-2" >
+                    <div class="slds-grid slds-gutters slds-wrap">
+                        <div class="slds-col slds-size_3-of-3" style="margin-top: 20px; font-size: 125%; margin-bottom: 5px;">
+                            <abbr class="slds-required" title="required">*</abbr>Property Type
+                        </div>
+                        <div class="slds-col slds-size_3-of-3" >
+                            <apex:selectList id="propertyType" value="{!selectedPropertyType}" size="1" styleClass="slds-input" style="width: 430px;">
+                                <apex:selectOptions value="{!propertyType}"/>
+                            </apex:selectList>
+                        </div>
+                    </div>
+                </div>                
+
+                <!-- Confirmation Needed Section -->
+                <div class="slds-col slds-size_1-of-1" >
+                    <div class="slds-grid slds-gutters slds-wrap">
+                        <apex:outputPanel id="confirmationSection" layout="block">
+                            <apex:outputPanel layout="block" rendered="{!showConfirmation == true}">
+                                <div class="slds-col slds-size_3-of-3" style="margin-top: 20px; font-size: 125%; margin-bottom: 5px;">
+                                    Are sure you want to place an additional appraisal order?
+                                </div>
+                                <div class="slds-col slds-size_3-of-3" >
+                                    <apex:commandButton value="Yes" styleClass="slds-button slds-button_brand" action="{!confirmationProvided}" reRender="confirmationSection,buttonSection"/> &nbsp;
+                                    <apex:commandButton value="No" styleClass="slds-button slds-button_neutral" action="{!confirmationRefused}" reRender="confirmationSection,buttonSection,requirement"/>
+                                </div>
+                            </apex:outputPanel>
+                        </apex:outputPanel>
+                    </div>
+                </div>
+
+                <div class="slds-col slds-size_1-of-2" >
+                    <div class="slds-grid slds-gutters slds-wrap">
+                        <div class="slds-col slds-size_3-of-3" style="margin-top: 20px; font-size: 125%; margin-bottom: 5px;">
+                            <abbr class="slds-required" title="required">*</abbr>Due Date
+                        </div>
+                        <div class="slds-col slds-size_3-of-3" style="margin-bottom: 25px; ">
+                           <apex:inputField styleClass="slds-input" value="{!dummyOpp.Converted_Close_Date__c}" style="width: 430px;"/>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="slds-col slds-size_1-of-1" >
+                <div Class="buttons">
+                    <apex:outputPanel layout="block" id="buttonSection" style="display: inline-flex;">
+                        <apex:outputPanel layout="none" rendered="{!generateStep = 0}">
+                            <button style="margin-right: 10px;" class="slds-button slds-button_neutral" onclick="backToOppty(); return false;">Back</button>
+                            <apex:outputPanel layout="block" rendered="{!selectedAmcCompany == '--None--' || selectedProduct == '--None--' || (needConfirmation == true && confirmationReceived == false)}">
+                                <apex:commandButton disabled="true" value="Order Appraisal" styleClass="slds-button slds-button_brand" action="{!generateOrderAppraisal}" />
+                            </apex:outputPanel>
+                            <apex:outputPanel layout="block" rendered="{!selectedAmcCompany != '--None--' &&  selectedProduct != '--None--' && ((needConfirmation == true && confirmationReceived == true) || needConfirmation == false)}">
+                                <apex:commandButton value="Order Appraisal" styleClass="slds-button slds-button_brand" action="{!generateOrderAppraisal}" status="counterStatus" reRender="buttonSection,Errors"/>
+                            </apex:outputPanel>
+                        </apex:outputPanel>
+                        <apex:outputPanel layout="none" rendered="{!generateStep = 1}">
+                            <apex:outputPanel layout="block" styleClass="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_info" html-role="alert">
+                                <span class="slds-assistive-text">please wait</span>
+                                <h2>Appraisal created. Sending to AWS, please wait ...</h2>
+                            </apex:outputPanel>
+                            <apex:actionPoller action="{!generateOrderAppraisalStep2}" interval="5" status="counterStatus" reRender="buttonSection,Errors" />
+                        </apex:outputPanel> 
+                    </apex:outputPanel>
+                </div>
+            </div>
+        </apex:form>
+    </apex:outputPanel>
+
+</apex:page>

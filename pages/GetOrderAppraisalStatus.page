@@ -1,0 +1,13 @@
+<apex:page standardController="Appraisal__c" showHeader="true" sidebar="true" extensions="GetOrderAppraisalStatusController" action="{!GetOrderStatus}">
+	
+	<apex:form >
+
+		<apex:pageMessages id="showmsg"></apex:pageMessages>
+
+		<div style="margin-left: 20px; margin-top: 20px;">
+			<apex:commandButton value="Back" action="{!goBack}" style="width:90px" rerender="showmsg"/>
+		</div>
+
+	</apex:form>
+
+</apex:page>

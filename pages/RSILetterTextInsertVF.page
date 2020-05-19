@@ -1,0 +1,129 @@
+<apex:page controller="RSILetterTextController" lightningStylesheets="true" standardStylesheets="false" docType="html-5.0" sidebar="false" showHeader="false">
+    <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Import the Design System style sheet -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <apex:slds />
+    </head>
+    <style>
+         html {
+            font-size: initial !important;
+            }
+            .slds-scope .slds-popover{
+            left:50%;
+            }
+            h2 {
+            font-size: 30px !important;
+            }
+    </style>
+    <apex:form >
+        <div class="slds-scope">
+        <apex:outputpanel id="messages">
+            <apex:outputPanel rendered="{!errorhasoccured}">
+            <section aria-describedby="dialog-body-id-8" aria-labelledby="dialog-heading-id-1" class="slds-popover slds-popover_error slds-nubbin_bottom-left" role="dialog">
+                <button class="slds-button slds-button_icon slds-button_icon-small slds-float_right slds-popover__close slds-button_icon-inverse" title="Close dialog">
+                    <svg class="slds-button__icon" aria-hidden="true">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#close" />
+                    </svg>
+                    <span class="slds-assistive-text">Close dialog</span>
+                </button>
+                <header class="slds-popover__header">
+                    <div class="slds-media slds-media_center slds-has-flexi-truncate ">
+                        <div class="slds-media__figure">
+                            <span class="slds-icon_container slds-icon-utility-error">
+                            <svg class="slds-icon slds-icon_x-small" aria-hidden="true">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#error" />
+                            </svg>
+                            </span>
+                        </div>
+                        <div class="slds-media__body">
+                            <h2 class="slds-truncate slds-text-heading_medium" id="dialog-heading-id-1" title="Resolve error">Resolve error</h2>
+                        </div>
+                    </div>
+                </header>
+                <div class="slds-popover__body" id="dialog-body-id-8">
+                    <p>{!errormessage}</p>
+                </div>
+                <br/>
+            </section>
+                <!--<div style="font-size: 19px;">
+                    <apex:pageMessages id="error1" escape="false" ></apex:pageMessages>
+                </div> -->                                             
+            </apex:outputPanel>
+          </apex:outputPanel>
+        <div align="center" style="padding:15px;">
+            <h2> RSI Eligible Requirements </h2>
+        </div>
+        <div align="center" style="padding:15px;">
+            <p style="font-size:20px !important"> Opportunity: {!mainopportunity.Name} </p>
+        </div>
+        <apex:outputpanel rendered="{!mainopportunity.RSI_Count__c>0}">
+        <apex:pageBlock id="mainBlockId">
+            <div class="slds-form-element" >
+            <apex:variable value="{!1}" var="count"/>
+            <table class="slds-table slds-table_cell-buffer slds-table_bordered" >
+                <thead>
+                     <tr class="slds-line-height_reset">
+                        <th class="slds-text-title_caps" scope="col">
+                            <div class="slds-truncate" style="font-size:14px;">Sequence No.</div>
+                        </th>
+                         <th class="slds-text-title_caps" scope="col">
+                             <div class="slds-truncate" style="font-size:14px;">Requirement Name</div>
+                         </th>
+                         <th class="slds-text-title_caps" scope="col">
+                             <div class="slds-truncate" style="font-size:14px;">RSI Letter Text Insert<abbr class="slds-required" title="required">* </abbr></div>
+                         </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <apex:repeat value="{!todisplay}" var="c">
+                        <tr>
+                            <td>
+                                <div class="slds-truncate"  style="font-size:16px;">{!count}</div>
+                            </td>
+                            <td>
+                                <div class="slds-truncate" title="{!c.Requirement__c}" style="font-size:16px;">{!c.Requirement__c}</div>
+                            </td>
+                            <td>
+                                <apex:inputfield styleclass="slds-truncate" style="width:200px;height: 50px;" value="{!c.RSI_Letter_Text_Insert__c }"/> 
+                            </td>
+                        </tr>
+                        <apex:variable var="count" value="{!count+ 1}"/>
+                    </apex:repeat>
+                </tbody>
+            </table>
+            </div>
+        </apex:pageBlock>
+        <center><apex:commandButton style="width: 125px;padding:6px; margin: 15px;" value="Submit RSI Letter(s)" action="{!updaterequirements}" rerender="messages,error1,mainBlockId" status="Casestatus" oncomplete="callattachment();"/></center>
+        </apex:outputpanel>
+        <apex:outputpanel rendered="{!mainopportunity.RSI_Count__c ==0 || mainopportunity.RSI_Count__c == null}">
+            <p style="text-align:center;font-size:25px;padding-top:100px;">No RSI Eligible Requirements exist at this time.</p>
+        </apex:outputpanel>
+        </div>
+        <!--<apex:actionfunction name="redirectfunc" action="{!attachdownload}" rerender="messages,error1,mainBlockId" status="Casestatus"/>-->
+        <script>
+         function callattachment()
+         {
+             var msg = '{!errormessage}';
+             console.log('msg==>'+msg);
+             if(msg == '')
+             {
+                // window.close();
+             }
+         }
+     </script>
+     </apex:form>
+     
+     </html>
+</apex:page>

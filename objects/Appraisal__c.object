@@ -1,0 +1,1559 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Appraisal_Company__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Source__c ='3453649', 'Axis Appraisal Management Solutions', 
+IF( Source__c ='5180293', 'ServiceLink', 
+IF( Source__c ='4709283', 'ARIVS', 
+
+'No Appraisal Company Found'
+)
+)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Appraisal Company</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Appraisal_Effective_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Effective Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Appraisal_Expiration__c</fullName>
+        <description>Appraisal’s Expiration Date (120 Days following the Appraisal’s Effective Date)</description>
+        <externalId>false</externalId>
+        <formula>Appraisal_Effective_Date__c + 120</formula>
+        <inlineHelpText>Appraisal’s Expiration Date (120 Days following the Appraisal’s Effective Date)</inlineHelpText>
+        <label>Appraisal Expiration</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Appraisal_External_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Appraisal External Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Appraisal_Fee_Set__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Appraisal Fee Set</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Appraisal_Fee__c</fullName>
+        <externalId>false</externalId>
+        <label>Appraisal Fee</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Appraisal_Final_Value__c</fullName>
+        <externalId>false</externalId>
+        <label>Final Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Appraisal_Genesis__c</fullName>
+        <externalId>false</externalId>
+        <label>Appraisal Genesis</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Greenlight Requested</fullName>
+                    <default>false</default>
+                    <label>Greenlight Requested</label>
+                </value>
+                <value>
+                    <fullName>IA Requested</fullName>
+                    <default>false</default>
+                    <label>IA Requested</label>
+                </value>
+                <value>
+                    <fullName>Client Requested</fullName>
+                    <default>false</default>
+                    <label>Client Requested</label>
+                </value>
+                <value>
+                    <fullName>Client Provided</fullName>
+                    <default>false</default>
+                    <label>Client Provided</label>
+                </value>
+                <value>
+                    <fullName>Lender Provided</fullName>
+                    <default>false</default>
+                    <label>Lender Provided</label>
+                </value>
+                <value>
+                    <fullName>Unison Required</fullName>
+                    <default>false</default>
+                    <label>Unison Required</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Appraisal_Order_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Appraisal Order Number</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Appraisal_Ordered_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Ordered Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Appraisal_Received_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Received Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Appraisal_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Appraisal Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Requested</fullName>
+                    <default>false</default>
+                    <label>Requested</label>
+                </value>
+                <value>
+                    <fullName>Ordered</fullName>
+                    <default>false</default>
+                    <label>Ordered</label>
+                </value>
+                <value>
+                    <fullName>Received</fullName>
+                    <default>false</default>
+                    <label>Received</label>
+                </value>
+                <value>
+                    <fullName>Reviewed</fullName>
+                    <default>false</default>
+                    <label>Reviewed</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Appraisal_Value_Designation__c</fullName>
+        <externalId>false</externalId>
+        <label>Valuation Designation</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>As-Is</fullName>
+                    <default>false</default>
+                    <label>As-Is</label>
+                </value>
+                <value>
+                    <fullName>Subject-To</fullName>
+                    <default>false</default>
+                    <label>Subject-To</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Basement_Bathroom_Count__c</fullName>
+        <externalId>false</externalId>
+        <label>Basement Bathroom Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Basement_Bedroom_Count__c</fullName>
+        <externalId>false</externalId>
+        <label>Basement Bedroom Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Basement_Finished_Sqft__c</fullName>
+        <externalId>false</externalId>
+        <label>Basement Finished Sqft</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Basement_Other_Room_Count__c</fullName>
+        <externalId>false</externalId>
+        <label>Basement Other Room Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Basement_Recreation_Count__c</fullName>
+        <externalId>false</externalId>
+        <label>Basement Rec Room Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Basement_Total_Sqft__c</fullName>
+        <externalId>false</externalId>
+        <label>Basement Total Sqft</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>City__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Property_City__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>City</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Comps_Analysis_Comments__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please provide comments related to the comparable sales and adjustments</inlineHelpText>
+        <label>Comps Analysis Comments</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Evaluation_Method__c</fullName>
+        <description>This field helps to controls the appraisal’s evaluation methodology.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field helps to controls the appraisal’s evaluation methodology.</inlineHelpText>
+        <label>Evaluation Method</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>As Is</fullName>
+                    <default>true</default>
+                    <label>As Is</label>
+                </value>
+                <value>
+                    <fullName>Subject To</fullName>
+                    <default>false</default>
+                    <label>Subject To</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Finished_Sqft__c</fullName>
+        <externalId>false</externalId>
+        <label>Basement Finished Sqft</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MercuryTrackingId__c</fullName>
+        <externalId>false</externalId>
+        <label>MercuryTrackingId</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Appraisals</relationshipLabel>
+        <relationshipName>Appraisals</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Property_Building_GLA__c</fullName>
+        <externalId>false</externalId>
+        <label>Building GLA</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Property_City_c__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Property_City__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Property City</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Property_Condition__c</fullName>
+        <externalId>false</externalId>
+        <label>Condition</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Property_Condition</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Property_Condo_PUD_Name__c</fullName>
+        <description>Name of the Condominium or PUD for a given property. Parsed from Appraisal XML: deleting or otherwise altering this field might cause errors.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name of the Condominium or PUD for a given property as received from the Appraisal company.</inlineHelpText>
+        <label>Condo/PUD Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Property_County__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Property_County__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Property County</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Property_Flood_Zone__c</fullName>
+        <externalId>false</externalId>
+        <label>Flood Zone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Property_Flood_Zone</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Property_HOA_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>HOA Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Property_HOA_Frequency__c</fullName>
+        <externalId>false</externalId>
+        <label>HOA Frequency</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Per Month</fullName>
+                    <default>false</default>
+                    <label>Per Month</label>
+                </value>
+                <value>
+                    <fullName>Per Year</fullName>
+                    <default>false</default>
+                    <label>Per Year</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Property_Land_Cost_Ratio__c</fullName>
+        <externalId>false</externalId>
+        <formula>( Property_Land_Cost__c /  Appraisal_Final_Value__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Land:Cost Ratio</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Property_Land_Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>Land Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Property_Lot_Size__c</fullName>
+        <externalId>false</externalId>
+        <label>Lot Size</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Property_Marketability__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Are there any featured or photos that indicate issues with the marketability of the property?Examples of near negative physical features include: close proximity to prison, power lines, waste dump, industrial area, etc</inlineHelpText>
+        <label>Property Marketability</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Acceptable Marketability</fullName>
+                    <default>false</default>
+                    <label>Acceptable Marketability</label>
+                </value>
+                <value>
+                    <fullName>Accessory Unit</fullName>
+                    <default>false</default>
+                    <label>Accessory Unit</label>
+                </value>
+                <value>
+                    <fullName>Actively Remodeling</fullName>
+                    <default>false</default>
+                    <label>Actively Remodeling</label>
+                </value>
+                <value>
+                    <fullName>Age-Restricted Community</fullName>
+                    <default>false</default>
+                    <label>Age-Restricted Community</label>
+                </value>
+                <value>
+                    <fullName>Appraised 'Subject-To'</fullName>
+                    <default>false</default>
+                    <label>Appraised 'Subject-To'</label>
+                </value>
+                <value>
+                    <fullName>Atypical Architectural Design</fullName>
+                    <default>false</default>
+                    <label>Atypical Architectural Design</label>
+                </value>
+                <value>
+                    <fullName>Atypical Property Features</fullName>
+                    <default>false</default>
+                    <label>Atypical Property Features</label>
+                </value>
+                <value>
+                    <fullName>Atypical Property Type</fullName>
+                    <default>false</default>
+                    <label>Atypical Property Type</label>
+                </value>
+                <value>
+                    <fullName>Atypical Square Footage</fullName>
+                    <default>false</default>
+                    <label>Atypical Square Footage</label>
+                </value>
+                <value>
+                    <fullName>Atypical Utilities</fullName>
+                    <default>false</default>
+                    <label>Atypical Utilities</label>
+                </value>
+                <value>
+                    <fullName>Bad Landscaping</fullName>
+                    <default>false</default>
+                    <label>Bad Landscaping</label>
+                </value>
+                <value>
+                    <fullName>Broken Window</fullName>
+                    <default>false</default>
+                    <label>Broken Window</label>
+                </value>
+                <value>
+                    <fullName>Cohousing</fullName>
+                    <default>false</default>
+                    <label>Cohousing</label>
+                </value>
+                <value>
+                    <fullName>Comp Sale Price Discrepancy</fullName>
+                    <default>false</default>
+                    <label>Comp Sale Price Discrepancy</label>
+                </value>
+                <value>
+                    <fullName>Converting/Converted Room(s)</fullName>
+                    <default>false</default>
+                    <label>Converting/Converted Room(s)</label>
+                </value>
+                <value>
+                    <fullName>Cost to Cure Items</fullName>
+                    <default>false</default>
+                    <label>Cost to Cure Items</label>
+                </value>
+                <value>
+                    <fullName>Custom Design</fullName>
+                    <default>false</default>
+                    <label>Custom Design</label>
+                </value>
+                <value>
+                    <fullName>Direct Mail Blacklist</fullName>
+                    <default>false</default>
+                    <label>Direct Mail Blacklist</label>
+                </value>
+                <value>
+                    <fullName>Energy Efficient</fullName>
+                    <default>false</default>
+                    <label>Energy Efficient</label>
+                </value>
+                <value>
+                    <fullName>Finished Basement</fullName>
+                    <default>false</default>
+                    <label>Finished Basement</label>
+                </value>
+                <value>
+                    <fullName>Fresh Paint</fullName>
+                    <default>false</default>
+                    <label>Fresh Paint</label>
+                </value>
+                <value>
+                    <fullName>Good Landscaping</fullName>
+                    <default>false</default>
+                    <label>Good Landscaping</label>
+                </value>
+                <value>
+                    <fullName>High HOA Fees</fullName>
+                    <default>false</default>
+                    <label>High HOA Fees</label>
+                </value>
+                <value>
+                    <fullName>Inferior Location</fullName>
+                    <default>false</default>
+                    <label>Inferior Location</label>
+                </value>
+                <value>
+                    <fullName>Major Cracks</fullName>
+                    <default>false</default>
+                    <label>Major Cracks</label>
+                </value>
+                <value>
+                    <fullName>Major Leak</fullName>
+                    <default>false</default>
+                    <label>Major Leak</label>
+                </value>
+                <value>
+                    <fullName>Major Mold</fullName>
+                    <default>false</default>
+                    <label>Major Mold</label>
+                </value>
+                <value>
+                    <fullName>Minor Cracks</fullName>
+                    <default>false</default>
+                    <label>Minor Cracks</label>
+                </value>
+                <value>
+                    <fullName>Minor Leak</fullName>
+                    <default>false</default>
+                    <label>Minor Leak</label>
+                </value>
+                <value>
+                    <fullName>Minor Mold</fullName>
+                    <default>false</default>
+                    <label>Minor Mold</label>
+                </value>
+                <value>
+                    <fullName>Missing/Damaged Flooring</fullName>
+                    <default>false</default>
+                    <label>Missing/Damaged Flooring</label>
+                </value>
+                <value>
+                    <fullName>Missing/Damaged Roof</fullName>
+                    <default>false</default>
+                    <label>Missing/Damaged Roof</label>
+                </value>
+                <value>
+                    <fullName>Moss Growth</fullName>
+                    <default>false</default>
+                    <label>Moss Growth</label>
+                </value>
+                <value>
+                    <fullName>Near Negative Physical Features</fullName>
+                    <default>false</default>
+                    <label>Near Negative Physical Features</label>
+                </value>
+                <value>
+                    <fullName>New Construction</fullName>
+                    <default>false</default>
+                    <label>New Construction</label>
+                </value>
+                <value>
+                    <fullName>New Flooring</fullName>
+                    <default>false</default>
+                    <label>New Flooring</label>
+                </value>
+                <value>
+                    <fullName>New Roof</fullName>
+                    <default>false</default>
+                    <label>New Roof</label>
+                </value>
+                <value>
+                    <fullName>Outdoor Amenities</fullName>
+                    <default>false</default>
+                    <label>Outdoor Amenities</label>
+                </value>
+                <value>
+                    <fullName>Owner of Record Inconsistent w/ Application</fullName>
+                    <default>false</default>
+                    <label>Owner of Record Inconsistent w/ Application</label>
+                </value>
+                <value>
+                    <fullName>Owner of Record Inconsistent with Application</fullName>
+                    <default>false</default>
+                    <label>Owner of Record Inconsistent with Application</label>
+                </value>
+                <value>
+                    <fullName>Property Currently or Recently For Sale</fullName>
+                    <default>false</default>
+                    <label>Property Currently or Recently For Sale</label>
+                </value>
+                <value>
+                    <fullName>Property Outdated</fullName>
+                    <default>false</default>
+                    <label>Property Outdated</label>
+                </value>
+                <value>
+                    <fullName>Property Poorly-maintained</fullName>
+                    <default>false</default>
+                    <label>Property Poorly-maintained</label>
+                </value>
+                <value>
+                    <fullName>Property Well-maintained</fullName>
+                    <default>false</default>
+                    <label>Property Well-maintained</label>
+                </value>
+                <value>
+                    <fullName>Questionable Owner-Occupancy</fullName>
+                    <default>false</default>
+                    <label>Questionable Owner-Occupancy</label>
+                </value>
+                <value>
+                    <fullName>Septic System</fullName>
+                    <default>false</default>
+                    <label>Septic System</label>
+                </value>
+                <value>
+                    <fullName>Significant View Adjustment</fullName>
+                    <default>false</default>
+                    <label>Significant View Adjustment</label>
+                </value>
+                <value>
+                    <fullName>Solar Panels - Leased</fullName>
+                    <default>false</default>
+                    <label>Solar Panels - Leased</label>
+                </value>
+                <value>
+                    <fullName>Solar Panels - Owned</fullName>
+                    <default>false</default>
+                    <label>Solar Panels - Owned</label>
+                </value>
+                <value>
+                    <fullName>Standing Water</fullName>
+                    <default>false</default>
+                    <label>Standing Water</label>
+                </value>
+                <value>
+                    <fullName>Superior Location</fullName>
+                    <default>false</default>
+                    <label>Superior Location</label>
+                </value>
+                <value>
+                    <fullName>Tenant Occupied</fullName>
+                    <default>false</default>
+                    <label>Tenant Occupied</label>
+                </value>
+                <value>
+                    <fullName>Unfinished Basement</fullName>
+                    <default>false</default>
+                    <label>Unfinished Basement</label>
+                </value>
+                <value>
+                    <fullName>Unpermitted Space</fullName>
+                    <default>false</default>
+                    <label>Unpermitted Space</label>
+                </value>
+                <value>
+                    <fullName>Updated Bathroom</fullName>
+                    <default>false</default>
+                    <label>Updated Bathroom</label>
+                </value>
+                <value>
+                    <fullName>Updated Kitchen</fullName>
+                    <default>false</default>
+                    <label>Updated Kitchen</label>
+                </value>
+                <value>
+                    <fullName>Vegetation</fullName>
+                    <default>false</default>
+                    <label>Vegetation</label>
+                </value>
+                <value>
+                    <fullName>Waterfront</fullName>
+                    <default>false</default>
+                    <label>Waterfront</label>
+                </value>
+                <value>
+                    <fullName>Water Staining</fullName>
+                    <default>false</default>
+                    <label>Water Staining</label>
+                </value>
+                <value>
+                    <fullName>Zoning Issue</fullName>
+                    <default>false</default>
+                    <label>Zoning Issue</label>
+                </value>
+                <value>
+                    <fullName>Appraised "Subject-To"</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Appraised "Subject-To"</label>
+                </value>
+                <value>
+                    <fullName>Area Lacks Similar Comparables</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Area Lacks Similar Comparables</label>
+                </value>
+                <value>
+                    <fullName>Area Lacks Sufficient Comps</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Area Lacks Sufficient Comps</label>
+                </value>
+                <value>
+                    <fullName>Area Lacks Sufficient Sale Volume</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Area Lacks Sufficient Sale Volume</label>
+                </value>
+                <value>
+                    <fullName>Indicated Tenant Occupied</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Indicated Tenant Occupied</label>
+                </value>
+                <value>
+                    <fullName>Property Has Atypical Features</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Property Has Atypical Features</label>
+                </value>
+                <value>
+                    <fullName>Property Recently Modeled/Has Upgrades</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Property Recently Modeled/Has Upgrades</label>
+                </value>
+                <value>
+                    <fullName>Propety Under Remodel</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Propety Under Remodel</label>
+                </value>
+                <value>
+                    <fullName>Significant Deferred Maintenance</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Significant Deferred Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Signs of Hoarding</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Signs of Hoarding</label>
+                </value>
+                <value>
+                    <fullName>Unfinished</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Unfinished</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Property_Neighborhood_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Neighborhood Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Property_Number_of_Units__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Units</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Property_Rooms_Baths__c</fullName>
+        <externalId>false</externalId>
+        <label>Bathrooms</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Property_Rooms_Beds__c</fullName>
+        <externalId>false</externalId>
+        <label>Bedrooms</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Property_State__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Property_State__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Property State</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Property_Street_Number_and_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Property_Street_Number_and_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Property Street Number and Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Property_Total_Rooms__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Rooms</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Property_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Property Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Property_Type</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Property_Year_Built__c</fullName>
+        <externalId>false</externalId>
+        <label>Year Built</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Property_Zip_Code__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Property_Zip_Code__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Property Zip Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Property__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Property</label>
+        <referenceTo>Property__c</referenceTo>
+        <relationshipLabel>Appraisals</relationshipLabel>
+        <relationshipName>Appraisals</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Requirement__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Requirement</label>
+        <referenceTo>Current_Conditions__c</referenceTo>
+        <relationshipLabel>Appraisals</relationshipLabel>
+        <relationshipName>Appraisals</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Source__c</fullName>
+        <externalId>false</externalId>
+        <label>Appraisal Source</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Valuation_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Valuation Notes</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Appraisal Above Estimate</fullName>
+                    <default>false</default>
+                    <label>Appraisal Above Estimate</label>
+                </value>
+                <value>
+                    <fullName>Appraisal Above Recent Purchase Price</fullName>
+                    <default>false</default>
+                    <label>Appraisal Above Recent Purchase Price</label>
+                </value>
+                <value>
+                    <fullName>Appraisal Below Estimate</fullName>
+                    <default>false</default>
+                    <label>Appraisal Below Estimate</label>
+                </value>
+                <value>
+                    <fullName>Appraisal Below Recent Purchase Price</fullName>
+                    <default>false</default>
+                    <label>Appraisal Below Recent Purchase Price</label>
+                </value>
+                <value>
+                    <fullName>Appraised 10% Above Average AVM</fullName>
+                    <default>false</default>
+                    <label>Appraised 10% Above Average AVM</label>
+                </value>
+                <value>
+                    <fullName>Appraised 10% Below Average AVM</fullName>
+                    <default>false</default>
+                    <label>Appraised 10% Below Average AVM</label>
+                </value>
+                <value>
+                    <fullName>Appraised Above Listing</fullName>
+                    <default>false</default>
+                    <label>Appraised Above Listing</label>
+                </value>
+                <value>
+                    <fullName>Appraised Below Listing</fullName>
+                    <default>false</default>
+                    <label>Appraised Below Listing</label>
+                </value>
+                <value>
+                    <fullName>Area Lacks Similar Comparables</fullName>
+                    <default>false</default>
+                    <label>Area Lacks Similar Comparables</label>
+                </value>
+                <value>
+                    <fullName>Area Lacks Sufficient Sale Volume</fullName>
+                    <default>false</default>
+                    <label>Area Lacks Sufficient Sale Volume</label>
+                </value>
+                <value>
+                    <fullName>AVM Bed/Bath Discrepancy</fullName>
+                    <default>false</default>
+                    <label>AVM Bed/Bath Discrepancy</label>
+                </value>
+                <value>
+                    <fullName>AVM Misclassified Property Type</fullName>
+                    <default>false</default>
+                    <label>AVM Misclassified Property Type</label>
+                </value>
+                <value>
+                    <fullName>AVM Other Data Discrepancy</fullName>
+                    <default>false</default>
+                    <label>AVM Other Data Discrepancy</label>
+                </value>
+                <value>
+                    <fullName>AVMs Missing Finished Basement</fullName>
+                    <default>false</default>
+                    <label>AVMs Missing Finished Basement</label>
+                </value>
+                <value>
+                    <fullName>AVM SqFt Discrepancy</fullName>
+                    <default>false</default>
+                    <label>AVM SqFt Discrepancy</label>
+                </value>
+                <value>
+                    <fullName>Bad Adjustment</fullName>
+                    <default>false</default>
+                    <label>Bad Adjustment</label>
+                </value>
+                <value>
+                    <fullName>Bad Comparables</fullName>
+                    <default>false</default>
+                    <label>Bad Comparables</label>
+                </value>
+                <value>
+                    <fullName>Basement Appraisal GLA Inclusion</fullName>
+                    <default>false</default>
+                    <label>Basement Appraisal GLA Inclusion</label>
+                </value>
+                <value>
+                    <fullName>Basement AVM GLA Inclusion</fullName>
+                    <default>false</default>
+                    <label>Basement AVM GLA Inclusion</label>
+                </value>
+                <value>
+                    <fullName>Basement GLA Discrepency</fullName>
+                    <default>false</default>
+                    <label>Basement GLA Discrepency</label>
+                </value>
+                <value>
+                    <fullName>Correct Valuation</fullName>
+                    <default>false</default>
+                    <label>Correct Valuation</label>
+                </value>
+                <value>
+                    <fullName>Customer Experience</fullName>
+                    <default>false</default>
+                    <label>Customer Experience</label>
+                </value>
+                <value>
+                    <fullName>Easy Valuation</fullName>
+                    <default>false</default>
+                    <label>Easy Valuation</label>
+                </value>
+                <value>
+                    <fullName>Flipped Homes Used in Valuation</fullName>
+                    <default>false</default>
+                    <label>Flipped Homes Used in Valuation</label>
+                </value>
+                <value>
+                    <fullName>Good Comparables</fullName>
+                    <default>false</default>
+                    <label>Good Comparables</label>
+                </value>
+                <value>
+                    <fullName>Home's Condition Not Reflected in Value</fullName>
+                    <default>false</default>
+                    <label>Home's Condition Not Reflected in Value</label>
+                </value>
+                <value>
+                    <fullName>Inferior Condition</fullName>
+                    <default>false</default>
+                    <label>Inferior Condition</label>
+                </value>
+                <value>
+                    <fullName>Large AVM Std Dev</fullName>
+                    <default>false</default>
+                    <label>Large AVM Std Dev</label>
+                </value>
+                <value>
+                    <fullName>Low Valuation</fullName>
+                    <default>false</default>
+                    <label>Low Valuation</label>
+                </value>
+                <value>
+                    <fullName>Modular Home</fullName>
+                    <default>false</default>
+                    <label>Modular Home</label>
+                </value>
+                <value>
+                    <fullName>Rogue AVM</fullName>
+                    <default>false</default>
+                    <label>Rogue AVM</label>
+                </value>
+                <value>
+                    <fullName>Sale Price Discrepancy</fullName>
+                    <default>false</default>
+                    <label>Sale Price Discrepancy</label>
+                </value>
+                <value>
+                    <fullName>Superior Condition</fullName>
+                    <default>false</default>
+                    <label>Superior Condition</label>
+                </value>
+                <value>
+                    <fullName>Updated Garage Features</fullName>
+                    <default>false</default>
+                    <label>Updated Garage Features</label>
+                </value>
+                <value>
+                    <fullName>Wide Price Range Neighborhood</fullName>
+                    <default>false</default>
+                    <label>Wide Price Range Neighborhood</label>
+                </value>
+                <value>
+                    <fullName>AVMs Basement Discrepancy</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>AVMs Basement Discrepancy</label>
+                </value>
+                <value>
+                    <fullName>AVMs Missing Additional SqFt and/or Rooms</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>AVMs Missing Additional SqFt and/or Rooms</label>
+                </value>
+                <value>
+                    <fullName>AVMs Using Incorrect Data</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>AVMs Using Incorrect Data</label>
+                </value>
+                <value>
+                    <fullName>Basement GLA Inclusion</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Basement GLA Inclusion</label>
+                </value>
+                <value>
+                    <fullName>High Valuation</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>High Valuation</label>
+                </value>
+                <value>
+                    <fullName>Median AVM more than 20% Higher</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Median AVM more than 20% Higher</label>
+                </value>
+                <value>
+                    <fullName>Median AVM more than 20% Lower</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Median AVM more than 20% Lower</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>X2nd_appraisal_ordered__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Second_Appraisal_Ordered__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>2nd appraisal ordered</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>property_id__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Property__r.Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>property id</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Appraisal</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>MercuryTrackingId__c</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Appraisal_orders</fullName>
+        <columns>NAME</columns>
+        <columns>Property_Street_Number_and_Name__c</columns>
+        <columns>X2nd_appraisal_ordered__c</columns>
+        <columns>Property_City_c__c</columns>
+        <columns>Property_State__c</columns>
+        <columns>Property_Zip_Code__c</columns>
+        <columns>Appraisal_Order_Number__c</columns>
+        <columns>Appraisal_Fee__c</columns>
+        <columns>Appraisal_Status__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>OBJECT_ID</columns>
+        <columns>Opportunity__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Appraisal_Status__c</field>
+            <operation>equals</operation>
+            <value>Ordered</value>
+        </filters>
+        <label>Appraisal Ordered</label>
+    </listViews>
+    <nameField>
+        <displayFormat>A-{0000000}</displayFormat>
+        <label>Appraisal Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Appraisals</pluralLabel>
+    <searchLayouts />
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Appraisal_Genesis_is_required</fullName>
+        <active>false</active>
+        <errorConditionFormula>ISPICKVAL(Appraisal_Status__c, 'Reviewed')   &amp;&amp;  ISBLANK( TEXT(Appraisal_Genesis__c))</errorConditionFormula>
+        <errorMessage>Appraisal Genesis needs to be entered before setting Appraisal status as Reviewed.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Valuation_and_Property_Marketability_Req</fullName>
+        <active>true</active>
+        <description>Valuation and Property Marketability Required
+Ticket: BUS-155110486</description>
+        <errorConditionFormula>ISPICKVAL(Appraisal_Status__c, 'Reviewed') &amp;&amp;
+(ISBLANK( Valuation_Notes__c ) ||
+ISBLANK(  Property_Marketability__c ))</errorConditionFormula>
+        <errorMessage>Please add Valuation and Marketability Notes before saving this Appraisal</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Get_Order_Status</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>page</linkType>
+        <masterLabel>Get Order Status</masterLabel>
+        <openType>replace</openType>
+        <page>GetOrderAppraisalStatus</page>
+        <protected>false</protected>
+    </webLinks>
+</CustomObject>

@@ -1,0 +1,34 @@
+<apex:page standardController="Contact" Extensions="ContactPartnerEvent_EXT" tabStyle="Event">
+    <apex:slds />
+    <apex:pageMessages />
+    <apex:form >
+    <apex:pageBlock Title="New Partner Event">
+        <apex:pageBlockButtons >
+            <apex:commandButton action="{!saveEvent}" value="Save" />
+            <apex:commandButton action="{!Cancel}" value="Cancel" />            
+        </apex:pageBlockButtons>
+        <apex:pageBlockSection id="eventDetails" Title="Calendar Details" columns="2">
+            <apex:inputField value="{!theEvent.StartDateTime}" required="true"/>   
+            <apex:inputField value="{!theEvent.OwnerId}" />            
+            <apex:inputField value="{!theEvent.EndDateTime}"  required="true"/> 
+            <apex:outputField value="{!theEvent.WhatId}" label="Account" />             
+            <apex:inputField value="{!theEvent.Partner_Event_Type__c}" required="true" >
+                <apex:actionSupport event="onchange" 
+                                action="{!populateSubject}" 
+                                rerender="subjectDesc" />  
+            </apex:inputField>  
+            <apex:inputField value="{!theEvent.Event_Status__c}" required="true" />                           
+            <apex:outputField value="{!theEvent.WhoId}" label="Partner Contact" />                                  
+            <apex:inputField value="{!theEvent.Partner_Event_Method__c}" required="true" />
+        </apex:pageBlockSection>
+        <apex:pageBlockSection id="subjectDesc" Title="Subject & Description" columns="2">            
+            <apex:outputField value="{!theEvent.Subject}"   style="width: 80%;"/>            
+            <apex:inputField value="{!theEvent.Description}"  style="width: 80%;"/>            
+        </apex:pageBlockSection>
+        <apex:pageBlockSection Title="Additional Information" columns="2">
+        <apex:inputField value="{!theEvent.Co_Hosted__c}" />
+        <apex:inputField value="{!theEvent.Co_Host__c}" />            
+        </apex:pageBlockSection>        
+    </apex:pageBlock>
+    </apex:form>   
+</apex:page>

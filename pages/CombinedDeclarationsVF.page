@@ -1,0 +1,3 @@
+<apex:page standardController="Opportunity" extensions="CombinedDeclarations_EXT">
+    <apex:outputText value="{!CombinedDeclarations}" escape="false" />    
+</apex:page>

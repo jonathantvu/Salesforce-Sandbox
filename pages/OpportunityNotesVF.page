@@ -1,0 +1,6 @@
+<apex:page standardController="Opportunity" lightningStylesheets="true">
+    	<apex:relatedList list="Personal_Credit_Reports__r" />
+    	<apex:relatedList list="Opportunity_Cases__r" />
+    	<apex:relatedList title="" subject="{!Opportunity}" list="OpenActivities" />
+		<apex:relatedList title="" subject="{!Opportunity}" list="ActivityHistories" />        
+</apex:page>

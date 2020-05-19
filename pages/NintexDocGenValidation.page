@@ -1,0 +1,18 @@
+<apex:page standardController="Opportunity" extensions="NintexDocGenValidation" action="{!Validate}">
+
+    <apex:slds />
+
+    <apex:form >
+        <div class="slds-scope">
+            <article class="slds-card">
+                <div class="slds-card__body slds-card__body_inner">
+                    <apex:pageMessages />
+                </div>
+                <footer class="slds-card__footer">
+                    <apex:commandButton value="Back" action="{!Cancel}" />
+                </footer>
+            </article>
+        </div>
+    </apex:form>
+
+</apex:page>

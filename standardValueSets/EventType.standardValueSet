@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Loan Officer Meeting</fullName>
+        <default>false</default>
+        <label>Loan Officer Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Realtor Meeting</fullName>
+        <default>false</default>
+        <label>Realtor Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Affinity Group Meeting</fullName>
+        <default>false</default>
+        <label>Affinity Group Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Financial Advisor Meeting</fullName>
+        <default>false</default>
+        <label>Financial Advisor Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+</StandardValueSet>

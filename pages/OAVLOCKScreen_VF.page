@@ -1,0 +1,32 @@
+<apex:page standardController="Opportunity" extensions="Opp_OAV_Lock_Screen_EXT" action="{!doAction}" lightningStylesheets="True">
+<apex:slds />
+    <apex:actionStatus id="status">
+        <apex:facet name="start">
+            <!--<div Id="loading" class="slds-card" style="padding:5%"-->
+             <div Id="loading" class="hide" style="position: fixed; top: 0px; bottom: 0px; left: 0px; right: 0px; background-color: white; opacity: 0.6; text-align: center; padding-top: 10px; z-index: 1000;">
+            <img src="/img/loading32.gif" style="margin-top:200px;margin-left:20px;"/>
+            </div>
+        </apex:facet>
+    </apex:actionStatus>    
+    <apex:pageBlock id="pageblock_Main">   
+    <apex:pageMessages Id="messages"/>        
+    <apex:form >   
+    <div class="slds-button slds-button-group">     
+            <apex:commandButton styleclass="slds-button slds-button_success" value="Back" action="{!Cancel}"  />                    
+            <apex:commandButton styleclass="slds-button slds-button_brand"  value="Save Final OAV" action="{!Save}"  />
+     </div>
+        
+        <apex:pageBlockSection columns="1">
+           
+                 <!-- apex:outputField value="{!theOpp.Appraised_Home_Value_f__c}" -->                       
+                <apex:outputField value="{!theOpp.Purchase_Price__c}" />
+                <apex:outputField value="{!theOpp.OAV_Discount_Pct__c}" />                      
+                <apex:outputField value=" {!theOpp.Final_OAV_Calculation__c}"/>
+                <apex:inputField styleclass="slds-input" value="{!theOpp.IA_OAV_Override__c }" />
+                
+                
+             
+        </apex:pageBlockSection>       
+    </apex:form>    
+    </apex:pageBlock>        
+</apex:page>

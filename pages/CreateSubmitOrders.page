@@ -1,0 +1,95 @@
+<apex:page standardController="Opportunity" extensions="CreateSubmitOrdersCtrl">
+	<apex:slds />
+    <apex:includeScript value="{!$Resource.JQuery}"/>
+
+    <style>
+		@keyframes spinner {
+			to {
+				transform: rotate(360deg);
+			}
+		}
+
+		#spinnerContent {
+			position: fixed;
+			background-color: rgba(255,255,255,0.5);
+			width: 100%;
+			height: 100%;
+			z-index: 100;
+			top: 0;
+			left: 0;
+		} 
+
+		#spinnerContent .CRspinner {
+			content: '';
+			box-sizing: border-box;
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			width: 50px;
+			height: 50px;
+			margin-top: -10px;
+			margin-left: -10px;
+			border-radius: 50%;
+			border: 5px solid transparent;
+			border-top-color: #0078D7;
+			animation: spinner .6s linear infinite;
+			z-index: 101;
+		}
+		.hideScroll {
+			overflow:hidden;
+		}
+	</style>
+
+    <apex:form >
+	
+        <apex:outputPanel id="mainPanel" styleClass="slds-scope">
+
+            <apex:actionfunction action="{!InsertPddrItem}" name="InsertPddrItem" rerender="Scripts,Errors" oncomplete="SubmitOrders();" />
+            <apex:actionfunction action="{!createAndSubmitOrders}" name="createAndSubmitOrders" rerender="Errors" oncomplete="hideSpinner();" />
+
+            <div id="spinnerContent" style="display:none;">
+		        <span class="CRspinner"></span>
+		    </div>
+
+		    <apex:outputPanel id="Errors" layout="block" >
+			    <apex:outputPanel layout="block" styleClass="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_error" html-role="alert" 
+                                  rendered="{!haveErrors}">
+				    <span class="slds-assistive-text">error</span>
+				    <h2><apex:messages /></h2>
+			    </apex:outputPanel>
+		    </apex:outputPanel>
+
+            <script>
+                function displaySpinner(){
+			        console.log('display spinner!');
+
+			        $('#spinnerContent').show();
+			        $('body').addClass('hideScroll');
+		        }
+
+		        function hideSpinner(){
+			        console.log('display spinner!');
+
+			        $('#spinnerContent').hide();
+			        $('body').removeClass('hideScroll');
+		        }
+
+                $(document).ready(function(){
+                    displaySpinner();
+                    InsertPddrItem();
+
+                });
+            </script>
+            <apex:outputPanel id="Scripts" layout="block">
+                <script>
+                    function SubmitOrders(){
+                        var pddrInserted = {!insertionSucceed};
+                        if(pddrInserted){
+                            createAndSubmitOrders();
+                        }
+                    }
+                </script>
+            </apex:outputPanel>
+	    </apex:outputPanel>
+    </apex:form>
+</apex:page>

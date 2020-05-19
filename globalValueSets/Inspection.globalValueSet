@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Property Inspection Before Funding</fullName>
+        <default>false</default>
+        <label>Property Inspection Before Funding</label>
+    </customValue>
+    <customValue>
+        <fullName>Property Inspection After Funding</fullName>
+        <default>false</default>
+        <label>Property Inspection After Funding</label>
+    </customValue>
+    <description>Home inspection scheduling options. Note HomeOwner may only select before funding.</description>
+    <masterLabel>Inspection</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

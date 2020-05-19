@@ -1,0 +1,80 @@
+<!--
+ - Created by Carolina Veliz on 5/31/2019.
+ -->
+
+<apex:page standardController="Document_MetaData__c" extensions="LeadUploadDMD"
+           lightningStylesheets="true" sidebar="false" doctype="html-5.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <apex:slds />
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageMessages id="msgId"/><br/>
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Save" onClick="validateForm();return false;"/>
+                <apex:commandButton value="Cancel" action="{!cancel}"/>
+            </apex:pageBlockButtons>
+
+            <apex:pageBlockSection title="Document Upload" columns="1">
+
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Lead" for="Lead__c"/>
+                    <apex:inputfield value="{!theDMD.Lead__c}" id="Lead__c"/>
+
+                </apex:pageBlockSectionItem>
+
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Description" for="Document_Description__c"/>
+                    <apex:inputfield value="{!theDMD.Document_Description__c}" id="Document_Description__c"/>
+
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Requirement" for="Requirement__c"/>
+                    <!--  <apex:inputField value="{!theDMD.Requirement__c}" id="Requirement__c"/>-->
+                    <apex:selectList id="selectedVal" size="1" value="{!selectedValue}" >
+                        <apex:selectOptions value="{!conditionList}">
+                        </apex:selectOptions>
+                    </apex:selectList>
+                </apex:pageBlockSectionItem>
+
+                <!--<apex:pageBlockSectionItem >
+                    <apex:outputLabel value="File" for="inputFile"/>
+
+                    &lt;!&ndash;<apex:inputFile value="{!theBlob}" filename="{!FileNameToAttach}"
+                                    id="inputFile"/>&ndash;&gt;
+                </apex:pageBlockSectionItem>-->
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+        <apex:actionFunction action="{!save}" name="callTimeOut" id="timeoutFcn" />
+    </apex:form>
+    <button id="publishbutton" style="display: none;" onClick="if($('.file')[1].files.length > 0){$('#publishersharebutton').trigger('click');}else{alert('Please select a file');}">Save</button>
+    <apex:outputLabel value="File" for="inputFile"/>
+    <chatter:feed entityId="{!$CurrentPage.parameters.LeadId}" onComplete="timeout();"/>
+    <Script>
+    $(document).ready(function(){
+
+        $('#publisherAttachContentPost').trigger('click');
+        $('#chatterUploadFileAction').trigger('click');
+        $('.uploadFileSizeLimit').hide();
+        $('.contentPublisherSlideDown.customPanel.alignTop').css('border', '0');
+        $('.clearContentPanelButtonContainer').hide();
+        $('.publisherFeedItemTypeChoices').hide();
+        $('.cxfeedinnerwrapper').hide();
+        $('.publisherBottomBarPlaceholder').hide();
+        $('.publisherTextAreaPlaceholder.alignCenter').hide();
+         });
+
+         function timeout(){
+		    callTimeOut();
+	     }
+
+	     function validateForm(){
+            var x = $("select[id$='selectedVal'").val();
+            if (x == "-None-"){
+                alert("Requirement must be selected to upload a document.");
+                return false;
+            }else{
+                $('#publishbutton').trigger('click');
+            }
+         }
+    </Script>
+</apex:page>

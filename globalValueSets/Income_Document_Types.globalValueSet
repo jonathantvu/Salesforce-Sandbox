@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Wage-Earner - W2s and Paystubs</fullName>
+        <default>false</default>
+        <label>Wage-Earner - W2s and Paystubs</label>
+    </customValue>
+    <customValue>
+        <fullName>Retired - Benefit Letters</fullName>
+        <default>false</default>
+        <label>Retired - Benefit Letters</label>
+    </customValue>
+    <customValue>
+        <fullName>Self-Employed - Tax Transcripts</fullName>
+        <default>false</default>
+        <label>Self-Employed - Tax Transcripts</label>
+    </customValue>
+    <customValue>
+        <fullName>Self-Employed - Tax Returns</fullName>
+        <default>false</default>
+        <label>Self-Employed - Tax Returns</label>
+    </customValue>
+    <masterLabel>Income Document Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

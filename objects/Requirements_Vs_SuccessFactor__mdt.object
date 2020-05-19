@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Metadata that stores what Success Factor each Requirement is for.</description>
+    <fields>
+        <fullName>Success_Factor__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Success Factor</label>
+        <length>150</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Requirements Vs SuccessFactor</label>
+    <pluralLabel>Requirements Vs SuccessFactors</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

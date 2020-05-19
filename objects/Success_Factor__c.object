@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Success_Factor_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>AVM_OAV_Difference__c</fullName>
+        <description>Difference between Average AVM and Final OAV</description>
+        <externalId>false</externalId>
+        <formula>IF(AND(NOT(ISBLANK(Opportunity__c)),NOT(ISBLANK(Opportunity__r.Property__c)),
+NOT(ISBLANK(Opportunity__r.Property__r.Average_AVM__c)), Opportunity__r.Property__r.Average_AVM__c &gt; 0), 
+						 ABS((Opportunity__r.Final_OAV_Calculation__c - Opportunity__r.Property__r.Average_AVM__c) / Opportunity__r.Property__r.Average_AVM__c) 
+, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>AVM OAV Difference</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>All_Requirements_Cleared__c</fullName>
+        <externalId>false</externalId>
+        <formula>Cleared_Requirement_Count__c =  Total_Requirements__c
+&amp;&amp;
+Total_Requirements__c &gt; 0</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>All Requirements Cleared</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Cleared_Requirement_Count__c</fullName>
+        <externalId>false</externalId>
+        <label>Cleared Requirement Count</label>
+        <summarizedField>Current_Conditions__c.Record_Count__c</summarizedField>
+        <summaryFilterItems>
+            <field>Current_Conditions__c.Status__c</field>
+            <operation>contains</operation>
+            <value>Completed, Waived</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Current_Conditions__c.Success_Factor__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Create_Success_Factor__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Create Success Factor</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Documents_Ready_for_Review__c</fullName>
+        <externalId>false</externalId>
+        <label>Documents Ready for Review</label>
+        <summaryFilterItems>
+            <field>Current_Conditions__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Document Ready for Review</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Current_Conditions__c.Success_Factor__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>FICO_Credit__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>this field is so we can check if fico change on oppotunity object</description>
+        <externalId>false</externalId>
+        <label>FICO Credit</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Success Factors (FICO Credit)</relationshipLabel>
+        <relationshipName>Success_Factors1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Lead_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>Lead__r.Case_Safe_ID__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Lead ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lead_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Lead__r.Status)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Lead Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lead__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Lead</label>
+        <referenceTo>Lead</referenceTo>
+        <relationshipName>Risk_Factors</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Opportunity__r.StageName)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipName>Risk_Factors</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Program__c</fullName>
+        <externalId>false</externalId>
+        <label>Program</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>HB</fullName>
+                    <default>false</default>
+                    <label>HB</label>
+                </value>
+                <value>
+                    <fullName>HO</fullName>
+                    <default>false</default>
+                    <label>HO</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>true</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Requirement Blocked</fullName>
+                    <default>false</default>
+                    <label>Blocked</label>
+                </value>
+                <value>
+                    <fullName>Cleared</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Cleared</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Success_Factor_Created_Date_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>Success Factor Created Date/Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Success_Factor__c</fullName>
+        <externalId>false</externalId>
+        <label>Success Factor</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Cash to Consumer</fullName>
+                    <default>false</default>
+                    <label>Net Cash to Partner</label>
+                </value>
+                <value>
+                    <fullName>Credit</fullName>
+                    <default>false</default>
+                    <label>Credit</label>
+                </value>
+                <value>
+                    <fullName>DTI</fullName>
+                    <default>false</default>
+                    <label>DTI</label>
+                </value>
+                <value>
+                    <fullName>LTV</fullName>
+                    <default>false</default>
+                    <label>LTV</label>
+                </value>
+                <value>
+                    <fullName>OAV</fullName>
+                    <default>false</default>
+                    <label>OAV</label>
+                </value>
+                <value>
+                    <fullName>Property Ownership</fullName>
+                    <default>false</default>
+                    <label>Property Ownership</label>
+                </value>
+                <value>
+                    <fullName>Program</fullName>
+                    <default>false</default>
+                    <label>Program</label>
+                </value>
+                <value>
+                    <fullName>Closing</fullName>
+                    <default>false</default>
+                    <label>Closing</label>
+                </value>
+                <value>
+                    <fullName>Post-Closing</fullName>
+                    <default>false</default>
+                    <label>Post-Closing</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Total_Requirements__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Requirements</label>
+        <summarizedField>Current_Conditions__c.Record_Count__c</summarizedField>
+        <summaryForeignKey>Current_Conditions__c.Success_Factor__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>lead_sf_count__c</fullName>
+        <externalId>false</externalId>
+        <formula>Lead__r.Count_Success_Factors__c  &gt;= 10</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>lead sf count</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Success Factor</label>
+    <nameField>
+        <displayFormat>SF-{00000}</displayFormat>
+        <label>Success Factor Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Success Factors</pluralLabel>
+    <searchLayouts />
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Cannot_clear_post_close_in_closing</fullName>
+        <active>true</active>
+        <description>Post close Success Factor has to remain in progress during the Closing stage.</description>
+        <errorConditionFormula>AND( ISPICKVAL(Success_Factor__c  , "Post-Closing"),
+ ISPICKVAL( Status__c , "Completed"),
+ ISPICKVAL(Opportunity__r.StageName, "Closing") 
+)</errorConditionFormula>
+        <errorMessage>Post-Close Success Factor should not be completed in the opportunity stage, Closing.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Cannot_move_Success_Factors_backwards</fullName>
+        <active>true</active>
+        <description>Cannot move to Closing if LTV, DTI, Property Ownership, Credit, OAV, Net Cash to Partner are pending.</description>
+        <errorConditionFormula>ISPICKVAL( Opportunity__r.StageName ,"Closing") 
+
+&amp;&amp; 
+
+(OR(ISPICKVAL( Status__c ,"In Progress" ), 
+ISPICKVAL( Status__c ,"Requirement Blocked" ))
+
+&amp;&amp;
+
+ISCHANGED(Status__c )
+
+&amp;&amp; 
+
+OR(ISPICKVAL( Success_Factor__c ,"DTI"), 
+ISPICKVAL( Success_Factor__c ,"LTV"), 
+ISPICKVAL( Success_Factor__c ,"OAV"), 
+ISPICKVAL( Success_Factor__c ,"Property Ownership"), 
+ISPICKVAL( Success_Factor__c ,"Program"), 
+ISPICKVAL( Success_Factor__c ,"Credit"), 
+ISPICKVAL( Success_Factor__c ,"Cash to Consumer")))</errorConditionFormula>
+        <errorMessage>Cannot change the status of success factor once passed IDD</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>DTI_Cleared</fullName>
+        <active>true</active>
+        <description>Post-Close BE DTI cannot be greater than Max Authorized DTI</description>
+        <errorConditionFormula>ISPICKVAL( Success_Factor__c, "DTI") 
+&amp;&amp;
+ISPICKVAL(  Status__c , "Completed")
+&amp;&amp;
+Opportunity__r.Post_Close_BE_Ratio__c &gt; Opportunity__r.Maximum_Authorized_DTI__c
+&amp;&amp;
+Opportunity__r.Maximum_Authorized_DTI__c &gt; 0</errorConditionFormula>
+        <errorDisplayField>Status__c</errorDisplayField>
+        <errorMessage>The post-close back-end DTI currently exceeds the maximum authorized DTI.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>LTV_Cleared</fullName>
+        <active>true</active>
+        <description>Post Close LTV cannot be greater than MAD Pct</description>
+        <errorConditionFormula>ISPICKVAL( Success_Factor__c, "LTV") 
+&amp;&amp;
+ISPICKVAL(  Status__c , "Completed")
+&amp;&amp;
+Opportunity__r.Post_Close_LTV2__c  &gt;  Opportunity__r.MAD__c</errorConditionFormula>
+        <errorDisplayField>Status__c</errorDisplayField>
+        <errorMessage>The post-close LTV currently exceeds the MAD percentage.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Requirements_must_be_complete</fullName>
+        <active>true</active>
+        <description>Requirements must be completed prior to completing Success Factors</description>
+        <errorConditionFormula>Total_Requirements__c &lt;&gt; Cleared_Requirement_Count__c 
+&amp;&amp; 
+
+OR(ISPICKVAL(Status__c, "Completed"), 
+ISPICKVAL(Status__c, "Waived"))</errorConditionFormula>
+        <errorDisplayField>Status__c</errorDisplayField>
+        <errorMessage>Must complete all Requirements</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Success_Factor_Status_Validation</fullName>
+        <active>true</active>
+        <description>Success Factors can only be cleared (manually or otherwise) if requirements are in Completed or Waived status.</description>
+        <errorConditionFormula>IF(AND(ISPICKVAL(Opportunity__r.StageName, 'Investment Due Diligence'), ISPICKVAL( Status__c, 'Completed'), OR(ISPICKVAL(Success_Factor__c, 'Closing'), ISPICKVAL(Success_Factor__c, 'Post-Closing'))),true, false)</errorConditionFormula>
+        <errorMessage>Success Factors should not be Completed for Closing and Post Closing in IDD.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Success_factor_Status_Credit</fullName>
+        <active>true</active>
+        <description>Success factor Credit status need to be manually set to “In Progress”.</description>
+        <errorConditionFormula>AND( 
+ISPICKVAL( Success_Factor__c, "Credit"), 
+ISCHANGED(  FICO_Credit__c ),
+ISPICKVAL( Status__c , "Completed"))</errorConditionFormula>
+        <errorMessage>The Credit Success_factor_Status_Success Factor status will need to be manually set to “In Progress”.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Variance_Description_Is_Required</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+				ISCHANGED(Status__c),
+				ISPICKVAL(Status__c, 'Completed'),
+				ISPICKVAL(Success_Factor__c, 'OAV'),
+				AVM_OAV_Difference__c &gt; 0.1,
+				NOT(ISBLANK(Opportunity__c)),
+				ISBLANK(Opportunity__r.Variance_Description__c)
+			)</errorConditionFormula>
+        <errorDisplayField>Status__c</errorDisplayField>
+        <errorMessage>Please select one or more reasons for variance between Average AVM and Final OAV</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>
