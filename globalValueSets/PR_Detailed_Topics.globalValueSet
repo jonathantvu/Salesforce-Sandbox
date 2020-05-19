@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Affluent Lifestyle</fullName>
+        <default>false</default>
+        <label>Affluent Lifestyle</label>
+    </customValue>
+    <customValue>
+        <fullName>African American</fullName>
+        <default>false</default>
+        <label>African American</label>
+    </customValue>
+    <customValue>
+        <fullName>Aging</fullName>
+        <default>false</default>
+        <label>Aging</label>
+    </customValue>
+    <customValue>
+        <fullName>AM Drive-Time</fullName>
+        <default>false</default>
+        <label>AM Drive-Time</label>
+    </customValue>
+    <customValue>
+        <fullName>Amusement Parks &amp; Zoos</fullName>
+        <default>false</default>
+        <label>Amusement Parks &amp; Zoos</label>
+    </customValue>
+    <customValue>
+        <fullName>Architecture &amp; Design</fullName>
+        <default>false</default>
+        <label>Architecture &amp; Design</label>
+    </customValue>
+    <customValue>
+        <fullName>Arts</fullName>
+        <default>false</default>
+        <label>Arts</label>
+    </customValue>
+    <customValue>
+        <fullName>Asia</fullName>
+        <default>false</default>
+        <label>Asia</label>
+    </customValue>
+    <customValue>
+        <fullName>Asian</fullName>
+        <default>false</default>
+        <label>Asian</label>
+    </customValue>
+    <customValue>
+        <fullName>Banking</fullName>
+        <default>false</default>
+        <label>Banking</label>
+    </customValue>
+    <customValue>
+        <fullName>Bankruptcy</fullName>
+        <default>false</default>
+        <label>Bankruptcy</label>
+    </customValue>
+    <customValue>
+        <fullName>Beauty &amp; Grooming</fullName>
+        <default>false</default>
+        <label>Beauty &amp; Grooming</label>
+    </customValue>
+    <customValue>
+        <fullName>Beer</fullName>
+        <default>false</default>
+        <label>Beer</label>
+    </customValue>
+    <customValue>
+        <fullName>Boating &amp; Yachting</fullName>
+        <default>false</default>
+        <label>Boating &amp; Yachting</label>
+    </customValue>
+    <customValue>
+        <fullName>Book Reviews</fullName>
+        <default>false</default>
+        <label>Book Reviews</label>
+    </customValue>
+    <customValue>
+        <fullName>Breaking News</fullName>
+        <default>false</default>
+        <label>Breaking News</label>
+    </customValue>
+    <customValue>
+        <fullName>Brewing</fullName>
+        <default>false</default>
+        <label>Brewing</label>
+    </customValue>
+    <customValue>
+        <fullName>Business &amp; Finance</fullName>
+        <default>false</default>
+        <label>Business &amp; Finance</label>
+    </customValue>
+    <customValue>
+        <fullName>Calendar &amp; Events</fullName>
+        <default>false</default>
+        <label>Calendar &amp; Events</label>
+    </customValue>
+    <customValue>
+        <fullName>Capital Markets</fullName>
+        <default>false</default>
+        <label>Capital Markets</label>
+    </customValue>
+    <customValue>
+        <fullName>Careers</fullName>
+        <default>false</default>
+        <label>Careers</label>
+    </customValue>
+    <customValue>
+        <fullName>Catholic</fullName>
+        <default>false</default>
+        <label>Catholic</label>
+    </customValue>
+    <customValue>
+        <fullName>CEOs &amp; Business Leaders</fullName>
+        <default>false</default>
+        <label>CEOs &amp; Business Leaders</label>
+    </customValue>
+    <customValue>
+        <fullName>Chambers of Commerce</fullName>
+        <default>false</default>
+        <label>Chambers of Commerce</label>
+    </customValue>
+    <customValue>
+        <fullName>Charitable Foundations</fullName>
+        <default>false</default>
+        <label>Charitable Foundations</label>
+    </customValue>
+    <customValue>
+        <fullName>Christian</fullName>
+        <default>false</default>
+        <label>Christian</label>
+    </customValue>
+    <customValue>
+        <fullName>Circulation</fullName>
+        <default>false</default>
+        <label>Circulation</label>
+    </customValue>
+    <customValue>
+        <fullName>City</fullName>
+        <default>false</default>
+        <label>City</label>
+    </customValue>
+    <customValue>
+        <fullName>Civil Rights</fullName>
+        <default>false</default>
+        <label>Civil Rights</label>
+    </customValue>
+    <customValue>
+        <fullName>Coffee</fullName>
+        <default>false</default>
+        <label>Coffee</label>
+    </customValue>
+    <customValue>
+        <fullName>Communications</fullName>
+        <default>false</default>
+        <label>Communications</label>
+    </customValue>
+    <customValue>
+        <fullName>Community News</fullName>
+        <default>false</default>
+        <label>Community News</label>
+    </customValue>
+    <customValue>
+        <fullName>Consumer General Interest</fullName>
+        <default>false</default>
+        <label>Consumer General Interest</label>
+    </customValue>
+    <customValue>
+        <fullName>Corporate Communications</fullName>
+        <default>false</default>
+        <label>Corporate Communications</label>
+    </customValue>
+    <customValue>
+        <fullName>Corporate Management</fullName>
+        <default>false</default>
+        <label>Corporate Management</label>
+    </customValue>
+    <customValue>
+        <fullName>County News</fullName>
+        <default>false</default>
+        <label>County News</label>
+    </customValue>
+    <customValue>
+        <fullName>Crime &amp; Violence</fullName>
+        <default>false</default>
+        <label>Crime &amp; Violence</label>
+    </customValue>
+    <customValue>
+        <fullName>Culture</fullName>
+        <default>false</default>
+        <label>Culture</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital Media</fullName>
+        <default>false</default>
+        <label>Digital Media</label>
+    </customValue>
+    <customValue>
+        <fullName>Dining Guide</fullName>
+        <default>false</default>
+        <label>Dining Guide</label>
+    </customValue>
+    <customValue>
+        <fullName>Diversity &amp; Tolerance</fullName>
+        <default>false</default>
+        <label>Diversity &amp; Tolerance</label>
+    </customValue>
+    <customValue>
+        <fullName>Economic Development</fullName>
+        <default>false</default>
+        <label>Economic Development</label>
+    </customValue>
+    <customValue>
+        <fullName>Economics</fullName>
+        <default>false</default>
+        <label>Economics</label>
+    </customValue>
+    <customValue>
+        <fullName>Economy</fullName>
+        <default>false</default>
+        <label>Economy</label>
+    </customValue>
+    <customValue>
+        <fullName>Education</fullName>
+        <default>false</default>
+        <label>Education</label>
+    </customValue>
+    <customValue>
+        <fullName>Education Industry</fullName>
+        <default>false</default>
+        <label>Education Industry</label>
+    </customValue>
+    <customValue>
+        <fullName>Employment</fullName>
+        <default>false</default>
+        <label>Employment</label>
+    </customValue>
+    <customValue>
+        <fullName>Entertainment Industry</fullName>
+        <default>false</default>
+        <label>Entertainment Industry</label>
+    </customValue>
+    <customValue>
+        <fullName>Entrepreneurism</fullName>
+        <default>false</default>
+        <label>Entrepreneurism</label>
+    </customValue>
+    <customValue>
+        <fullName>Environment</fullName>
+        <default>false</default>
+        <label>Environment</label>
+    </customValue>
+    <customValue>
+        <fullName>Equities</fullName>
+        <default>false</default>
+        <label>Equities</label>
+    </customValue>
+    <customValue>
+        <fullName>Ethnic &amp; Multicultural</fullName>
+        <default>false</default>
+        <label>Ethnic &amp; Multicultural</label>
+    </customValue>
+    <customValue>
+        <fullName>Family &amp; Parenting</fullName>
+        <default>false</default>
+        <label>Family &amp; Parenting</label>
+    </customValue>
+    <customValue>
+        <fullName>Family Planning</fullName>
+        <default>false</default>
+        <label>Family Planning</label>
+    </customValue>
+    <customValue>
+        <fullName>Features</fullName>
+        <default>false</default>
+        <label>Features</label>
+    </customValue>
+    <customValue>
+        <fullName>Finance</fullName>
+        <default>false</default>
+        <label>Finance</label>
+    </customValue>
+    <customValue>
+        <fullName>Financial Markets</fullName>
+        <default>false</default>
+        <label>Financial Markets</label>
+    </customValue>
+    <customValue>
+        <fullName>Fine Arts</fullName>
+        <default>false</default>
+        <label>Fine Arts</label>
+    </customValue>
+    <customValue>
+        <fullName>Fitness &amp; Exercise</fullName>
+        <default>false</default>
+        <label>Fitness &amp; Exercise</label>
+    </customValue>
+    <customValue>
+        <fullName>Food</fullName>
+        <default>false</default>
+        <label>Food</label>
+    </customValue>
+    <customValue>
+        <fullName>Fund Management</fullName>
+        <default>false</default>
+        <label>Fund Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Gardening</fullName>
+        <default>false</default>
+        <label>Gardening</label>
+    </customValue>
+    <customValue>
+        <fullName>General Assignment News</fullName>
+        <default>false</default>
+        <label>General Assignment News</label>
+    </customValue>
+    <customValue>
+        <fullName>Golf</fullName>
+        <default>false</default>
+        <label>Golf</label>
+    </customValue>
+    <customValue>
+        <fullName>Government &amp; Politics</fullName>
+        <default>false</default>
+        <label>Government &amp; Politics</label>
+    </customValue>
+    <customValue>
+        <fullName>Green Building</fullName>
+        <default>false</default>
+        <label>Green Building</label>
+    </customValue>
+    <customValue>
+        <fullName>Green Living</fullName>
+        <default>false</default>
+        <label>Green Living</label>
+    </customValue>
+    <customValue>
+        <fullName>Guest Booking</fullName>
+        <default>false</default>
+        <label>Guest Booking</label>
+    </customValue>
+    <customValue>
+        <fullName>Health &amp; Medicine</fullName>
+        <default>false</default>
+        <label>Health &amp; Medicine</label>
+    </customValue>
+    <customValue>
+        <fullName>Healthcare</fullName>
+        <default>false</default>
+        <label>Healthcare</label>
+    </customValue>
+    <customValue>
+        <fullName>Healthcare Industry</fullName>
+        <default>false</default>
+        <label>Healthcare Industry</label>
+    </customValue>
+    <customValue>
+        <fullName>Hispanic</fullName>
+        <default>false</default>
+        <label>Hispanic</label>
+    </customValue>
+    <customValue>
+        <fullName>Home</fullName>
+        <default>false</default>
+        <label>Home</label>
+    </customValue>
+    <customValue>
+        <fullName>Home Decorating &amp; Décor</fullName>
+        <default>false</default>
+        <label>Home Decorating &amp; Décor</label>
+    </customValue>
+    <customValue>
+        <fullName>Housing</fullName>
+        <default>false</default>
+        <label>Housing</label>
+    </customValue>
+    <customValue>
+        <fullName>Human Interest</fullName>
+        <default>false</default>
+        <label>Human Interest</label>
+    </customValue>
+    <customValue>
+        <fullName>Insurance</fullName>
+        <default>false</default>
+        <label>Insurance</label>
+    </customValue>
+    <customValue>
+        <fullName>Interior Design</fullName>
+        <default>false</default>
+        <label>Interior Design</label>
+    </customValue>
+    <customValue>
+        <fullName>Investments</fullName>
+        <default>false</default>
+        <label>Investments</label>
+    </customValue>
+    <customValue>
+        <fullName>IPO (Initial Public Offering)</fullName>
+        <default>false</default>
+        <label>IPO (Initial Public Offering)</label>
+    </customValue>
+    <customValue>
+        <fullName>K-12</fullName>
+        <default>false</default>
+        <label>K-12</label>
+    </customValue>
+    <customValue>
+        <fullName>Landscape Architecture</fullName>
+        <default>false</default>
+        <label>Landscape Architecture</label>
+    </customValue>
+    <customValue>
+        <fullName>Latin America</fullName>
+        <default>false</default>
+        <label>Latin America</label>
+    </customValue>
+    <customValue>
+        <fullName>Law</fullName>
+        <default>false</default>
+        <label>Law</label>
+    </customValue>
+    <customValue>
+        <fullName>Law Enforcement</fullName>
+        <default>false</default>
+        <label>Law Enforcement</label>
+    </customValue>
+    <customValue>
+        <fullName>LGBT</fullName>
+        <default>false</default>
+        <label>LGBT</label>
+    </customValue>
+    <customValue>
+        <fullName>Lifestyle</fullName>
+        <default>false</default>
+        <label>Lifestyle</label>
+    </customValue>
+    <customValue>
+        <fullName>Local Governments</fullName>
+        <default>false</default>
+        <label>Local Governments</label>
+    </customValue>
+    <customValue>
+        <fullName>Local News</fullName>
+        <default>false</default>
+        <label>Local News</label>
+    </customValue>
+    <customValue>
+        <fullName>Local Politics</fullName>
+        <default>false</default>
+        <label>Local Politics</label>
+    </customValue>
+    <customValue>
+        <fullName>Luxury Real Estate</fullName>
+        <default>false</default>
+        <label>Luxury Real Estate</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketing</fullName>
+        <default>false</default>
+        <label>Marketing</label>
+    </customValue>
+    <customValue>
+        <fullName>Media Industry</fullName>
+        <default>false</default>
+        <label>Media Industry</label>
+    </customValue>
+    <customValue>
+        <fullName>Mergers &amp; Acquisitions</fullName>
+        <default>false</default>
+        <label>Mergers &amp; Acquisitions</label>
+    </customValue>
+    <customValue>
+        <fullName>Metro</fullName>
+        <default>false</default>
+        <label>Metro</label>
+    </customValue>
+    <customValue>
+        <fullName>Mexico</fullName>
+        <default>false</default>
+        <label>Mexico</label>
+    </customValue>
+    <customValue>
+        <fullName>Mid-Day</fullName>
+        <default>false</default>
+        <label>Mid-Day</label>
+    </customValue>
+    <customValue>
+        <fullName>Military News</fullName>
+        <default>false</default>
+        <label>Military News</label>
+    </customValue>
+    <customValue>
+        <fullName>Minority &amp; Women-based enterprises</fullName>
+        <default>false</default>
+        <label>Minority &amp; Women-based enterprises</label>
+    </customValue>
+    <customValue>
+        <fullName>Mobile Communications</fullName>
+        <default>false</default>
+        <label>Mobile Communications</label>
+    </customValue>
+    <customValue>
+        <fullName>Mortgages</fullName>
+        <default>false</default>
+        <label>Mortgages</label>
+    </customValue>
+    <customValue>
+        <fullName>Motherhood</fullName>
+        <default>false</default>
+        <label>Motherhood</label>
+    </customValue>
+    <customValue>
+        <fullName>Mutual Funds</fullName>
+        <default>false</default>
+        <label>Mutual Funds</label>
+    </customValue>
+    <customValue>
+        <fullName>National News</fullName>
+        <default>false</default>
+        <label>National News</label>
+    </customValue>
+    <customValue>
+        <fullName>New Product Review</fullName>
+        <default>false</default>
+        <label>New Product Review</label>
+    </customValue>
+    <customValue>
+        <fullName>News</fullName>
+        <default>false</default>
+        <label>News</label>
+    </customValue>
+    <customValue>
+        <fullName>News Assignment</fullName>
+        <default>false</default>
+        <label>News Assignment</label>
+    </customValue>
+    <customValue>
+        <fullName>News Assignment (Weekends)</fullName>
+        <default>false</default>
+        <label>News Assignment (Weekends)</label>
+    </customValue>
+    <customValue>
+        <fullName>Non-Profit</fullName>
+        <default>false</default>
+        <label>Non-Profit</label>
+    </customValue>
+    <customValue>
+        <fullName>Pensions</fullName>
+        <default>false</default>
+        <label>Pensions</label>
+    </customValue>
+    <customValue>
+        <fullName>People in Business</fullName>
+        <default>false</default>
+        <label>People in Business</label>
+    </customValue>
+    <customValue>
+        <fullName>Personal Finance</fullName>
+        <default>false</default>
+        <label>Personal Finance</label>
+    </customValue>
+    <customValue>
+        <fullName>Personal Health &amp; Wellness</fullName>
+        <default>false</default>
+        <label>Personal Health &amp; Wellness</label>
+    </customValue>
+    <customValue>
+        <fullName>PM Drive-Time</fullName>
+        <default>false</default>
+        <label>PM Drive-Time</label>
+    </customValue>
+    <customValue>
+        <fullName>PM News</fullName>
+        <default>false</default>
+        <label>PM News</label>
+    </customValue>
+    <customValue>
+        <fullName>Police</fullName>
+        <default>false</default>
+        <label>Police</label>
+    </customValue>
+    <customValue>
+        <fullName>Politics</fullName>
+        <default>false</default>
+        <label>Politics</label>
+    </customValue>
+    <customValue>
+        <fullName>Pregnancy &amp; Birth</fullName>
+        <default>false</default>
+        <label>Pregnancy &amp; Birth</label>
+    </customValue>
+    <customValue>
+        <fullName>Programming</fullName>
+        <default>false</default>
+        <label>Programming</label>
+    </customValue>
+    <customValue>
+        <fullName>Property Rental</fullName>
+        <default>false</default>
+        <label>Property Rental</label>
+    </customValue>
+    <customValue>
+        <fullName>Public Affairs</fullName>
+        <default>false</default>
+        <label>Public Affairs</label>
+    </customValue>
+    <customValue>
+        <fullName>Public Relations</fullName>
+        <default>false</default>
+        <label>Public Relations</label>
+    </customValue>
+    <customValue>
+        <fullName>Public Relations Industry</fullName>
+        <default>false</default>
+        <label>Public Relations Industry</label>
+    </customValue>
+    <customValue>
+        <fullName>Real Estate</fullName>
+        <default>false</default>
+        <label>Real Estate</label>
+    </customValue>
+    <customValue>
+        <fullName>Regional</fullName>
+        <default>false</default>
+        <label>Regional</label>
+    </customValue>
+    <customValue>
+        <fullName>Regional Business News</fullName>
+        <default>false</default>
+        <label>Regional Business News</label>
+    </customValue>
+    <customValue>
+        <fullName>Regional General Interest</fullName>
+        <default>false</default>
+        <label>Regional General Interest</label>
+    </customValue>
+    <customValue>
+        <fullName>Residential Real Estate</fullName>
+        <default>false</default>
+        <label>Residential Real Estate</label>
+    </customValue>
+    <customValue>
+        <fullName>Small and Medium Business</fullName>
+        <default>false</default>
+        <label>Small and Medium Business</label>
+    </customValue>
+    <customValue>
+        <fullName>Social Issues</fullName>
+        <default>false</default>
+        <label>Social Issues</label>
+    </customValue>
+    <customValue>
+        <fullName>Start-ups</fullName>
+        <default>false</default>
+        <label>Start-ups</label>
+    </customValue>
+    <customValue>
+        <fullName>Stock Market</fullName>
+        <default>false</default>
+        <label>Stock Market</label>
+    </customValue>
+    <customValue>
+        <fullName>Sustainable Development</fullName>
+        <default>false</default>
+        <label>Sustainable Development</label>
+    </customValue>
+    <customValue>
+        <fullName>Taxes</fullName>
+        <default>false</default>
+        <label>Taxes</label>
+    </customValue>
+    <customValue>
+        <fullName>Technology Industry</fullName>
+        <default>false</default>
+        <label>Technology Industry</label>
+    </customValue>
+    <customValue>
+        <fullName>Teen/Young Adult</fullName>
+        <default>false</default>
+        <label>Teen/Young Adult</label>
+    </customValue>
+    <customValue>
+        <fullName>Urban Lifestyle</fullName>
+        <default>false</default>
+        <label>Urban Lifestyle</label>
+    </customValue>
+    <customValue>
+        <fullName>Urban Planning &amp; Development</fullName>
+        <default>false</default>
+        <label>Urban Planning &amp; Development</label>
+    </customValue>
+    <customValue>
+        <fullName>Venture Capital</fullName>
+        <default>false</default>
+        <label>Venture Capital</label>
+    </customValue>
+    <customValue>
+        <fullName>Veterans&apos; Affairs</fullName>
+        <default>false</default>
+        <label>Veterans&apos; Affairs</label>
+    </customValue>
+    <customValue>
+        <fullName>Wall Street</fullName>
+        <default>false</default>
+        <label>Wall Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Web Site</fullName>
+        <default>false</default>
+        <label>Web Site</label>
+    </customValue>
+    <customValue>
+        <fullName>Web Site Content</fullName>
+        <default>false</default>
+        <label>Web Site Content</label>
+    </customValue>
+    <customValue>
+        <fullName>West Coast (US)</fullName>
+        <default>false</default>
+        <label>West Coast (US)</label>
+    </customValue>
+    <customValue>
+        <fullName>Women in Business</fullName>
+        <default>false</default>
+        <label>Women in Business</label>
+    </customValue>
+    <customValue>
+        <fullName>Women&apos;s Interests</fullName>
+        <default>false</default>
+        <label>Women&apos;s Interests</label>
+    </customValue>
+    <masterLabel>PR Detailed Topics</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

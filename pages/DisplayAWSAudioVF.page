@@ -1,0 +1,92 @@
+<apex:page controller="DisplayAWSAudio_Ctrl" action="{!getAuthConfig}">
+    <apex:includeScript value="{!URLFOR($Resource.awsSdk)}" />
+
+    <apex:slds />
+    <style>
+        /**** Error Block Style ****/
+        div.slds-notify.slds-notify_alert {
+            min-height: 30px;
+        }
+
+        div.slds-notify.slds-notify_alert button.slds-notify__close {
+            font-size: medium;
+            font-weight: bold;
+            width: 20px;
+            height: 20px;
+            background: #fff;
+            border-radius: 10px;
+            color: #BD3833;
+        }
+
+    </style>
+
+    <div id="mainBlock">
+        <apex:form >
+            <apex:actionFunction name="backToTaks" action="{!backToTaks}"/>
+
+            <article class="slds-card">
+                <div class="slds-card__header slds-grid">
+                    <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                        <div class="slds-media__body">
+                            <h2 class="slds-card__header-title">
+                                Audio File
+                            </h2>
+                        </div>
+                    </header>
+                </div>
+                <div class="slds-card__body slds-card__body_inner" id="audioFileCardBody">
+                    <!-- Start Error Block -->
+                    <div id="Errors">
+                        <div Class="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_error" html-role="alert" style="margin-bottom:10px;">
+                          <span class="slds-assistive-text">error</span>
+                          <h2 Id="errorsH2"></h2>
+                        </div>
+                    </div>
+                    <!-- End Error Block -->
+
+                </div>
+                <footer class="slds-card__footer">
+                    <button type="button" onclick="backToTaks();" class="slds-button slds-button_outline-brand">Back</button>
+                </footer>
+            </article>
+        </apex:form>
+
+        <script>
+            function GenerateURL(config){
+                AWS.config.update({
+                    accessKeyId: config.accessKey,
+                    secretAccessKey: config.secretKey,
+                    region: config.region,
+                });
+
+                const s3 = new AWS.S3();
+                const myBucket = config.bucketName;
+                const myKey = config.filePath;
+                const signedUrlExpireSeconds = 60 * 60 // your expiry time in seconds.
+
+                const url = s3.getSignedUrl('getObject', {
+                        Bucket: myBucket,
+                        Key: myKey,
+                        Expires: signedUrlExpireSeconds
+                });
+
+                return url;
+            }
+
+            (function() {
+                var jsonConfig = '{!jsonAuthDetail}';
+                var config = JSON.parse(jsonConfig);
+
+                if(config.errorMessage == ''){
+                    //generate iframe
+                    var htmlBlock = '<div><iframe src="' + GenerateURL(config) + '"/></div>';
+                    document.getElementById("audioFileCardBody").innerHTML = htmlBlock ;
+
+                    console.log('url: ' + GenerateURL(config));
+                }else{
+                    document.getElementById("errorsH2").innerHTML = config.errorMessage;
+                }
+            })();
+        </script>
+    </div>
+</apex:page>

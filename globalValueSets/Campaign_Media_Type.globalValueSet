@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Digital</fullName>
+        <default>false</default>
+        <label>Digital</label>
+    </customValue>
+    <customValue>
+        <fullName>Physical Media</fullName>
+        <default>false</default>
+        <label>Physical Media</label>
+    </customValue>
+    <description>Marketing campaign media type</description>
+    <masterLabel>Campaign Media Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

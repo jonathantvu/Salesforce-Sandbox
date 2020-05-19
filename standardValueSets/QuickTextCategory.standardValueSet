@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>New Loan Officer Training</fullName>
+        <default>true</default>
+        <label>New Loan Officer Training</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Loan Officer Re-training</fullName>
+        <default>false</default>
+        <label>Loan Officer Re-training</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New LO Portal Training</fullName>
+        <default>false</default>
+        <label>New LO Portal Training</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LO Portal Re-training</fullName>
+        <default>false</default>
+        <label>LO Portal Re-training</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Branch Meeting (Floor Time)</fullName>
+        <default>false</default>
+        <label>Branch Meeting (Floor Time)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PMP Meeting</fullName>
+        <default>false</default>
+        <label>PMP Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PMP Phone Call</fullName>
+        <default>false</default>
+        <label>PMP Phone Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Inactive LO Meeting</fullName>
+        <default>false</default>
+        <label>Inactive LO Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Realtor Meeting (L&amp;L)</fullName>
+        <default>false</default>
+        <label>Realtor Meeting (L&amp;L)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Joint Realtor Meeting With Partner LO</fullName>
+        <default>false</default>
+        <label>Joint Realtor Meeting With Partner LO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Affinity Group Meeting</fullName>
+        <default>false</default>
+        <label>Affinity Group Meeting</label>
+    </standardValue>
+</StandardValueSet>

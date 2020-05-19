@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Consumer</fullName>
+        <default>true</default>
+        <label>Consumer</label>
+    </customValue>
+    <customValue>
+        <fullName>Loan Officer</fullName>
+        <default>false</default>
+        <label>Loan Officer</label>
+    </customValue>
+    <customValue>
+        <fullName>Real Estate Agent</fullName>
+        <default>false</default>
+        <label>Real Estate Agent</label>
+    </customValue>
+    <customValue>
+        <fullName>Financial Advisor</fullName>
+        <default>false</default>
+        <label>Financial Advisor</label>
+    </customValue>
+    <customValue>
+        <fullName>Other Affinity</fullName>
+        <default>false</default>
+        <label>Other Affinity</label>
+    </customValue>
+    <description>Marketing audience</description>
+    <masterLabel>Campaign Audience</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

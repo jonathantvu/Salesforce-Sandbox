@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Open Market</fullName>
+        <default>true</default>
+        <label>Open Market</label>
+    </customValue>
+    <customValue>
+        <fullName>Co-Branded</fullName>
+        <default>false</default>
+        <label>Co-Branded</label>
+    </customValue>
+    <description>Indicates whether marketing campaign was co-branded or Unison branded only.</description>
+    <masterLabel>Branding Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

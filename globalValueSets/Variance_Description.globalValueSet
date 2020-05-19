@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Accessory Unit</fullName>
+        <default>false</default>
+        <label>Accessory Unit</label>
+    </customValue>
+    <customValue>
+        <fullName>Actively Remodeling</fullName>
+        <default>false</default>
+        <label>Actively Remodeling</label>
+    </customValue>
+    <customValue>
+        <fullName>Atypical Architectural Design</fullName>
+        <default>false</default>
+        <label>Atypical Architectural Design</label>
+    </customValue>
+    <customValue>
+        <fullName>Atypical Property Features</fullName>
+        <default>false</default>
+        <label>Atypical Property Features</label>
+    </customValue>
+    <customValue>
+        <fullName>Energy Efficient</fullName>
+        <default>false</default>
+        <label>Energy Efficient</label>
+    </customValue>
+    <customValue>
+        <fullName>Finished Basement</fullName>
+        <default>false</default>
+        <label>Finished Basement</label>
+    </customValue>
+    <customValue>
+        <fullName>Inferior Location</fullName>
+        <default>false</default>
+        <label>Inferior Location</label>
+    </customValue>
+    <customValue>
+        <fullName>New Construction</fullName>
+        <default>false</default>
+        <label>New Construction</label>
+    </customValue>
+    <customValue>
+        <fullName>Significant View Adjustment</fullName>
+        <default>false</default>
+        <label>Significant View Adjustment</label>
+    </customValue>
+    <customValue>
+        <fullName>Superior Location</fullName>
+        <default>false</default>
+        <label>Superior Location</label>
+    </customValue>
+    <customValue>
+        <fullName>Unpermitted Space</fullName>
+        <default>false</default>
+        <label>Unpermitted Space</label>
+    </customValue>
+    <customValue>
+        <fullName>Area Lacks Similar Comparables</fullName>
+        <default>false</default>
+        <label>Area Lacks Similar Comparables</label>
+    </customValue>
+    <customValue>
+        <fullName>Area Lacks Sufficient Sale Volume</fullName>
+        <default>false</default>
+        <label>Area Lacks Sufficient Sale Volume</label>
+    </customValue>
+    <customValue>
+        <fullName>AVM Bed/Bath Discrepancy</fullName>
+        <default>false</default>
+        <label>AVM Bed/Bath Discrepancy</label>
+    </customValue>
+    <customValue>
+        <fullName>AVM Misclassified Property Type</fullName>
+        <default>false</default>
+        <label>AVM Misclassified Property Type</label>
+    </customValue>
+    <customValue>
+        <fullName>AVM SqFt Discrepancy</fullName>
+        <default>false</default>
+        <label>AVM SqFt Discrepancy</label>
+    </customValue>
+    <customValue>
+        <fullName>AVMs Basement Discrepancy</fullName>
+        <default>false</default>
+        <label>AVMs Basement Discrepancy</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer Experience</fullName>
+        <default>false</default>
+        <label>Customer Experience</label>
+    </customValue>
+    <customValue>
+        <fullName>Home&apos;s Condition Not Reflected in Value</fullName>
+        <default>false</default>
+        <label>Home&apos;s Condition Not Reflected in Value</label>
+    </customValue>
+    <customValue>
+        <fullName>Large AVM Std Dev</fullName>
+        <default>false</default>
+        <label>Large AVM Std Dev</label>
+    </customValue>
+    <customValue>
+        <fullName>Low Valuation</fullName>
+        <default>false</default>
+        <label>Low Valuation</label>
+    </customValue>
+    <customValue>
+        <fullName>Rogue AVM</fullName>
+        <default>false</default>
+        <label>Rogue AVM</label>
+    </customValue>
+    <customValue>
+        <fullName>Sale Price Discrepancy</fullName>
+        <default>false</default>
+        <label>Sale Price Discrepancy</label>
+    </customValue>
+    <customValue>
+        <fullName>Wide Price Range Neighborhood</fullName>
+        <default>false</default>
+        <label>Wide Price Range Neighborhood</label>
+    </customValue>
+    <masterLabel>Variance Description</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

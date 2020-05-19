@@ -1,0 +1,10 @@
+<apex:page showHeader="false" sidebar="false" controller="RequestRSIController" >
+    <apex:slds />
+    <apex:pagemessages />
+
+    <apex:pageblock title="OK to Order Reports?" rendered="{!(NOT(dataupdate))}">
+        <apex:form >
+            <apex:commandButton value="Confirm" disabled="{!isPropertyReportCompleted}" action="{!propertyReportIsReady}"/>
+        </apex:form>
+    </apex:pageblock>
+</apex:page>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Broadcast</fullName>
+        <default>false</default>
+        <label>Broadcast</label>
+    </customValue>
+    <customValue>
+        <fullName>Display</fullName>
+        <default>false</default>
+        <label>Display</label>
+    </customValue>
+    <customValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </customValue>
+    <customValue>
+        <fullName>Face-to-Face</fullName>
+        <default>false</default>
+        <label>Face-to-Face</label>
+    </customValue>
+    <customValue>
+        <fullName>In Branch</fullName>
+        <default>false</default>
+        <label>In Branch</label>
+    </customValue>
+    <customValue>
+        <fullName>Direct Mail</fullName>
+        <default>false</default>
+        <label>Direct Mail</label>
+    </customValue>
+    <customValue>
+        <fullName>Native</fullName>
+        <default>false</default>
+        <label>Native</label>
+    </customValue>
+    <customValue>
+        <fullName>Outbound Telemarketing</fullName>
+        <default>false</default>
+        <label>Outbound Telemarketing</label>
+    </customValue>
+    <customValue>
+        <fullName>Outdoor</fullName>
+        <default>false</default>
+        <label>Outdoor</label>
+    </customValue>
+    <customValue>
+        <fullName>Paid Search</fullName>
+        <default>false</default>
+        <label>Paid Search</label>
+    </customValue>
+    <customValue>
+        <fullName>Print</fullName>
+        <default>false</default>
+        <label>Print</label>
+    </customValue>
+    <customValue>
+        <fullName>Social</fullName>
+        <default>false</default>
+        <label>Social</label>
+    </customValue>
+    <description>Outbound marketing channel</description>
+    <masterLabel>Outbound Marketing Channel</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

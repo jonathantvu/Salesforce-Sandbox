@@ -1,0 +1,20 @@
+<apex:page standardController="Lead" extensions="NewTradeAccount_EXT" >
+    <apex:slds />
+    <apex:pageMessages />
+    <apex:form >
+    <apex:pageBlock title="Add New Trade Account">
+        <apex:pageBlockButtons >
+            <apex:commandButton action="{!saveTradeAccount}" value="Save" />
+            <apex:commandButton action="{!Cancel}" value="Go Back" />            
+        </apex:pageBlockButtons>            
+        <apex:pageBlockSection >
+            <apex:inputField value="{!tradeAcct.Name}" required="true" />                
+            <apex:inputField value="{!tradeAcct.Account_Type_pick__c}" required="true" /> 
+            <apex:inputField value="{!tradeAcct.Account_Ownership_Type_pick__c}" required="true" />             
+            <apex:inputField value="{!tradeAcct.Credit_Loan_Type_pick__c}" required="true" />   
+            <apex:inputField value="{!tradeAcct.LASERCA__Account_Balance__c}" required="true" />               
+            <apex:inputField value="{!tradeAcct.LASERCA__Monthly_Payment__c}" required="true" />             
+        </apex:pageBlockSection>    
+    </apex:pageBlock>
+    </apex:form>
+</apex:page>

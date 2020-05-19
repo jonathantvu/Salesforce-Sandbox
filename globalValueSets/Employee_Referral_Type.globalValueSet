@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Regional Sales</fullName>
+        <default>false</default>
+        <label>Regional Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>Program Specialist</fullName>
+        <default>false</default>
+        <label>Program Specialist</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <description>Describes the type of employee that referred a lead</description>
+    <masterLabel>Employee Referral Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

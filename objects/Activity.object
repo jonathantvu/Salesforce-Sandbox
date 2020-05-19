@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Authorization_to_Run_Credit_Given__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether customer provided consent for Unison to run credit on customer during call.</inlineHelpText>
+        <label>Authorization to Run Credit Given</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Call_Already_Scored__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Call Already Scored?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Call_Result__c</fullName>
+        <externalId>false</externalId>
+        <label>Call Result</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Call_Result</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Call_Scorecard_URL__c</fullName>
+        <externalId>false</externalId>
+        <formula>'https://app.formassembly.com/forms/view/438070?taskid=' &amp;  Id  &amp;'&amp;tfa_1166='&amp; Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Call Scorecard URL</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Call_Time__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(CallDurationInSeconds),CreatedDate,CreatedDate-(0.0000115740740740741*CallDurationInSeconds))</formula>
+        <inlineHelpText>Call start timestamp</inlineHelpText>
+        <label>Call Time</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Co_Host__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Co-Host</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Co-Hosted Meetings</relationshipLabel>
+        <relationshipName>Activities</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Co_Hosted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Co-Hosted?</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Daily_Cloud_Call_Count__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (
+AND( ActivityDate = TODAY(), OR(Subject = "CloudCall Call",  BEGINS(Subject, "5NineCall")) ),1,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Daily Cloud Call Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Direction__c</fullName>
+        <description>Indicates whether email or call is inbound or outbound</description>
+        <externalId>false</externalId>
+        <label>Direction</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Email_Direction</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Due_Date_Hidden__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Populated from the Due or Start date by workflow each time the record is edited. Used as criteria for DLRS triggers</inlineHelpText>
+        <label>Due Date Hidden</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Email_Campaign_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Email Campaign Status</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Attempted</fullName>
+                    <default>false</default>
+                    <label>Attempted</label>
+                </value>
+                <value>
+                    <fullName>Opened</fullName>
+                    <default>false</default>
+                    <label>Opened</label>
+                </value>
+                <value>
+                    <fullName>Bounced</fullName>
+                    <default>false</default>
+                    <label>Bounced</label>
+                </value>
+                <value>
+                    <fullName>Unsubscribed</fullName>
+                    <default>false</default>
+                    <label>Unsubscribed</label>
+                </value>
+                <value>
+                    <fullName>Invalid Email</fullName>
+                    <default>false</default>
+                    <label>Invalid Email</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Email_DateTime_Received__c</fullName>
+        <description>Time stamp field for email receipts</description>
+        <externalId>false</externalId>
+        <label>Email DateTime Received</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Event_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Event Status</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Started</fullName>
+                    <default>true</default>
+                    <label>Not Started</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>First_Successful_Contact__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Mark if first contact was an email.</inlineHelpText>
+        <label>Successful Contact</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Five9CallRecordingFile__c</fullName>
+        <externalId>false</externalId>
+        <label>Five9CallRecordingFile</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Five9Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Five9Comments</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Closed__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( IsTask, IsClosed, 
+ IF( ActivityDateTime &lt; NOW() , TRUE, FALSE 
+ ) 
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Formula to check if the task or event is closed for criteria in DLRS</inlineHelpText>
+        <label>Is Closed</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Mobile__c</fullName>
+        <externalId>false</externalId>
+        <label>Mobile</label>
+        <required>false</required>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Owner_is_Onlinesys_Admin__c</fullName>
+        <description>Helper field to identify which task have been created by the online application integration user. These task will get assigned to the Program Specialist/ Account Executive.</description>
+        <externalId>false</externalId>
+        <formula>Owner:User.Alias = 'osysa'</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Owner is Onlinesys Admin</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Partner_Event_Method__c</fullName>
+        <description>Method for Partner Events</description>
+        <externalId>false</externalId>
+        <label>Partner Event Method</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Partner_Event_Type__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>In Person</fullName>
+                    <default>false</default>
+                    <label>In Person</label>
+                </value>
+                <value>
+                    <fullName>Remote</fullName>
+                    <default>false</default>
+                    <label>Remote</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Lunch and Learn</controllingFieldValue>
+                <controllingFieldValue>Product Training</controllingFieldValue>
+                <controllingFieldValue>Re-Engaged Training</controllingFieldValue>
+                <controllingFieldValue>LOP Training</controllingFieldValue>
+                <controllingFieldValue>Dinner / Cocktail Event</controllingFieldValue>
+                <controllingFieldValue>Conference / Expo</controllingFieldValue>
+                <valueName>In Person</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Product Training</controllingFieldValue>
+                <controllingFieldValue>Re-Engaged Training</controllingFieldValue>
+                <controllingFieldValue>LOP Training</controllingFieldValue>
+                <valueName>Remote</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Partner_Event_Type__c</fullName>
+        <description>Event type for Partner Events</description>
+        <externalId>false</externalId>
+        <label>Partner Event Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Lunch and Learn</fullName>
+                    <default>false</default>
+                    <label>Lunch and Learn</label>
+                </value>
+                <value>
+                    <fullName>Product Training</fullName>
+                    <default>false</default>
+                    <label>Product Training</label>
+                </value>
+                <value>
+                    <fullName>Re-Engaged Training</fullName>
+                    <default>false</default>
+                    <label>Re-Engaged Training</label>
+                </value>
+                <value>
+                    <fullName>LOP Training</fullName>
+                    <default>false</default>
+                    <label>LOP Training</label>
+                </value>
+                <value>
+                    <fullName>Dinner / Cocktail Event</fullName>
+                    <default>false</default>
+                    <label>Dinner / Cocktail Event</label>
+                </value>
+                <value>
+                    <fullName>Conference / Expo</fullName>
+                    <default>false</default>
+                    <label>Conference / Expo</label>
+                </value>
+                <value>
+                    <fullName>Branch Visit</fullName>
+                    <default>false</default>
+                    <label>Branch Visit</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Salesforce_URL__c</fullName>
+        <externalId>false</externalId>
+        <formula>"https://na9.salesforce.com/"&amp;Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Salesforce URL</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ShareFile_Link__c</fullName>
+        <externalId>false</externalId>
+        <label>ShareFile Link</label>
+        <required>false</required>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Task_Id__c</fullName>
+        <externalId>false</externalId>
+        <formula>Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Task Id</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Topic__c</fullName>
+        <externalId>false</externalId>
+        <label>Event Topic</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Program Training</fullName>
+                    <default>false</default>
+                    <label>Program Training</label>
+                </value>
+                <value>
+                    <fullName>Portal Training</fullName>
+                    <default>false</default>
+                    <label>Portal Training</label>
+                </value>
+                <value>
+                    <fullName>Other Program Presentation</fullName>
+                    <default>false</default>
+                    <label>Other Program Presentation</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <listViews>
+        <fullName>MyActivities</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>MyDelegatedActivities</fullName>
+        <filterScope>Delegated</filterScope>
+        <label>My Delegated Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>MyTeamsActivities</fullName>
+        <filterScope>Team</filterScope>
+        <label>My Team's Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>TodaysTasks</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>TASK.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>lessThan</operation>
+            <value>TOMORROW</value>
+        </filters>
+        <label>Today's Tasks</label>
+    </listViews>
+    <listViews>
+        <fullName>UpcomingEvents</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>greaterThan</operation>
+            <value>YESTERDAY</value>
+        </filters>
+        <label>Upcoming Events</label>
+    </listViews>
+    <searchLayouts>
+        <searchResultsAdditionalFields>TASK.SUBJECT</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHO_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHAT_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.DUE_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+</CustomObject>

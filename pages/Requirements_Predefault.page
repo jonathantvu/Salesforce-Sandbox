@@ -1,0 +1,37 @@
+<apex:page standardController="Current_Conditions__c" sidebar="false"  extensions="RequirementsController" lightningStylesheets="true">
+<apex:slds />
+    <apex:form id="reqForm">
+    <apex:pageblock >
+        <apex:pageblocksection title="Requirements Information">
+           <apex:pageMessages /><br/>
+            <apex:inputfield value="{!req.Opportunity__c}"/>
+            <apex:inputfield value="{!req.Lead__c}"/>
+            <apex:inputfield value="{!req.Requirement__c}">
+            <apex:actionsupport event="onchange" reRender="reqForm" action="{!getSuccessFactorValue}"/>
+            </apex:inputfield>            
+            <apex:inputfield value="{!req.Code__c}"/>
+           <!--- <apex:inputfield value="{!req.Category__c}"/>-->
+           <!-- <apex:inputfield value="{!req.Type__c}"/>-->
+            <!---<apex:inputfield value="{!req.Reason__c}"/>--->
+            <!--<apex:inputfield value="{!req.Internal_vs_External__c}"/>-->
+            <!--<apex:inputfield value="{!req.Assigned_To__c}"/> --><!-- 4/2/2019 Sundar Subramaniam - Commented for Data Model Cleanup --> 
+            <!--<apex:inputfield value="{!req.Status__c}"/>--->
+            <!--<apex:inputfield value="{!req.Applicant_Type__c}"/>-->
+            <!---<apex:inputfield value="{!req.Customer_Description__c}"/>-->
+            <!---<apex:inputfield value="{!req.Uploaded__c}"/>-->
+            <!-- <apex:inputfield value="{!req.Reuploaded__c}"/> --><!-- 4/2/2019 Sundar Subramaniam - Commented for Data Model Cleanup --> 
+            <!---<apex:inputfield value="{!req.Reupload_Comments__c}"/>--->
+            <!--<apex:inputfield value="{!req.Customer_Response_Needed__c}"/>--><!-- 4/2/2019 Sundar Subramaniam - Commented for Data Model Cleanup --> 
+            <!--<apex:inputfield value="{!req.Document_Code__c}"/>-->
+            <apex:inputfield value="{!req.Success_Factor__c}"/>
+            <!-- <apex:inputfield value="{!req.RSI_Eligible__c}"/> --><!-- 4/2/2019 Sundar Subramaniam - Commented for Data Model Cleanup --> 
+            <!---<apex:inputfield value="{!req.Trade_Account__c}"/>--->
+            <!--<apex:inputfield value="{!req.Transaction_Specialist__c}"/> --><!-- 4/2/2019 Sundar Subramaniam - Commented for Data Model Cleanup --> 
+            <!---<apex:inputfield value="{!req.Case__c}"/>-->
+            
+            <apex:commandButton value="save" action="{!save}"/>
+            <!---<apex:commandButton value="cancel" action="{!cancel}"/>-->
+         </apex:pageblocksection>
+    </apex:pageblock>
+   </apex:form>
+</apex:page>

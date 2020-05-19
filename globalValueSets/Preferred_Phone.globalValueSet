@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Home</fullName>
+        <default>false</default>
+        <label>Home</label>
+    </customValue>
+    <customValue>
+        <fullName>Mobile</fullName>
+        <default>false</default>
+        <label>Mobile</label>
+    </customValue>
+    <customValue>
+        <fullName>Work</fullName>
+        <default>false</default>
+        <label>Work</label>
+    </customValue>
+    <customValue>
+        <fullName>Text Message</fullName>
+        <default>false</default>
+        <label>Text Message</label>
+    </customValue>
+    <masterLabel>Preferred Phone</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

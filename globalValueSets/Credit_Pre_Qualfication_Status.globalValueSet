@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Approved</fullName>
+        <default>false</default>
+        <label>Approved</label>
+    </customValue>
+    <customValue>
+        <fullName>Escalated</fullName>
+        <default>false</default>
+        <label>Escalated</label>
+    </customValue>
+    <customValue>
+        <fullName>Declined</fullName>
+        <default>false</default>
+        <label>Declined</label>
+    </customValue>
+    <customValue>
+        <fullName>No Match</fullName>
+        <default>false</default>
+        <label>No Match</label>
+    </customValue>
+    <customValue>
+        <fullName>Approved (Single score)</fullName>
+        <default>false</default>
+        <label>Approved (Single score)</label>
+    </customValue>
+    <customValue>
+        <fullName>Declined (Single score)</fullName>
+        <default>false</default>
+        <label>Declined (Single score)</label>
+    </customValue>
+    <masterLabel>Credit Pre-Qualfication Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

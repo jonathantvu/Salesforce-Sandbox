@@ -1,0 +1,12 @@
+<apex:page standardController="Deal_Stage_Tracker__c" extensions="SendToSegmentAPI" action="{!Send}">
+    <apex:form >
+        <apex:pageBlock title="Send To Segment API">
+            <apex:pageBlockSection columns="1">
+                <apex:messages />
+            </apex:pageBlockSection>
+            <apex:pageblockButtons >
+                <apex:commandButton value="Back" action="{!GoBack}" />
+            </apex:pageblockButtons>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

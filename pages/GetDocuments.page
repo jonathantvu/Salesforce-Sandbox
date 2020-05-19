@@ -1,0 +1,116 @@
+<apex:page standardController="Property_Due_Diligence_Reports__c" showHeader="true" sidebar="true" extensions="GetDocumentsController" action="{!GetRecordTypes}">
+    <script>
+    var docTypeList=[];
+    </script>
+    <apex:slds />
+    <apex:form >
+        
+        <div style="margin-top: 15px;">
+            <apex:pageMessages id="showmsg"></apex:pageMessages>
+        </div>
+        
+        <apex:outputPanel layout="block" id="documentSection">
+            <apex:outputPanel layout="block" rendered="{!showFiles == false}" id="documentTypeSection">
+                <div class="slds-grid slds-gutters slds-wrap">
+                    <div class="slds-col slds-size_3-of-3" style="margin-left: 20px; margin-top: 10px; font-size: 145%; margin-bottom: 25px;">
+                        Available document types
+                    </div>
+                    <apex:repeat value="{!documentTypeWrapperList}" var="documentTypeWrapper" id="theRepeat">
+                        <div class="slds-col slds-size_5-of-12" style="margin-left: 20px; font-size: 120%;">
+                            <apex:inputCheckbox styleClass="{!documentTypeWrapper.documentType}" value="{!documentTypeWrapper.isChecked}" />
+                            <apex:outputText value="{!documentTypeWrapper.documentType}" id="theValue"/> &nbsp;&nbsp;
+                        </div>
+                        <script>
+                        docTypeList.push('{!documentTypeWrapper.documentType}');
+                        </script>
+                    </apex:repeat>
+                </div>
+                
+                <div style="margin-left: 20px; margin-top: 15px;">
+                    <apex:commandButton value="Back" styleClass="slds-button slds-button_neutral" action="{!goBack}" style="width:90px" rerender="showmsg, documentSection"/> &nbsp;&nbsp;
+                    <!--<apex:commandButton value="Save" styleClass="slds-button slds-button_brand" action="{!GetDocuments}" style="width:90px" rerender="showmsg, documentSection"/>-->
+                    <button type="button" onClick="downloadAttachment()" class="slds-button slds-button_brand">Download</button>
+                </div>
+            </apex:outputPanel>
+            
+            <apex:outputPanel layout="block" rendered="{!showFiles == true}" id="retrievedDocumentsSection">
+                <div class="slds-grid slds-gutters slds-wrap">
+                    <div class="slds-col slds-size_3-of-3" style="margin-left: 20px; margin-top: 10px; font-size: 145%; margin-bottom: 10px;">
+                        Retrieved documents:
+                    </div>
+                    
+                    <apex:repeat value="{!attachmentList}" var="attachment" >
+                        <div class="slds-col slds-size_1-of-12" style="margin-left: 20px; font-size: 120%;">
+                            <apex:outputLink value="/{!attachment.Id}" id="theLink">{!attachment.Name}</apex:outputLink>
+                        </div>
+                    </apex:repeat>
+                </div>
+                
+                <div style="margin-left: 20px; margin-top: 15px;">
+                    <apex:commandButton value="Back" styleClass="slds-button slds-button_neutral" action="{!goBack}" style="width:90px" rerender="showmsg, documentTypeSection"/>
+                </div>
+            </apex:outputPanel>
+        </apex:outputPanel>
+        <div id="loadingspinner" class="slds-spinner_container" style = "display:none">
+            <div id="mySpinner" role="status" class="slds-spinner slds-spinner_medium"> 
+                <span class="slds-assistive-text">Loading</span> 
+                <div class="slds-spinner__dot-a"></div> 
+                <div class="slds-spinner__dot-b"></div> 
+            </div> 
+        </div>
+    </apex:form>
+    <script type="text/javascript">
+    var url='';
+    var token='';
+    getCreds();
+    downloadAttachment();
+    function getCreds() {
+        
+        Visualforce.remoting.Manager.invokeAction(
+            '{!$RemoteAction.GetDocumentsController.getSpruceCredentials}', 
+            function(result, event){
+                if (event.status) {
+                    if(result.url!=undefined && result.url!='' && result.url!=null){
+                        url=result.url;
+                    }
+                    if(result.token!=undefined && result.token!='' && result.token!=null){
+                        token=result.token;
+                    }
+                } else if (event.type === 'exception') {
+                    Console.log(event.message + "::::" + event.where);
+                } else {
+                    console.log(event.message);
+                }
+            }, 
+            {escape: true}
+        );
+    }
+    function downloadAttachment(){
+        orderId='{!pddr.Spruce_Order_Id__c}';
+        for(var i=0;i<docTypeList.length;i++){
+            let docType=docTypeList[i];
+            if(document.getElementsByClassName(docType)[0].checked){
+                makeCallout(orderId, docType);
+            }
+        }
+    }
+    function makeCallout(orderId,documentType){
+        document.getElementById('loadingspinner').style.display = 'block';
+        var x = new XMLHttpRequest();
+        x.open('GET',url+ '/public_documents/v1/' + orderId + '/' + documentType);
+        x.setRequestHeader('Authorization','Bearer '+token);
+        x.responseType = 'arraybuffer';
+        x.onload = function() {
+            var blob = new Blob([this.response], {type: 'application/pdf'});
+            var fileURL=URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.style.display = 'none';
+            a.href = fileURL;
+            a.download = orderId+'_'+documentType+'.pdf';
+            a.click();
+            document.getElementById('loadingspinner').style.display = 'none';
+        };
+        x.send(null);
+    }
+    </script>
+</apex:page>

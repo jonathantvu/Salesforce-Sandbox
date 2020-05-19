@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Approved</fullName>
+        <default>false</default>
+        <label>Approved</label>
+    </customValue>
+    <customValue>
+        <fullName>Escalated</fullName>
+        <default>false</default>
+        <label>Escalated</label>
+    </customValue>
+    <customValue>
+        <fullName>Declined</fullName>
+        <default>false</default>
+        <label>Declined</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Enough Information</fullName>
+        <default>false</default>
+        <label>Not Enough Information</label>
+    </customValue>
+    <masterLabel>Property Pre-Qualification Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

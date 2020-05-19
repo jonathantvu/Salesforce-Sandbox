@@ -1,0 +1,31 @@
+<apex:page showHeader="false" sidebar="false" controller="RequestRSIController" >
+
+    <apex:slds />
+    <apex:pagemessages />
+
+    <apex:pageblock title="RSI Requirements" rendered="{!AND(dataexist,NOT(datasaved))}">
+        <apex:form >
+            <apex:pageBlockTable value="{!reqlist}" var="req">
+                <apex:column title="Requirement Type">
+                    <apex:facet name="header">Requirement Type</apex:facet>
+                    <apex:outputField value="{!req.Requirement__c}"/>
+                </apex:column>
+
+                <apex:column title="Reason">
+                    <apex:facet name="header">Reason</apex:facet>
+                    <apex:inputField value="{!req.Reason__c}"/>
+                </apex:column>
+            </apex:pageBlockTable>
+            <div align="center" draggable="false" >
+                <apex:commandButton value="Save" action="{!saveReq}"/>
+            </div>
+
+        </apex:form>
+    </apex:pageblock>
+    <apex:pageblock title="Complete Project Task" rendered="{!(NOT(dataupdate))}">
+        <apex:form >
+            <apex:commandButton value="RSI Only" action="{!completeRSIOnly}"/>
+            <apex:commandButton value="RSI & Property Reports" action="{!completeProjectTask}"/>
+        </apex:form>
+    </apex:pageblock>
+</apex:page>

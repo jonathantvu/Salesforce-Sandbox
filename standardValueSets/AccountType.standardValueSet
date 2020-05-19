@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Channel Partner</fullName>
+        <default>false</default>
+        <label>Channel Partner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Closing Services Provider</fullName>
+        <default>false</default>
+        <label>Closing Services Provider</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Corporate</fullName>
+        <default>false</default>
+        <label>Corporate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer</fullName>
+        <default>false</default>
+        <label>Customer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Depository Institutions</fullName>
+        <default>false</default>
+        <label>Depository Institutions</label>
+    </standardValue>
+    <standardValue>
+        <fullName>GSE/Agency</fullName>
+        <default>false</default>
+        <label>GSE/Agency</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Investor</fullName>
+        <default>false</default>
+        <label>Investor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Press</fullName>
+        <default>false</default>
+        <label>Press</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Prospect</fullName>
+        <default>false</default>
+        <label>Prospect</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Real Estate Broker</fullName>
+        <default>false</default>
+        <label>Real Estate Broker</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Retail Branch</fullName>
+        <default>false</default>
+        <label>Retail Branch</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Reverse Mortgage Broker</fullName>
+        <default>false</default>
+        <label>Reverse Mortgage Broker</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Third Party Originator</fullName>
+        <default>false</default>
+        <label>Third Party Originator</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Vendor</fullName>
+        <default>false</default>
+        <label>Vendor</label>
+    </standardValue>
+</StandardValueSet>

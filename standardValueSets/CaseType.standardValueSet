@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Loan Officer Request</fullName>
+        <default>false</default>
+        <label>Loan Officer Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Loan Officer Portal Issue</fullName>
+        <default>false</default>
+        <label>Loan Officer Portal Issue</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Property Approval Request</fullName>
+        <default>false</default>
+        <label>Property Approval Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Exception Request</fullName>
+        <default>false</default>
+        <label>Customer Exception Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Asset Admin Action</fullName>
+        <default>false</default>
+        <label>Asset Admin Action</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+</StandardValueSet>

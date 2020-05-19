@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Loan Officer</fullName>
+        <default>false</default>
+        <label>Loan Officer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Processor</fullName>
+        <default>false</default>
+        <label>Processor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Marketing</fullName>
+        <default>false</default>
+        <label>Marketing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Business Development</fullName>
+        <default>false</default>
+        <label>Business Development</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Capital Markets</fullName>
+        <default>false</default>
+        <label>Capital Markets</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Real Estate Agent</fullName>
+        <default>false</default>
+        <label>Real Estate Agent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer</fullName>
+        <default>false</default>
+        <label>Customer</label>
+    </standardValue>
+</StandardValueSet>

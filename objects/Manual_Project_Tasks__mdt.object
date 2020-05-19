@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Project tasks that are created manually via a requirement Metadata are stored here.</description>
+    <fields>
+        <fullName>Code__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Code</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Project_Tasks__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Project Task Name</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Requirement_Type__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Requirement</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Manual Project Task</label>
+    <listViews>
+        <fullName>All_columns_view</fullName>
+        <columns>MasterLabel</columns>
+        <columns>DeveloperName</columns>
+        <columns>NamespacePrefix</columns>
+        <columns>Code__c</columns>
+        <columns>Project_Tasks__c</columns>
+        <columns>Requirement_Type__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All columns view</label>
+    </listViews>
+    <pluralLabel>Manual Project Tasks</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

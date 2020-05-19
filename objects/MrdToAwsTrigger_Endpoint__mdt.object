@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>AWS_Endpoint__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>AWS Endpoint</label>
+        <required>false</required>
+        <type>Url</type>
+    </fields>
+    <label>MrdToAwsTrigger Endpoint</label>
+    <pluralLabel>MrdToAwsTrigger Endpoints</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

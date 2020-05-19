@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Metadata that stores which Success Factors must be cleared before completing the Opportunity Stage.</description>
+    <fields>
+        <fullName>Success_Factor__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Success Factor</label>
+        <length>150</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Opportunity Stage Vs SuccessFactor</label>
+    <pluralLabel>Opportunity Stage Vs SuccessFactor</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

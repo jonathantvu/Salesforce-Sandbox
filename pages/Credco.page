@@ -1,0 +1,4 @@
+<apex:page standardController="Contact" showHeader="true" sidebar="true" extensions="CredcoController" action="{!pageMethod}" standardStylesheets="true">
+    <apex:pageMessages />
+    <apex:message />
+</apex:page>

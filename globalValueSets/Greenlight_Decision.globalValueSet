@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Approved</fullName>
+        <default>false</default>
+        <label>Approved</label>
+    </customValue>
+    <customValue>
+        <fullName>Escalate</fullName>
+        <default>false</default>
+        <label>Escalate</label>
+    </customValue>
+    <masterLabel>Greenlight Decision</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

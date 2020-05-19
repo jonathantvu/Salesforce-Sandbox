@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Inbound</fullName>
+        <default>false</default>
+        <label>Inbound</label>
+    </customValue>
+    <customValue>
+        <fullName>Outbound</fullName>
+        <default>false</default>
+        <label>Outbound</label>
+    </customValue>
+    <description>Inbound or outbound</description>
+    <masterLabel>Email Direction</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

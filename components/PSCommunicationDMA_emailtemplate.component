@@ -1,0 +1,37 @@
+<!--
+ - Created by Ivan Garcia on 5/1/2019.
+ -->
+
+<apex:component id="PSCommunicationDMA_emailtemplate" controller="PSCommunicationDMA_emailtemplate" access="global">
+    <apex:attribute name="Opp" type="Id" description="Id of the opportunity" assignTo="{!oppId}"/>
+
+    <apex:dataTable value="{!DMAItems}" var="DMA" rowClasses="odd,even" styleClass="tableClass" border="1">
+        <apex:facet name="header">DMA's</apex:facet>
+
+        <apex:column >
+            <apex:facet name="header">Name</apex:facet>
+            <apex:outputText value="{!DMA.name}"/>
+        </apex:column>
+
+        <apex:column >
+            <apex:facet name="header">Deferred Maintenance Item</apex:facet>
+            <apex:outputText value="{!DMA.Deferred_Maintenance_Item__c}"/>
+        </apex:column>
+    </apex:dataTable>
+
+    <!--
+<table border = "2" cellspacing = "5">
+    <tr>
+        <td>Name</td>
+        <td>Deferred Maintenance Item</td>
+    </tr>
+    <apex:repeat value="{!DMAItems}" var="DMA">
+        <tr>
+            <td>{!DMA.Name}</td>
+            <td>{!DMA.Deferred_Maintenance_Item__c}</td>
+        </tr>
+    </apex:repeat>
+</table>
+-->
+
+</apex:component>

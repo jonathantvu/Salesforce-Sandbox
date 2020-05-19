@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>0 - left vm/email</fullName>
+        <default>false</default>
+        <label>0 - left vm/email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>1 - Not Interested</fullName>
+        <default>false</default>
+        <label>1 - Not Interested</label>
+    </standardValue>
+    <standardValue>
+        <fullName>2 - Neutral/No Opinion</fullName>
+        <default>false</default>
+        <label>2 - Neutral/No Opinion</label>
+    </standardValue>
+    <standardValue>
+        <fullName>3 - Interested</fullName>
+        <default>false</default>
+        <label>3 - Interested</label>
+    </standardValue>
+    <standardValue>
+        <fullName>4 - Very Interested</fullName>
+        <default>false</default>
+        <label>4 - Very Interested</label>
+    </standardValue>
+    <standardValue>
+        <fullName>5 - Referral</fullName>
+        <default>false</default>
+        <label>5 - Referral</label>
+    </standardValue>
+</StandardValueSet>

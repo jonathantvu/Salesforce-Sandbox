@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Age-restricted community</fullName>
+        <default>false</default>
+        <label>Age-restricted community</label>
+    </customValue>
+    <customValue>
+        <fullName>Distressed sale</fullName>
+        <default>false</default>
+        <label>Distressed sale</label>
+    </customValue>
+    <customValue>
+        <fullName>Error computing Layer 1 by geo</fullName>
+        <default>false</default>
+        <label>Error computing Layer 1 by geo</label>
+    </customValue>
+    <customValue>
+        <fullName>Error computing Layer 2</fullName>
+        <default>false</default>
+        <label>Error computing Layer 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Failed Layer 1</fullName>
+        <default>false</default>
+        <label>Failed Layer 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Failed Layer 2</fullName>
+        <default>false</default>
+        <label>Failed Layer 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Failed multiple guidelines</fullName>
+        <default>false</default>
+        <label>Failed multiple guidelines</label>
+    </customValue>
+    <customValue>
+        <fullName>Failed multiple property overlays</fullName>
+        <default>false</default>
+        <label>Failed multiple property overlays</label>
+    </customValue>
+    <customValue>
+        <fullName>Gated community</fullName>
+        <default>false</default>
+        <label>Gated community</label>
+    </customValue>
+    <customValue>
+        <fullName>General error</fullName>
+        <default>false</default>
+        <label>General error</label>
+    </customValue>
+    <customValue>
+        <fullName>High-end condo</fullName>
+        <default>false</default>
+        <label>High-end condo</label>
+    </customValue>
+    <customValue>
+        <fullName>HOA fees</fullName>
+        <default>false</default>
+        <label>HOA fees</label>
+    </customValue>
+    <customValue>
+        <fullName>Land lease</fullName>
+        <default>false</default>
+        <label>Land lease</label>
+    </customValue>
+    <customValue>
+        <fullName>Layer 2 is NULL</fullName>
+        <default>false</default>
+        <label>Layer 2 is NULL</label>
+    </customValue>
+    <customValue>
+        <fullName>Property/location not found</fullName>
+        <default>false</default>
+        <label>Property/location not found</label>
+    </customValue>
+    <customValue>
+        <fullName>Property condition</fullName>
+        <default>false</default>
+        <label>Property condition</label>
+    </customValue>
+    <masterLabel>Greenlight Sub-Reasons</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

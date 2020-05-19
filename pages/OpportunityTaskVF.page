@@ -1,0 +1,16 @@
+<apex:page standardController="Opportunity" extensions="OpportunityTaskList">
+  <apex:form >
+  <apex:outputText value="{!message}" rendered="{!LEN(message)>0}"/>
+   <apex:pageBlock title="Opportunity Conditions">
+      
+      <apex:pageBlockSection title="Conditions" columns="2">
+         <apex:repeat value="{!ptask}" var="PTK">
+<!--             <apex:inputField value="{!PTK.Completed__c}"/>-->
+            <apex:inputField value="{!PTK.Status__c}"/>
+            <apex:outputField value="{!PTK.Name}"/>          
+         </apex:repeat>
+      </apex:pageBlockSection>
+  </apex:pageBlock>
+   <apex:commandButton value="Save" action="{!save}"/>
+  </apex:form>
+</apex:page>

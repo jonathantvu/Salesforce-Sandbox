@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Loan_Officer_Onboarding_Quiz_Layout</fullName>
+        <fields>Contact__c</fields>
+        <fields>CreatedById</fields>
+        <fields>LastModifiedById</fields>
+        <fields>Name</fields>
+        <fields>OwnerId</fields>
+        <label>Loan Officer Onboarding Quiz Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipName>Guaranteed_Rate_Onboarding_Quizzes</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Email_Address__c</fullName>
+        <externalId>false</externalId>
+        <label>Email Address</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Question_10__c</fullName>
+        <description>Which of the following loan details from partnering lenders does a FirstREX Program Specialist share with prospective clients?</description>
+        <externalId>false</externalId>
+        <label>Question #10</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Mortgage Rates and Loan Program Terms</fullName>
+                    <default>false</default>
+                    <label>Mortgage Rates and Loan Program Terms</label>
+                </value>
+                <value>
+                    <fullName>Mortgage Rates and Fees</fullName>
+                    <default>false</default>
+                    <label>Mortgage Rates and Fees</label>
+                </value>
+                <value>
+                    <fullName>FirstREX Program Specialists do not provide specific loan terms</fullName>
+                    <default>false</default>
+                    <label>FirstREX Program Specialists do not provide specific loan terms</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Question_1__c</fullName>
+        <description>Which of the following statements about the REX Homebuyer program is NOT true?</description>
+        <externalId>false</externalId>
+        <label>Question #1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>The money from us is not a loan, it's a co-investment in the property. We are your client’s partner.</fullName>
+                    <default>false</default>
+                    <label>The money from us is not a loan, it's a co-investment in the property. We are your client’s partner.</label>
+                </value>
+                <value>
+                    <fullName>Your client won’t pay any monthly payments or interest to us while they live in their home.</fullName>
+                    <default>false</default>
+                    <label>Your client won’t pay any monthly payments or interest to us while they live in their home.</label>
+                </value>
+                <value>
+                    <fullName>As their partner, we hope to earn a return on our investment when the property increases in value and they earn a profit.</fullName>
+                    <default>false</default>
+                    <label>As their partner, we hope to earn a return on our investment when the property increases in value and they earn a profit.</label>
+                </value>
+                <value>
+                    <fullName>Your client is in control. They make all the decisions about the home—when to buy, when to sell, or if they want to buy us out.</fullName>
+                    <default>false</default>
+                    <label>Your client is in control. They make all the decisions about the home—when to buy, when to sell, or if they want to buy us out.</label>
+                </value>
+                <value>
+                    <fullName>They can buy us out at any time.</fullName>
+                    <default>false</default>
+                    <label>They can buy us out at any time.</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Question_2__c</fullName>
+        <description>Which of the following is NOT a typical reason a client would choose to use REX Homebuyer?</description>
+        <externalId>false</externalId>
+        <label>Question #2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Increase their purchasing power without increasing their monthly payment</fullName>
+                    <default>false</default>
+                    <label>Increase their purchasing power without increasing their monthly payment</label>
+                </value>
+                <value>
+                    <fullName>Reserving cash to pay for home improvements</fullName>
+                    <default>false</default>
+                    <label>Reserving cash to pay for home improvements</label>
+                </value>
+                <value>
+                    <fullName>Reduce their monthly payment</fullName>
+                    <default>false</default>
+                    <label>Reduce their monthly payment</label>
+                </value>
+                <value>
+                    <fullName>Income qualify for the home</fullName>
+                    <default>false</default>
+                    <label>Income qualify for the home</label>
+                </value>
+                <value>
+                    <fullName>All of these are typical reasons clients choose REX Homebuyer</fullName>
+                    <default>false</default>
+                    <label>All of these are typical reasons clients choose REX Homebuyer</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Question_3__c</fullName>
+        <description>Which of the following is NOT true about the amount of FirstREX’s co-investment?</description>
+        <externalId>false</externalId>
+        <label>Question #3</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>If the customer provides a 10% down payment, FirstREX may provide up to a 10% down payment</fullName>
+                    <default>false</default>
+                    <label>If the customer provides a 10% down payment, FirstREX may provide up to a 10% down payment</label>
+                </value>
+                <value>
+                    <fullName>If the customer provides a 10% down payment, FirstREX may provide up to a 12.5% down payment</fullName>
+                    <default>false</default>
+                    <label>If the customer provides a 10% down payment, FirstREX may provide up to a 12.5% down payment</label>
+                </value>
+                <value>
+                    <fullName>If the customer provides a 12.5% down payment, FirstREX may provide up to a 12.5% down payment</fullName>
+                    <default>false</default>
+                    <label>If the customer provides a 12.5% down payment, FirstREX may provide up to a 12.5% down payment</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Question_4__c</fullName>
+        <description>Assume the purchase price of the home is $500,000, FirstREX provides $50,000 in down payment funding, the FirstREX Investor Percentage is 40%, and the home is sold ten years later for $600,000. What is the total payment that FirstREX is owed at the time of sale?</description>
+        <externalId>false</externalId>
+        <label>Question #4</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>$40,000 (40% share of the change in value)</fullName>
+                    <default>false</default>
+                    <label>$40,000 (40% share of the change in value)</label>
+                </value>
+                <value>
+                    <fullName>$90,000 (return of the initial $50,0000 investment + 40% share of the change in value)</fullName>
+                    <default>false</default>
+                    <label>$90,000 (return of the initial $50,0000 investment + 40% share of the change in value)</label>
+                </value>
+                <value>
+                    <fullName>$240,000 (40% share of the sale price)</fullName>
+                    <default>false</default>
+                    <label>$240,000 (40% share of the sale price)</label>
+                </value>
+                <value>
+                    <fullName>$290,000 (return of initial investment + 40% share of the sale price)</fullName>
+                    <default>false</default>
+                    <label>$290,000 (return of initial investment + 40% share of the sale price)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Question_5__c</fullName>
+        <description>Which of the following property/ownership types are currently permitted with REX Homebuyer?</description>
+        <externalId>false</externalId>
+        <label>Question #5</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Single family, duplex and condominium</fullName>
+                    <default>false</default>
+                    <label>Single family, duplex and condominium</label>
+                </value>
+                <value>
+                    <fullName>Single family</fullName>
+                    <default>false</default>
+                    <label>Single family</label>
+                </value>
+                <value>
+                    <fullName>Single family and duplex</fullName>
+                    <default>false</default>
+                    <label>Single family and duplex</label>
+                </value>
+                <value>
+                    <fullName>Single family and condominium</fullName>
+                    <default>false</default>
+                    <label>Single family and condominium</label>
+                </value>
+                <value>
+                    <fullName>Single family, duplex, condominium, rental property and vacation home</fullName>
+                    <default>false</default>
+                    <label>Single family, duplex, condominium, rental property and vacation home</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Question_6__c</fullName>
+        <description>The purchaser pays a transaction fee to REX Homebuyer at the closing of the transaction. How is that transaction fee calculated?</description>
+        <externalId>false</externalId>
+        <label>Question #6</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Based on a percentage of the home value</fullName>
+                    <default>false</default>
+                    <label>Based on a percentage of the home value</label>
+                </value>
+                <value>
+                    <fullName>Based on a percentage of the purchase mortgage balance</fullName>
+                    <default>false</default>
+                    <label>Based on a percentage of the purchase mortgage balance</label>
+                </value>
+                <value>
+                    <fullName>Based on a percentage of the REX Homebuyer co-investment amount</fullName>
+                    <default>false</default>
+                    <label>Based on a percentage of the REX Homebuyer co-investment amount</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Question_7__c</fullName>
+        <description>In which of the following scenarios is a homeowner NOT permitted to terminate the REX Homebuyer agreement?</description>
+        <externalId>false</externalId>
+        <label>Question #7</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Homeowner sells his house before the third anniversary of the agreement</fullName>
+                    <default>false</default>
+                    <label>Homeowner sells his house before the third anniversary of the agreement</label>
+                </value>
+                <value>
+                    <fullName>Homeowner sells his house after the third anniversary of the agreement</fullName>
+                    <default>false</default>
+                    <label>Homeowner sells his house after the third anniversary of the agreement</label>
+                </value>
+                <value>
+                    <fullName>Homeowner buys FirstREX out before the third anniversary of the agreement</fullName>
+                    <default>false</default>
+                    <label>Homeowner buys FirstREX out before the third anniversary of the agreement</label>
+                </value>
+                <value>
+                    <fullName>Homeowner buys FirstREX out after the third anniversary of the agreement</fullName>
+                    <default>false</default>
+                    <label>Homeowner buys FirstREX out after the third anniversary of the agreement</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Question_8__c</fullName>
+        <externalId>false</externalId>
+        <label>Question #8</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Within 24 hours</fullName>
+                    <default>false</default>
+                    <label>Within 24 hours</label>
+                </value>
+                <value>
+                    <fullName>Within 36 hours</fullName>
+                    <default>false</default>
+                    <label>Within 36 hours</label>
+                </value>
+                <value>
+                    <fullName>Within 48 hours</fullName>
+                    <default>false</default>
+                    <label>Within 48 hours</label>
+                </value>
+                <value>
+                    <fullName>When time is available to have a quality call with the prospect</fullName>
+                    <default>false</default>
+                    <label>When time is available to have a quality call with the prospect</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Question_9__c</fullName>
+        <description>If a client mentions a specific property address that they are interested in purchasing, then as their loan officer the first thing you should do is…</description>
+        <externalId>false</externalId>
+        <label>Question #9</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Ask if they have already pre-qualified the property with FirstREX, and if the answer is no then submit the property address for pre-qualification in the FirstREX LO Portal</fullName>
+                    <default>false</default>
+                    <label>Ask if they have already pre-qualified the property with FirstREX, and if the answer is no then submit the property address for pre-qualification in the FirstREX LO Portal</label>
+                </value>
+                <value>
+                    <fullName>Show them calculations for monthly payments with and without REX HomeBuyer</fullName>
+                    <default>false</default>
+                    <label>Show them calculations for monthly payments with and without REX HomeBuyer</label>
+                </value>
+                <value>
+                    <fullName>Contact a FirstREX Program Specialist to request an application for the client</fullName>
+                    <default>false</default>
+                    <label>Contact a FirstREX Program Specialist to request an application for the client</label>
+                </value>
+                <value>
+                    <fullName>Order an appraisal of the property to determine the value of the home</fullName>
+                    <default>false</default>
+                    <label>Order an appraisal of the property to determine the value of the home</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Loan Officer Onboarding Quiz</label>
+    <nameField>
+        <label>Loan Officer Onboarding Quiz</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Loan Officer Onboarding Quizzes</pluralLabel>
+    <searchLayouts />
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

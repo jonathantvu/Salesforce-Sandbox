@@ -1,0 +1,33 @@
+<apex:page standardController="Lead" extensions="Lead_Yodlee_EXT" action="{!generateYodleeOrder}" >
+    <apex:slds />
+    <style>
+        .mainBlock {
+            padding:10px;
+        }
+         
+        div.buttons {
+            margin-top: 10px;
+            width: 100%;
+        }
+    </style>
+
+	<apex:outputPanel id="mainBlock" styleClass="mainBlock" layout="block">
+		<apex:form >
+
+            <apex:actionFunction name="backToLead" action="BackToLead" />
+			
+			<!-- Start Error Block -->
+			<apex:outputPanel id="Errors" layout="block" >
+				<apex:outputPanel layout="block" styleClass="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_error" html-role="alert" rendered="{!displayError}">
+					<span class="slds-assistive-text">error</span>
+					<h2><apex:messages /></h2>
+				</apex:outputPanel>
+			</apex:outputPanel>
+			<!-- End Error Block -->
+
+            <div Class="buttons">
+                <button class="slds-button slds-button_neutral" onclick="backToLead();">Back</button>
+            </div>
+		</apex:form>
+	</apex:outputPanel>
+</apex:page>

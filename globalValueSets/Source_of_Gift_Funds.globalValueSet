@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Parent</fullName>
+        <default>false</default>
+        <label>Parent</label>
+    </customValue>
+    <customValue>
+        <fullName>Grandparent</fullName>
+        <default>false</default>
+        <label>Grandparent</label>
+    </customValue>
+    <masterLabel>Source of Gift Funds</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

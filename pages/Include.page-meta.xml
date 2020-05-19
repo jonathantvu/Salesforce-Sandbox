@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>43.0</apiVersion>
+    <availableInTouch>true</availableInTouch>
+    <confirmationTokenRequired>false</confirmationTokenRequired>
+    <description>Skuid cloned include page: https://docs.skuid.com/latest/en/skuid/deploy/salesforce/visualforce/skuid-page-visualforce-component.html</description>
+    <label>Include</label>
+    <packageVersions>
+        <majorNumber>11</majorNumber>
+        <minorNumber>2</minorNumber>
+        <namespace>skuid</namespace>
+    </packageVersions>
+</ApexPage>

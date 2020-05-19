@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Active</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Additional_Fields__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Additional Fields</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Conditions__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Conditions</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Description</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Field_API_Name__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Field API Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Locked_By_Stage__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Locked By Stage</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Closing</fullName>
+                    <default>true</default>
+                    <label>Closing</label>
+                </value>
+                <value>
+                    <fullName>Final Approval</fullName>
+                    <default>false</default>
+                    <label>Final Approval</label>
+                </value>
+                <value>
+                    <fullName>Funded Won</fullName>
+                    <default>false</default>
+                    <label>Funded Won</label>
+                </value>
+                <value>
+                    <fullName>Post-Closing</fullName>
+                    <default>false</default>
+                    <label>Post-Closing</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Object__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Object</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Application</fullName>
+                    <default>true</default>
+                    <label>Application</label>
+                </value>
+                <value>
+                    <fullName>Opportunity</fullName>
+                    <default>false</default>
+                    <label>Opportunity</label>
+                </value>
+                <value>
+                    <fullName>Personal Credit Report</fullName>
+                    <default>false</default>
+                    <label>Personal Credit Report</label>
+                </value>
+                <value>
+                    <fullName>Property</fullName>
+                    <default>false</default>
+                    <label>Property</label>
+                </value>
+                <value>
+                    <fullName>Recorded Information</fullName>
+                    <default>false</default>
+                    <label>Recorded Information</label>
+                </value>
+                <value>
+                    <fullName>Requirement</fullName>
+                    <default>false</default>
+                    <label>Requirement</label>
+                </value>
+                <value>
+                    <fullName>Trade Account</fullName>
+                    <default>false</default>
+                    <label>Trade Account</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Populated_By_Stage__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Populated By Stage</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Investment Due Diligence</fullName>
+                    <default>true</default>
+                    <label>Investment Due Diligence</label>
+                </value>
+                <value>
+                    <fullName>Offer</fullName>
+                    <default>false</default>
+                    <label>Offer</label>
+                </value>
+                <value>
+                    <fullName>Final Approval</fullName>
+                    <default>false</default>
+                    <label>Final Approval</label>
+                </value>
+                <value>
+                    <fullName>Closing</fullName>
+                    <default>false</default>
+                    <label>Closing</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Validation__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Validation</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Opp Pipeline Validation Field</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>MasterLabel</columns>
+        <columns>Active__c</columns>
+        <columns>Object__c</columns>
+        <columns>Field_API_Name__c</columns>
+        <columns>Additional_Fields__c</columns>
+        <columns>Populated_By_Stage__c</columns>
+        <columns>Validation__c</columns>
+        <columns>Conditions__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <pluralLabel>Opp Pipeline Validation Fields</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

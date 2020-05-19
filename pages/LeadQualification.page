@@ -1,0 +1,96 @@
+<apex:page lightningStylesheets="true" standardController="Lead" extensions="LeadQualification" docType="html-5.0" action="{!passbookCalculate}">
+    <apex:slds />
+    <apex:form >
+        <style>
+            body .bPageBlock .pbBody .blue .pbSubheader{
+            background-color:#545fe8ff;
+            font-weight: bold;
+            color:#E8EBF4;
+            }
+            .button{
+            font-weight: bold;
+            }
+            .bold{
+            font-weight: bold;
+            }
+            .headerRow.bold{
+            font-weight: bold;
+            background-color:#545fe8ff;
+            color:#E8EBF4;
+            }
+            .pbTitle {
+             align: center;
+            }
+        </style>        
+        <apex:pageBlock >
+            <apex:pageBlockButtons styleClass="button" location="bottom"  >
+                <!--<apex:commandButton value="Calculate" action="{!Calculate}" rendered="{!calculated != true}" />-->       
+                <apex:commandButton value="Passbook Calculate" styleClass="button" action="{!passbookCalculate}" rendered="{!calculated != true}" />                               
+                <!--<apex:commandButton value="Confirm/Update Passbook" action="{!passbookContinueLead}" rendered="{!and(calculated == true, CreateException != true, passbookUsed = true)}" />-->                               
+                <!--<apex:commandButton value="Confirm and Update Lead" action="{!ContinueLead}" rendered="{!and(calculated == true, CreateException != true, passbookUsed = false)}" />-->
+                <apex:commandButton value="Raise Exception" styleClass="slds-button slds-button_brand" rendered="{!CreateException}" action="{!RaiseException}"/>
+                <apex:commandButton value="Back to Lead" styleClass="slds-button slds-button_brand" action="{!Cancel}" />
+            </apex:pageBlockButtons>
+            <apex:outputPanel styleClass="blue" layout="block">
+                <apex:pageBlockSection title="Result" columns="2" id="section1">
+                    <apex:pageBlockSectionItem >
+                        Lead:
+                        <apex:outputText value="{!applicantName}" />
+                    </apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem >
+                        Application Tracking ID:
+                        <apex:outputText value="{!dealID}" />
+                    </apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem >
+                        Current LTV:
+                        <apex:outputText value="{!currentLTV}" />
+                    </apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem >
+                        Current DTI:
+                        <apex:outputText value="{!currentDTI}" />
+                    </apex:pageBlockSectionItem>                   
+                    <apex:pageBlockSectionItem >
+                        Passbook Score:
+                        <apex:outputText value="{!passbookScore}" />
+                    </apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem >
+                        Passbook Decision:
+                        <apex:outputText value="{!passbookDecision}" />
+                    </apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem >
+                        Decision Explanation:
+                        <apex:outputText value="{!decisionExplanation}" />                                    
+                    </apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem rendered="{!errorOccure}"   >
+                        Error :
+                        <apex:outputText value="{!errorIssue}" />                                                   
+                    </apex:pageBlockSectionItem>
+                    </apex:pageBlockSection>
+                    <div style ="pbTitle">
+                	<apex:pageBlockTable title="LTV Boundary" var="bounderyVar" value="{!decisionBounderyWrapperObjectList}" styleClass="pbTitle" >               
+                        <apex:column value="{!bounderyVar.DecisionBounderyValue}" headerValue="Max LTV Allowed" headerClass="bold" />
+                        <apex:column value="{!bounderyVar.ApprovalDTIBoundaryValue}" headerValue="Max DTI Allowed" headerClass="bold"/>
+                        <apex:column value="{!bounderyVar.EscalateDTIBoundaryValue}" headerValue="Possible DTI Exception Boundary" headerClass="bold"/>               
+                    </apex:pageBlockTable>
+                    &nbsp;
+                	&nbsp;
+                </div>
+            </apex:outputPanel>
+            <apex:outputPanel styleClass="blue" layout="block">
+                <apex:pageBlockSection rendered="{!CreateException == true}" title="Create Exception" columns="1">
+                    <apex:pageBlockSectionItem rendered="{!MortgageType == 'Reverse Mortgage'}">
+                        NOTE: Mitigating circumstances for reverse mortgages MUST include detail on 
+                        a) applicant's age 
+                        b) gender 
+                        c) reverse mortgage interest rate type (fixed or adjustable) 
+                        d) current interest rate.
+                    </apex:pageBlockSectionItem>
+                    <apex:pageBlockSectionItem >
+                        Mitigating Circumstances:
+                        <apex:inputTextArea value="{!MitigatingCircumstances}" />
+                    </apex:pageBlockSectionItem>
+                </apex:pageBlockSection>
+            </apex:outputPanel>   
+        </apex:pageBlock>
+    </apex:form>   
+</apex:page>

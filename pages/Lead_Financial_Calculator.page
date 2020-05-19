@@ -1,0 +1,61 @@
+<apex:page standardController="Lead" extensions="Lead_Financial_Calc_EXT">
+    <apex:slds />
+    <apex:actionStatus id="status">
+        <apex:facet name="start">
+            <div Id="loading" class="hide" style="position: fixed; top: 0px; bottom: 0px; left: 0px; right: 0px; background-color: white; opacity: 0.6; text-align: center; padding-top: 10px; z-index: 1000;">
+            <img src="/img/loading32.gif" style="margin-top:200px;margin-left:20px;"/>
+            </div>
+        </apex:facet>
+    </apex:actionStatus>    
+    <apex:pageBlock id="pageblock_Main">   
+    <apex:pageMessages Id="messages"/>        
+    <apex:form >        
+            <apex:commandButton value="Back" action="{!Cancel}"  />                    
+            <apex:commandButton value="Recalculate" action="{!updateCalcs}" reRender="pageblock_Main" status="status"  />
+            <apex:commandButton value="Add New" action="/apex/NewTradeAccount_VF?id={!Lead.Id}" />        
+        <apex:pageBlockTable value="{!tradeAccounts}" var="acct">
+            <apex:column headerValue="Payoff">
+                <apex:inputField value="{!acct.To_Be_Paid_Off__c}"/>
+            </apex:column>
+            <apex:column headerValue="Lien Position">
+                <apex:inputField value="{!acct.Lien_Position__c}" rendered="{!acct.LASERCA__Credit_Loan_Type__c == 'Mortgage'}" />
+            </apex:column>            
+            <apex:column headerValue="Exclude">
+                <apex:inputField value="{!acct.Exclude__c}"/>
+            </apex:column>            
+            <apex:column >
+                <apex:facet name="header">Name</apex:facet>
+                <apex:outputLink value="/{!acct.Id}" target="_blank">{!acct.Name}</apex:outputLink> 
+            </apex:column>                
+            <apex:column value="{!acct.LASERCA__Account_Type__c}" />            
+            <apex:column value="{!acct.LASERCA__Credit_Loan_Type__c}" />   
+            <apex:column value="{!acct.LASERCA__Account_Balance__c}" />               
+            <apex:column value="{!acct.LASERCA__Monthly_Payment__c}" /> 
+            <apex:column value="{!acct.Unison_Calculated_Monthly_Payment__c}" />              
+        </apex:pageBlockTable>
+        <apex:pageBlockSection columns="2">
+            <!--<apex:repeat value="{!$ObjectType.Lead.FieldSets.Lead_Financial_Calc_Fields}" var="f">
+                <apex:outputField value="{!theLead[f]}" />             
+            </apex:repeat>-->            
+                <apex:outputField value="{!theLead.Front_End_Ratio__c}" />
+                <apex:outputField value="{!theLead.LTV__c}" />            
+                <apex:outputField value="{!theLead.Back_End_Ratio__c}" />
+                <apex:outputField value="{!theLead.LTV_Numerator__c}" />             
+                <apex:pageBlockSectionItem />        
+                <apex:outputField value="{!theLead.LTV_Denominator__c}" />
+                <apex:outputField value="{!theLead.Total_Monthly_Income__c}" />
+                <apex:pageBlockSectionItem />        
+                <apex:outputField value="{!theLead.Payment_Monthly_Total_Housing__c}" />            
+                <apex:pageBlockSectionItem />        
+                <apex:outputField value="{!theLead.Sum_of_Debt_Payments__c}" />
+                <apex:pageBlockSectionItem />        
+                <apex:pageBlockSectionItem />        
+                <apex:outputField value="{!theLead.Max_Offer__c }" />                
+                <apex:outputField value="{!theLead.Estimated_Funding_Amount__c }" />
+                <apex:outputField value="{!theLead.Sum_of_Debt_to_be_Paid_Off__c}" />                        
+                <apex:outputField value="{!theLead.Estimated_Cash_To_Homeowner__c }" />                       
+                <apex:outputField value="{!theLead.Max_Offer_with_Debts_Paid__c }" />
+        </apex:pageBlockSection>        
+    </apex:form>    
+    </apex:pageBlock>        
+</apex:page>

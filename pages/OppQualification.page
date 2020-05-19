@@ -1,0 +1,96 @@
+<apex:page standardController="Opportunity" extensions="OppQualification" docType="html-5.0">
+
+    <apex:form >
+        <apex:pageBlock title="Opportunity Qualification">
+            <apex:pageMessages ></apex:pageMessages>
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Calculate" action="{!Calculate}" rendered="{!calculated != true}" />
+                <apex:commandButton value="Passbook Calculate" action="{!passbookCalculate}" rendered="{!calculated != true}" />                
+                <apex:commandButton value="Confirm and Update (Passbook)" action="{!passbookContinueOpp}" rendered="{!and(calculated == true, CreateException != true, passbookUsed = true)}" />                
+<!--                <apex:commandButton value="Confirm and Update Opportunity" action="{!ContinueOpp}" rendered="{!and(calculated == true, CreateException != true, passbookUsed = false)}" /> -->
+                <apex:commandButton value="Confirm and Update Opportunity" action="{!ContinueOpp}" rendered="{!AND(calculated == true, OR( CreateException == true,showOptyButton == true) )}" />
+          <!--- <apex:commandButton value="Raise Exception" action="{!RaiseException}" rendered="{!and(calculated == true, CreateException == true)}" /> -->
+                <apex:commandButton value="Back to Opportunity" action="{!Cancel}" /> 
+            </apex:pageBlockButtons> 
+            <apex:pageBlockSection title="Criteria" columns="1">
+                <apex:pageBlockSectionItem >
+                    Product:
+                    <apex:outputText value="{!Product}" />
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    First Mortgage Amortization Type:
+                    <apex:selectList size="1" value="{!MortgageType}"> 
+                        <apex:selectOptions value="{!MortgageTypes}" />
+                    </apex:selectList>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    LTV:
+                    <apex:outputText value="{0, number, #0.00%}">
+                        <apex:param value="{!LTV / 100}" />
+                    </apex:outputText>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    FICO:
+                    <apex:outputText value="{0, number, #0}">
+                        <apex:param value="{!FICO}" />
+                    </apex:outputText>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    DTI:
+                    <apex:outputText value="{0, number, #0.00%}">
+                        <apex:param value="{!DTI / 100}" />
+                    </apex:outputText>
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection rendered="{!calculated == true}" title="Result" columns="1">
+                <apex:pageBlockSectionItem >
+                    LTV / FICO Result:
+                    <apex:outputText value="{!ResultT1}" />
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    LTV / DTI Result:
+                    <apex:outputText value="{!ResultT2}" />
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem rendered="{!!passbookUsed}" >
+                    Overall Result:
+                    <apex:outputText value="{!OverallResult}" />
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem rendered="{!passbookUsed}" >
+                    Overall Result:
+                    <apex:outputText value="{!passbookResult}" />                                    
+                </apex:pageBlockSectionItem>                
+            </apex:pageBlockSection>
+            
+            <apex:pageBlockSection rendered="{!passBookResults  == true}" title="PassBook Result" columns="1">
+                 <apex:pageBlockSectionItem >
+                    Passbook Override:
+                    <apex:inputcheckbox value="{!IA_Passbook_Override}" />
+                </apex:pageBlockSectionItem>
+                 <apex:pageBlockSectionItem >
+                    Passbook Override Reasons:
+                    <apex:inputField value="{!theOpp.IA_Passbook_Override_Reasons__c}"/>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem rendered="{!passbookUsed}" >
+                    PassBook Result:
+                   <!-- <apex:outputText value="{!passbookResult}" />        -->
+                   <apex:outputText value="{!passbookResultValue}" /> 
+                </apex:pageBlockSectionItem>                
+            </apex:pageBlockSection>
+            
+            <apex:pageBlockSection rendered="{!CreateException == true}" title="Create Exception" columns="1">
+                <apex:pageBlockSectionItem rendered="{!MortgageType == 'Reverse Mortgage'}">
+                    NOTE: Mitigating circumstances for reverse mortgages MUST include detail on 
+                    a) applicant's age 
+                    b) gender 
+                    c) reverse mortgage interest rate type (fixed or adjustable) 
+                    d) current interest rate.
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    Mitigating Circumstances:
+                    <apex:inputTextArea value="{!MitigatingCircumstances}" />
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+    
+</apex:page>

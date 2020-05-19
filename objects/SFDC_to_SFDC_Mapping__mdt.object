@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Field__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Field</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>JSON_Field__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>JSON Field</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Object__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Object</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>SFDC to SFDC Mapping</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>MasterLabel</columns>
+        <columns>Object__c</columns>
+        <columns>Field__c</columns>
+        <columns>JSON_Field__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Object__c</field>
+            <operation>equals</operation>
+            <value>RECORDED INFORMATION</value>
+        </filters>
+        <label>All</label>
+    </listViews>
+    <pluralLabel>SFDC to SFDC Mapping</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

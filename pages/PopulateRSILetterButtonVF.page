@@ -1,0 +1,30 @@
+<apex:page standardController="Opportunity">
+  <apex:includeScript value="../../soap/ajax/20.0/connection.js"/>
+    <script>
+    sforce.connection.sessionId='{!GETSESSIONID()}';
+    var requirementwithprojecttasks = sforce.connection.query("SELECT Id,(Select id from Project_Tasks__r where Code__c = 'Task-380' AND completed__c = false AND Name = 'Notify file is ready for RSI') from Current_Conditions__c where Opportunity__c ='{! Opportunity.Id }' "); 
+    
+    records = requirementwithprojecttasks.getArray("records"); 
+    //alert('records==>'+records);
+    var recordispresent =false;
+    
+    for(var i=0;i<records.length;i++)
+    {
+    //alert('records[i].Project_Tasks__r==>'+records[i].Project_Tasks__r.size);
+     if(records[i].Project_Tasks__r != null && Number(records[i].Project_Tasks__r.size)>0)
+     {
+       //alert('Inside condition');
+       recordispresent = true;
+       break;
+     }
+    }
+    if(recordispresent == true)
+    {
+     window.open('/apex/RSILetterTextInsertVF?Id={!Opportunity.Id}', "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=900,height=600"); 
+    }
+    else 
+    { 
+        alert('Task “Notify file is ready for RSI” is complete'); 
+    }
+    </script>
+</apex:page>

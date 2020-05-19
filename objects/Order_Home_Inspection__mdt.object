@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Stores home inspection email address and email template</description>
+    <fields>
+        <fullName>Email_Template_API_Name__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Email Template API Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Email_To_Address__c</fullName>
+        <description>Comma separated list of emails</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Comma separated list of emails</inlineHelpText>
+        <label>Email To Address</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Order Home Inspection</label>
+    <pluralLabel>Order Home Inspection</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>
